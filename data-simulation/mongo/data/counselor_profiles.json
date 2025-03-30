@@ -1,0 +1,2718 @@
+[
+    {
+        "counselor_id": "mrodriguez",
+        "personal_info": {
+            "name": {
+                "first": "Marcus",
+                "last": "Rodriguez",
+                "title": "Dr."
+            },
+            "profile_image": "counselor_images/mrodriguez.jpg",
+            "contact": {
+                "email": "mrodriguez@upc.edu",
+                "phone": "555-867-5309",
+                "office": "Humanities Building, Room 204"
+            },
+            "department": "Humanities Advising & Career Development",
+            "employment_history": {
+                "hire_date": "2012-09-01",
+                "previous_institutions": [
+                    {
+                        "name": "Midwestern Liberal Arts College",
+                        "position": "Career Counselor",
+                        "years": "2008-2012"
+                    },
+                    {
+                        "name": "Eastern State University",
+                        "position": "Graduate Teaching Assistant",
+                        "years": "2005-2008"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "Humanities Career Pathways",
+            "secondary_specializations": [
+                "Graduate School Applications",
+                "Study Abroad Advising",
+                "Interdisciplinary Program Development"
+            ],
+            "academic_disciplines": [
+                "ENGL",
+                "HIST",
+                "PHIL",
+                "RELG",
+                "WRIT"
+            ],
+            "student_populations": [
+                "transfer_students",
+                "honors_program",
+                "study_abroad",
+                "non_traditional"
+            ],
+            "issue_expertise": [
+                "career_planning",
+                "course_selection",
+                "graduate_applications",
+                "writing_assistance",
+                "fellowship_applications"
+            ],
+            "expertise_tags": [
+                "interdisciplinary_studies",
+                "humanities_research",
+                "writing_development",
+                "cultural_competency",
+                "literature_analysis"
+            ],
+            "expertise_weights": {
+                "academic_support": 0.70,
+                "career_guidance": 0.90,
+                "personal_development": 0.75,
+                "cultural_engagement": 0.85
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "Ph.D.",
+                    "field": "Comparative Literature",
+                    "institution": "Northeast University",
+                    "year": 2008
+                },
+                {
+                    "degree": "M.A.",
+                    "field": "English Literature",
+                    "institution": "University of the Southeast",
+                    "year": 2003
+                },
+                {
+                    "degree": "B.A.",
+                    "field": "Philosophy and Religion",
+                    "institution": "Coastal Liberal Arts College",
+                    "year": 2000
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Certified Career Counselor",
+                    "organization": "National Career Development Association",
+                    "date_obtained": "2011-05-20",
+                    "expiration_date": "2026-05-20"
+                },
+                {
+                    "name": "Global Career Development Facilitator",
+                    "organization": "Center for Credentialing & Education",
+                    "date_obtained": "2013-11-10",
+                    "expiration_date": "2025-11-10"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Spanish",
+                    "proficiency": "Fluent"
+                },
+                {
+                    "language": "Portuguese",
+                    "proficiency": "Intermediate"
+                },
+                {
+                    "language": "French",
+                    "proficiency": "Intermediate"
+                }
+            ],
+            "professional_memberships": [
+                "Modern Language Association (MLA)",
+                "National Academic Advising Association (NACADA)",
+                "American Philosophical Association (APA)",
+                "Association of International Educators (NAFSA)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 412,
+                "interventions_past_year": 76,
+                "interventions_current_semester": 28,
+                "by_intervention_type": {
+                    "academic_support": 142,
+                    "career_guidance": 165,
+                    "personal_development": 54,
+                    "study_abroad_advising": 51
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.91,
+                    "student_retention_impact": 0.87,
+                    "average_satisfaction_rating": 4.8
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 325,
+                "graduate": 87,
+                "international": 65,
+                "first_generation": 94,
+                "by_major": {
+                    "ENGL": 103,
+                    "HIST": 87,
+                    "PHIL": 62,
+                    "WRIT": 45,
+                    "RELG": 38,
+                    "SOAN": 34,
+                    "MELL": 22,
+                    "RMLL": 21
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 32,
+            "maximum_capacity": 40,
+            "average_response_time_hours": 6.2,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "10:00",
+                        "end": "16:00"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "13:00",
+                        "end": "18:00"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "09:00",
+                        "end": "14:00"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "13:00",
+                        "end": "18:00"
+                    }
+                ],
+                "friday": [
+                    {
+                        "start": "10:00",
+                        "end": "13:00"
+                    }
+                ]
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": false,
+                "preferred_format": "in_person"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-05-10",
+                    "end_date": "2024-05-17",
+                    "reason": "Academic Conference"
+                }
+            ]
+        }
+    },
+    {
+        "counselor_id": "ajackson",
+        "personal_info": {
+            "name": {
+                "first": "Aisha",
+                "last": "Jackson",
+                "title": "M.S."
+            },
+            "profile_image": "counselor_images/ajackson.jpg",
+            "contact": {
+                "email": "ajackson@upc.edu",
+                "phone": "555-472-9081",
+                "office": "Student Success Center, Room 118"
+            },
+            "department": "Student Diversity & Inclusion Office",
+            "employment_history": {
+                "hire_date": "2018-07-01",
+                "previous_institutions": [
+                    {
+                        "name": "Metropolitan Community College",
+                        "position": "First-Generation Student Coordinator",
+                        "years": "2015-2018"
+                    },
+                    {
+                        "name": "Urban School District",
+                        "position": "College Readiness Counselor",
+                        "years": "2012-2015"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "First-Generation Student Support",
+            "secondary_specializations": [
+                "Financial Aid Navigation",
+                "Diversity & Inclusion",
+                "Academic Confidence Building"
+            ],
+            "academic_disciplines": [
+                "EDUC",
+                "SOAN",
+                "PBSC",
+                "POSC",
+                "ECON"
+            ],
+            "student_populations": [
+                "first_generation",
+                "underrepresented_minorities",
+                "low_income",
+                "lgbtq_plus",
+                "adult_learners"
+            ],
+            "issue_expertise": [
+                "financial_aid_guidance",
+                "academic_probation",
+                "impostor_syndrome",
+                "identity_development",
+                "campus_resource_navigation"
+            ],
+            "expertise_tags": [
+                "equity_in_education",
+                "financial_literacy",
+                "community_building",
+                "campus_belonging",
+                "resilience_development"
+            ],
+            "expertise_weights": {
+                "academic_support": 0.65,
+                "financial_guidance": 0.90,
+                "personal_development": 0.85,
+                "social_integration": 0.80
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "M.S.",
+                    "field": "Educational Psychology",
+                    "institution": "Western State University",
+                    "year": 2014
+                },
+                {
+                    "degree": "B.A.",
+                    "field": "Sociology",
+                    "institution": "Urban Public University",
+                    "year": 2010
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Certified Financial Aid Advisor",
+                    "organization": "National Association of Student Financial Aid Administrators",
+                    "date_obtained": "2016-08-05",
+                    "expiration_date": "2024-08-05"
+                },
+                {
+                    "name": "Diversity and Inclusion Practitioner Certificate",
+                    "organization": "National Diversity Council",
+                    "date_obtained": "2019-03-15",
+                    "expiration_date": "2025-03-15"
+                },
+                {
+                    "name": "Trauma-Informed Support Specialist",
+                    "organization": "Center for Educational Excellence",
+                    "date_obtained": "2020-11-22",
+                    "expiration_date": "2026-11-22"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Spanish",
+                    "proficiency": "Conversational"
+                }
+            ],
+            "professional_memberships": [
+                "National Association of Diversity Officers in Higher Education (NADOHE)",
+                "First-Generation College Celebration National Committee",
+                "American College Personnel Association (ACPA)",
+                "Association on Higher Education And Disability (AHEAD)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 286,
+                "interventions_past_year": 98,
+                "interventions_current_semester": 41,
+                "by_intervention_type": {
+                    "academic_support": 87,
+                    "financial_guidance": 95,
+                    "personal_development": 62,
+                    "social_integration": 42
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.88,
+                    "student_retention_impact": 0.91,
+                    "average_satisfaction_rating": 4.9
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 265,
+                "graduate": 21,
+                "international": 35,
+                "first_generation": 203,
+                "by_major": {
+                    "SOAN": 58,
+                    "POSC": 42,
+                    "EDUC": 39,
+                    "ECON": 32,
+                    "PBSC": 27,
+                    "ENST": 24,
+                    "HIST": 21,
+                    "COSC": 18,
+                    "BIOL": 15,
+                    "ENGL": 10
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 41,
+            "maximum_capacity": 45,
+            "average_response_time_hours": 5.8,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "09:00",
+                        "end": "17:00"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "09:00",
+                        "end": "17:00"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "12:00",
+                        "end": "20:00"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "09:00",
+                        "end": "17:00"
+                    }
+                ],
+                "friday": [
+                    {
+                        "start": "09:00",
+                        "end": "13:00"
+                    }
+                ]
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": true,
+                "preferred_format": "student_preference"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-04-05",
+                    "end_date": "2024-04-07",
+                    "reason": "Professional Development Workshop"
+                }
+            ]
+        }
+    },
+    {
+        "counselor_id": "jpatel",
+        "personal_info": {
+            "name": {
+                "first": "James",
+                "last": "Patel",
+                "title": "Ph.D."
+            },
+            "profile_image": "counselor_images/jpatel.jpg",
+            "contact": {
+                "email": "jpatel@upc.edu",
+                "phone": "555-398-2716",
+                "office": "Science Center, Room 412"
+            },
+            "department": "Pre-Health & Natural Sciences Advising",
+            "employment_history": {
+                "hire_date": "2014-01-15",
+                "previous_institutions": [
+                    {
+                        "name": "Medical School of the Southwest",
+                        "position": "Admissions Advisor",
+                        "years": "2010-2014"
+                    },
+                    {
+                        "name": "Research University of the Northeast",
+                        "position": "Postdoctoral Research Associate",
+                        "years": "2007-2010"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "Pre-Health Professions Advising",
+            "secondary_specializations": [
+                "Research Opportunity Development",
+                "Graduate & Professional School Applications",
+                "Science Career Pathways"
+            ],
+            "academic_disciplines": [
+                "BIOL",
+                "CHEM",
+                "PBSC",
+                "PHAS",
+                "EEGS"
+            ],
+            "student_populations": [
+                "pre_health",
+                "pre_graduate",
+                "research_focused",
+                "scholarship_applicants"
+            ],
+            "issue_expertise": [
+                "academic_planning",
+                "research_mentoring",
+                "professional_school_applications",
+                "entrance_exam_preparation",
+                "laboratory_experience"
+            ],
+            "expertise_tags": [
+                "medical_school_admissions",
+                "scientific_research",
+                "laboratory_techniques",
+                "scholarship_applications",
+                "science_communication"
+            ],
+            "expertise_weights": {
+                "academic_support": 0.80,
+                "career_guidance": 0.85,
+                "research_development": 0.95,
+                "application_support": 0.90
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "Ph.D.",
+                    "field": "Molecular Biology",
+                    "institution": "Research University of the Northeast",
+                    "year": 2007
+                },
+                {
+                    "degree": "B.S.",
+                    "field": "Biochemistry",
+                    "institution": "Coastal Institute of Technology",
+                    "year": 2002
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Health Professions Advisor Certificate",
+                    "organization": "National Association of Advisors for the Health Professions",
+                    "date_obtained": "2015-04-18",
+                    "expiration_date": "2025-04-18"
+                },
+                {
+                    "name": "Scientific Research Mentor Certification",
+                    "organization": "Council on Undergraduate Research",
+                    "date_obtained": "2017-09-30",
+                    "expiration_date": "2027-09-30"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Hindi",
+                    "proficiency": "Fluent"
+                },
+                {
+                    "language": "Gujarati",
+                    "proficiency": "Conversational"
+                }
+            ],
+            "professional_memberships": [
+                "National Association of Advisors for the Health Professions (NAAHP)",
+                "American Chemical Society (ACS)",
+                "Council on Undergraduate Research (CUR)",
+                "Association of American Medical Colleges (AAMC)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 352,
+                "interventions_past_year": 81,
+                "interventions_current_semester": 35,
+                "by_intervention_type": {
+                    "academic_support": 112,
+                    "career_guidance": 87,
+                    "research_mentoring": 103,
+                    "application_support": 50
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.92,
+                    "professional_school_acceptance": 0.78,
+                    "research_placement_rate": 0.85,
+                    "average_satisfaction_rating": 4.7
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 295,
+                "graduate": 57,
+                "international": 78,
+                "first_generation": 65,
+                "by_major": {
+                    "BIOL": 116,
+                    "CHEM": 89,
+                    "PBSC": 58,
+                    "PHAS": 32,
+                    "MATH": 24,
+                    "EEGS": 17,
+                    "COSC": 8,
+                    "ENST": 8
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 38,
+            "maximum_capacity": 42,
+            "average_response_time_hours": 12.4,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "08:30",
+                        "end": "12:30"
+                    },
+                    {
+                        "start": "14:00",
+                        "end": "17:00"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "09:00",
+                        "end": "15:00"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "08:30",
+                        "end": "12:30"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "09:00",
+                        "end": "15:00"
+                    }
+                ],
+                "friday": [
+                    {
+                        "start": "08:30",
+                        "end": "12:30"
+                    }
+                ]
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": false,
+                "preferred_format": "in_person"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-06-01",
+                    "end_date": "2024-06-15",
+                    "reason": "Research Conference and Recruiting"
+                }
+            ]
+        }
+    },
+    {
+        "counselor_id": "schen",
+        "personal_info": {
+            "name": {
+                "first": "Sophia",
+                "last": "Chen",
+                "title": "Ed.D."
+            },
+            "profile_image": "counselor_images/schen.jpg",
+            "contact": {
+                "email": "schen@upc.edu",
+                "phone": "555-217-3498",
+                "office": "Humanities Hall, Room 207"
+            },
+            "department": "Global & Interdisciplinary Studies Advising",
+            "employment_history": {
+                "hire_date": "2017-08-20",
+                "previous_institutions": [
+                    {
+                        "name": "International University of Hong Kong",
+                        "position": "Student Affairs Coordinator",
+                        "years": "2013-2017"
+                    },
+                    {
+                        "name": "West Coast College",
+                        "position": "Academic Counselor",
+                        "years": "2010-2013"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "Global Studies & Languages",
+            "secondary_specializations": [
+                "Study Abroad Program Development",
+                "International Student Support",
+                "Cross-Cultural Communication"
+            ],
+            "academic_disciplines": [
+                "EALL",
+                "RMLL",
+                "GERM",
+                "MELL",
+                "SOAN"
+            ],
+            "student_populations": [
+                "international",
+                "study_abroad",
+                "multilingual",
+                "first_generation"
+            ],
+            "issue_expertise": [
+                "cross_cultural_adaptation",
+                "language_immersion",
+                "cultural_integration",
+                "international_opportunities",
+                "visa_navigation"
+            ],
+            "expertise_tags": [
+                "language_learning",
+                "cultural_studies",
+                "global_citizenship",
+                "exchange_programs",
+                "international_careers"
+            ],
+            "expertise_weights": {
+                "academic_support": 0.85,
+                "career_guidance": 0.75,
+                "cultural_integration": 0.95,
+                "international_development": 0.90
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "Ed.D.",
+                    "field": "International Education",
+                    "institution": "University of Pacific Studies",
+                    "year": 2010
+                },
+                {
+                    "degree": "M.A.",
+                    "field": "East Asian Studies",
+                    "institution": "Coastal State University",
+                    "year": 2005
+                },
+                {
+                    "degree": "B.A.",
+                    "field": "Linguistics",
+                    "institution": "Liberty College",
+                    "year": 2003
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Global Education Advisor Certificate",
+                    "organization": "International Education Council",
+                    "date_obtained": "2018-03-12",
+                    "expiration_date": "2028-03-12"
+                },
+                {
+                    "name": "Cross-Cultural Communication Specialist",
+                    "organization": "Association of International Educators",
+                    "date_obtained": "2015-11-05",
+                    "expiration_date": "2025-11-05"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Mandarin Chinese",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Spanish",
+                    "proficiency": "Fluent"
+                },
+                {
+                    "language": "French",
+                    "proficiency": "Intermediate"
+                }
+            ],
+            "professional_memberships": [
+                "NAFSA: Association of International Educators",
+                "American Council on the Teaching of Foreign Languages (ACTFL)",
+                "Forum on Education Abroad",
+                "Modern Language Association (MLA)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 412,
+                "interventions_past_year": 93,
+                "interventions_current_semester": 42,
+                "by_intervention_type": {
+                    "academic_support": 145,
+                    "cultural_integration": 124,
+                    "international_development": 92,
+                    "career_guidance": 51
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.94,
+                    "study_abroad_placement": 0.89,
+                    "international_opportunity_development": 0.82,
+                    "average_satisfaction_rating": 4.8
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 328,
+                "graduate": 84,
+                "international": 193,
+                "first_generation": 87,
+                "by_major": {
+                    "EALL": 98,
+                    "RMLL": 72,
+                    "SOAN": 65,
+                    "MELL": 58,
+                    "ENGL": 41,
+                    "GERM": 33,
+                    "HIST": 25,
+                    "RELG": 12,
+                    "POSC": 8
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 45,
+            "maximum_capacity": 50,
+            "average_response_time_hours": 18.3,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "09:00",
+                        "end": "16:00"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "10:00",
+                        "end": "14:00"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "09:00",
+                        "end": "16:00"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "10:00",
+                        "end": "14:00"
+                    }
+                ],
+                "friday": [
+                    {
+                        "start": "09:00",
+                        "end": "13:00"
+                    }
+                ]
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": true,
+                "preferred_format": "virtual"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-07-10",
+                    "end_date": "2024-08-05",
+                    "reason": "International Student Recruitment Trip"
+                }
+            ]
+        }
+    },
+    {
+        "counselor_id": "acasados",
+        "personal_info": {
+            "name": {
+                "first": "Alphonso",
+                "last": "Casados",
+                "title": "M.F.A."
+            },
+            "profile_image": "counselor_images/acasados.jpg",
+            "contact": {
+                "email": "acasados@upc.edu",
+                "phone": "555-149-7623",
+                "office": "Arts Center, Room 128"
+            },
+            "department": "Creative & Performing Arts Advising",
+            "employment_history": {
+                "hire_date": "2019-02-10",
+                "previous_institutions": [
+                    {
+                        "name": "New York Arts Academy",
+                        "position": "Student Mentor & Career Advisor",
+                        "years": "2016-2019"
+                    },
+                    {
+                        "name": "Community Theater Foundation",
+                        "position": "Education Director",
+                        "years": "2012-2016"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "Arts & Creative Career Development",
+            "secondary_specializations": [
+                "Performance Portfolio Creation",
+                "Arts Entrepreneurship",
+                "Creative Industry Connections"
+            ],
+            "academic_disciplines": [
+                "ARTS",
+                "THEA",
+                "MUSI",
+                "WRIT",
+                "ENGL"
+            ],
+            "student_populations": [
+                "artists",
+                "performers",
+                "creative_entrepreneurs",
+                "portfolio_builders"
+            ],
+            "issue_expertise": [
+                "portfolio_development",
+                "audition_preparation",
+                "creative_career_planning",
+                "arts_scholarships",
+                "digital_presence"
+            ],
+            "expertise_tags": [
+                "performing_arts",
+                "creative_writing",
+                "visual_arts",
+                "arts_management",
+                "digital_media"
+            ],
+            "expertise_weights": {
+                "portfolio_development": 0.95,
+                "career_guidance": 0.90,
+                "academic_support": 0.75,
+                "industry_connection": 0.85
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "M.F.A.",
+                    "field": "Theater Directing",
+                    "institution": "National Theater Conservatory",
+                    "year": 2011
+                },
+                {
+                    "degree": "B.F.A.",
+                    "field": "Acting",
+                    "institution": "Midwestern Arts University",
+                    "year": 2008
+                },
+                {
+                    "degree": "Certificate",
+                    "field": "Arts Administration",
+                    "institution": "Creative Leadership Institute",
+                    "year": 2013
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Creative Career Development Specialist",
+                    "organization": "Association for Arts Management Education",
+                    "date_obtained": "2017-06-22",
+                    "expiration_date": "2027-06-22"
+                },
+                {
+                    "name": "Digital Portfolio Assessment Professional",
+                    "organization": "National Creative Education Alliance",
+                    "date_obtained": "2020-01-15",
+                    "expiration_date": "2025-01-15"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Spanish",
+                    "proficiency": "Conversational"
+                },
+                {
+                    "language": "American Sign Language",
+                    "proficiency": "Intermediate"
+                }
+            ],
+            "professional_memberships": [
+                "Association of Arts Administration Educators (AAAE)",
+                "National Association of Schools of Theater (NAST)",
+                "American Alliance for Theater & Education (AATE)",
+                "College Art Association (CAA)",
+                "Literary Managers and Dramaturgs of the Americas (LMDA)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 287,
+                "interventions_past_year": 105,
+                "interventions_current_semester": 48,
+                "by_intervention_type": {
+                    "portfolio_development": 97,
+                    "career_guidance": 82,
+                    "industry_connection": 65,
+                    "academic_support": 43
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.89,
+                    "industry_placement": 0.72,
+                    "portfolio_completion": 0.91,
+                    "average_satisfaction_rating": 4.9
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 243,
+                "graduate": 44,
+                "international": 37,
+                "first_generation": 52,
+                "by_major": {
+                    "THEA": 87,
+                    "ARTS": 75,
+                    "MUSI": 52,
+                    "WRIT": 38,
+                    "ENGL": 21,
+                    "COSC": 8,
+                    "HIST": 6
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 32,
+            "maximum_capacity": 40,
+            "average_response_time_hours": 9.7,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "12:00",
+                        "end": "18:00"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "12:00",
+                        "end": "18:00"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "10:00",
+                        "end": "15:00"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "10:00",
+                        "end": "15:00"
+                    }
+                ],
+                "friday": []
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": true,
+                "preferred_format": "in_person"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-05-01",
+                    "end_date": "2024-05-15",
+                    "reason": "Directing Spring Production"
+                },
+                {
+                    "start_date": "2024-08-10",
+                    "end_date": "2024-08-25",
+                    "reason": "Summer Arts Festival"
+                }
+            ]
+        }
+    },
+    {
+        "counselor_id": "awashington",
+        "personal_info": {
+            "name": {
+                "first": "Amara",
+                "last": "Washington",
+                "title": "Ph.D."
+            },
+            "profile_image": "counselor_images/awashington.jpg",
+            "contact": {
+                "email": "awashington@upc.edu",
+                "phone": "555-832-4651",
+                "office": "Technology Center, Room 308"
+            },
+            "department": "STEM & Data Sciences Advising",
+            "employment_history": {
+                "hire_date": "2016-07-05",
+                "previous_institutions": [
+                    {
+                        "name": "National STEM Foundation",
+                        "position": "Education Program Director",
+                        "years": "2012-2016"
+                    },
+                    {
+                        "name": "Technical Institute of the Midwest",
+                        "position": "Assistant Professor, Computer Science",
+                        "years": "2008-2012"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "Data Science & Computational Fields",
+            "secondary_specializations": [
+                "Technology Industry Pathways",
+                "Women in STEM Initiatives",
+                "Undergraduate Research in Computing"
+            ],
+            "academic_disciplines": [
+                "COSC",
+                "MATH",
+                "PHAS",
+                "ECON",
+                "EEGS"
+            ],
+            "student_populations": [
+                "underrepresented_in_stem",
+                "research_focused",
+                "industry_bound",
+                "scholarship_applicants"
+            ],
+            "issue_expertise": [
+                "technical_skill_development",
+                "research_opportunities",
+                "industry_internships",
+                "diversity_in_tech",
+                "computational_thinking"
+            ],
+            "expertise_tags": [
+                "data_science",
+                "computer_science",
+                "tech_industry_preparation",
+                "algorithm_design",
+                "computational_research"
+            ],
+            "expertise_weights": {
+                "technical_development": 0.95,
+                "career_guidance": 0.85,
+                "research_mentoring": 0.90,
+                "academic_support": 0.80
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "Ph.D.",
+                    "field": "Computer Science",
+                    "institution": "Central Research University",
+                    "year": 2008
+                },
+                {
+                    "degree": "M.S.",
+                    "field": "Computational Mathematics",
+                    "institution": "Northeastern State University",
+                    "year": 2005
+                },
+                {
+                    "degree": "B.S.",
+                    "field": "Computer Engineering",
+                    "institution": "Institute of Technology",
+                    "year": 2003
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Data Science Educator Certificate",
+                    "organization": "National Association of Computing Education",
+                    "date_obtained": "2018-09-10",
+                    "expiration_date": "2028-09-10"
+                },
+                {
+                    "name": "Advanced Research Mentor Training",
+                    "organization": "STEM Education Consortium",
+                    "date_obtained": "2019-05-22",
+                    "expiration_date": "2029-05-22"
+                },
+                {
+                    "name": "Inclusive Technology Education Specialist",
+                    "organization": "Diversity in Computing Alliance",
+                    "date_obtained": "2020-11-30",
+                    "expiration_date": "2025-11-30"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Python",
+                    "proficiency": "Expert"
+                },
+                {
+                    "language": "R",
+                    "proficiency": "Expert"
+                },
+                {
+                    "language": "SQL",
+                    "proficiency": "Expert"
+                },
+                {
+                    "language": "French",
+                    "proficiency": "Intermediate"
+                }
+            ],
+            "professional_memberships": [
+                "Association for Computing Machinery (ACM)",
+                "Institute of Electrical and Electronics Engineers (IEEE)",
+                "Computing Research Association (CRA)",
+                "National Center for Women & Information Technology (NCWIT)",
+                "Society for Industrial and Applied Mathematics (SIAM)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 389,
+                "interventions_past_year": 97,
+                "interventions_current_semester": 41,
+                "by_intervention_type": {
+                    "technical_development": 132,
+                    "research_mentoring": 96,
+                    "career_guidance": 91,
+                    "academic_support": 70
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.93,
+                    "tech_industry_placement": 0.85,
+                    "research_publication_rate": 0.67,
+                    "average_satisfaction_rating": 4.6
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 286,
+                "graduate": 103,
+                "international": 94,
+                "first_generation": 79,
+                "by_major": {
+                    "COSC": 153,
+                    "MATH": 87,
+                    "PHAS": 52,
+                    "ECON": 41,
+                    "EEGS": 28,
+                    "BIOL": 15,
+                    "CHEM": 13
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 48,
+            "maximum_capacity": 55,
+            "average_response_time_hours": 15.2,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "10:00",
+                        "end": "17:00"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "11:00",
+                        "end": "15:00"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "10:00",
+                        "end": "17:00"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "11:00",
+                        "end": "15:00"
+                    }
+                ],
+                "friday": [
+                    {
+                        "start": "09:00",
+                        "end": "13:00"
+                    }
+                ]
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": false,
+                "preferred_format": "virtual"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-04-15",
+                    "end_date": "2024-04-20",
+                    "reason": "ACM Conference Presenting"
+                },
+                {
+                    "start_date": "2024-07-15",
+                    "end_date": "2024-08-10",
+                    "reason": "Summer Research Supervision"
+                }
+            ]
+        }
+    },
+    {
+        "counselor_id": "rsharma",
+        "personal_info": {
+            "name": {
+                "first": "Rajiv",
+                "last": "Sharma",
+                "title": "M.S.W."
+            },
+            "profile_image": "counselor_images/rsharma.jpg",
+            "contact": {
+                "email": "rsharma@upc.edu",
+                "phone": "555-671-3902",
+                "office": "Student Success Center, Room 215"
+            },
+            "department": "First-Generation & Transition Support",
+            "employment_history": {
+                "hire_date": "2018-05-12",
+                "previous_institutions": [
+                    {
+                        "name": "Midwestern Community College",
+                        "position": "Student Success Coordinator",
+                        "years": "2014-2018"
+                    },
+                    {
+                        "name": "Urban Access Initiative",
+                        "position": "College Transition Specialist",
+                        "years": "2011-2014"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "First-Generation Student Success",
+            "secondary_specializations": [
+                "Financial Aid Navigation",
+                "Academic Confidence Building",
+                "Family-Student Communication"
+            ],
+            "academic_disciplines": [
+                "SOAN",
+                "EDUC",
+                "ECON",
+                "PBSC",
+                "POSC"
+            ],
+            "student_populations": [
+                "first_generation",
+                "low_income",
+                "underrepresented_minorities",
+                "rural_students"
+            ],
+            "issue_expertise": [
+                "financial_literacy",
+                "academic_confidence",
+                "family_expectations",
+                "belonging_intervention",
+                "impostor_syndrome"
+            ],
+            "expertise_tags": [
+                "first_gen_success",
+                "financial_aid_navigation",
+                "campus_integration",
+                "academic_resilience",
+                "social_capital_development"
+            ],
+            "expertise_weights": {
+                "personal_development": 0.95,
+                "academic_support": 0.80,
+                "financial_navigation": 0.90,
+                "social_integration": 0.85
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "M.S.W.",
+                    "field": "Social Work",
+                    "institution": "State University",
+                    "year": 2011
+                },
+                {
+                    "degree": "B.A.",
+                    "field": "Sociology",
+                    "institution": "Liberal Arts College",
+                    "year": 2008
+                },
+                {
+                    "degree": "Certificate",
+                    "field": "College Access Counseling",
+                    "institution": "National College Attainment Network",
+                    "year": 2013
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "First-Generation Student Success Specialist",
+                    "organization": "Center for First-Generation Student Success",
+                    "date_obtained": "2019-03-15",
+                    "expiration_date": "2029-03-15"
+                },
+                {
+                    "name": "Financial Aid Counselor Certification",
+                    "organization": "National Association of Student Financial Aid Administrators",
+                    "date_obtained": "2016-08-22",
+                    "expiration_date": "2026-08-22"
+                },
+                {
+                    "name": "Trauma-Informed Support Provider",
+                    "organization": "Association for Student Support Services",
+                    "date_obtained": "2020-01-18",
+                    "expiration_date": "2025-01-18"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Hindi",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Spanish",
+                    "proficiency": "Conversational"
+                }
+            ],
+            "professional_memberships": [
+                "National Association of Student Personnel Administrators (NASPA)",
+                "American College Personnel Association (ACPA)",
+                "Association of Higher Education and Disability (AHEAD)",
+                "National Academic Advising Association (NACADA)",
+                "Council for Opportunity in Education (COE)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 427,
+                "interventions_past_year": 118,
+                "interventions_current_semester": 52,
+                "by_intervention_type": {
+                    "personal_development": 156,
+                    "financial_navigation": 132,
+                    "academic_support": 87,
+                    "social_integration": 52
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.91,
+                    "retention_rate_improvement": 0.22,
+                    "financial_aid_utilization": 0.94,
+                    "average_satisfaction_rating": 4.9
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 382,
+                "graduate": 45,
+                "international": 37,
+                "first_generation": 296,
+                "by_major": {
+                    "SOAN": 87,
+                    "EDUC": 67,
+                    "ECON": 58,
+                    "COSC": 49,
+                    "POSC": 42,
+                    "PBSC": 38,
+                    "HIST": 25,
+                    "BIOL": 22,
+                    "ENGL": 15,
+                    "CHEM": 14,
+                    "PHAS": 10
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 42,
+            "maximum_capacity": 50,
+            "average_response_time_hours": 10.6,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "09:00",
+                        "end": "17:00"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "09:00",
+                        "end": "17:00"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "11:00",
+                        "end": "19:00"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "11:00",
+                        "end": "19:00"
+                    }
+                ],
+                "friday": [
+                    {
+                        "start": "09:00",
+                        "end": "13:00"
+                    }
+                ]
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": true,
+                "preferred_format": "in_person"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-05-18",
+                    "end_date": "2024-05-25",
+                    "reason": "First-Generation Student Success Conference"
+                },
+                {
+                    "start_date": "2024-08-01",
+                    "end_date": "2024-08-22",
+                    "reason": "New Student Orientation Programs"
+                }
+            ]
+        }
+    },
+    {
+        "counselor_id": "erodriguez",
+        "personal_info": {
+            "name": {
+                "first": "Elena",
+                "last": "Rodriguez",
+                "title": "Psy.D."
+            },
+            "profile_image": "counselor_images/erodriguez.jpg",
+            "contact": {
+                "email": "erodriguez@upc.edu",
+                "phone": "555-419-8273",
+                "office": "Wellness Center, Room 112"
+            },
+            "department": "Academic & Psychological Wellness",
+            "employment_history": {
+                "hire_date": "2015-09-01",
+                "previous_institutions": [
+                    {
+                        "name": "Southern State University",
+                        "position": "Academic Counselor & Psychologist",
+                        "years": "2011-2015"
+                    },
+                    {
+                        "name": "Metropolitan Mental Health Clinic",
+                        "position": "Clinical Psychologist",
+                        "years": "2008-2011"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "Academic-Mental Health Integration",
+            "secondary_specializations": [
+                "Test Anxiety & Performance Stress",
+                "Learning Disability Support",
+                "Student-Faculty Communication"
+            ],
+            "academic_disciplines": [
+                "PBSC",
+                "EDUC",
+                "BIOL",
+                "SOAN",
+                "WRIT"
+            ],
+            "student_populations": [
+                "high_achieving",
+                "learning_differences",
+                "anxiety_prone",
+                "graduate_students"
+            ],
+            "issue_expertise": [
+                "test_anxiety",
+                "procrastination",
+                "perfectionism",
+                "work_life_balance",
+                "accommodations_coordination"
+            ],
+            "expertise_tags": [
+                "academic_stress",
+                "performance_anxiety",
+                "learning_strategies",
+                "mental_health_integration",
+                "faculty_communications"
+            ],
+            "expertise_weights": {
+                "psychological_support": 0.95,
+                "academic_strategies": 0.90,
+                "accommodation_navigation": 0.85,
+                "stress_management": 0.95
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "Psy.D.",
+                    "field": "Clinical Psychology",
+                    "institution": "University of the Southwest",
+                    "year": 2008
+                },
+                {
+                    "degree": "M.A.",
+                    "field": "Educational Psychology",
+                    "institution": "Eastern University",
+                    "year": 2004
+                },
+                {
+                    "degree": "B.S.",
+                    "field": "Psychology",
+                    "institution": "Coastal College",
+                    "year": 2002
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Licensed Clinical Psychologist",
+                    "organization": "State Board of Psychology",
+                    "date_obtained": "2010-06-10",
+                    "expiration_date": "2026-06-10"
+                },
+                {
+                    "name": "Certified Academic Coach",
+                    "organization": "International Coaching Federation",
+                    "date_obtained": "2015-11-22",
+                    "expiration_date": "2025-11-22"
+                },
+                {
+                    "name": "Higher Education Mental Health Alliance Certification",
+                    "organization": "Higher Education Mental Health Alliance",
+                    "date_obtained": "2018-03-05",
+                    "expiration_date": "2028-03-05"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Spanish",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Portuguese",
+                    "proficiency": "Intermediate"
+                }
+            ],
+            "professional_memberships": [
+                "American Psychological Association (APA)",
+                "National Academic Advising Association (NACADA)",
+                "Association on Higher Education And Disability (AHEAD)",
+                "American College Counseling Association (ACCA)",
+                "Higher Education Mental Health Alliance (HEMHA)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 498,
+                "interventions_past_year": 126,
+                "interventions_current_semester": 57,
+                "by_intervention_type": {
+                    "psychological_support": 185,
+                    "academic_strategies": 143,
+                    "stress_management": 105,
+                    "accommodation_navigation": 65
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.89,
+                    "anxiety_reduction": 0.83,
+                    "academic_performance_improvement": 0.76,
+                    "average_satisfaction_rating": 4.8
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 347,
+                "graduate": 151,
+                "international": 82,
+                "first_generation": 103,
+                "by_major": {
+                    "PBSC": 126,
+                    "BIOL": 75,
+                    "EDUC": 69,
+                    "CHEM": 43,
+                    "SOAN": 39,
+                    "WRIT": 32,
+                    "ENGL": 27,
+                    "COSC": 25,
+                    "MATH": 22,
+                    "PHAS": 19,
+                    "HIST": 13,
+                    "ARTS": 8
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 45,
+            "maximum_capacity": 50,
+            "average_response_time_hours": 14.3,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "08:00",
+                        "end": "12:00"
+                    },
+                    {
+                        "start": "13:00",
+                        "end": "17:00"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "08:00",
+                        "end": "12:00"
+                    },
+                    {
+                        "start": "13:00",
+                        "end": "17:00"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "08:00",
+                        "end": "12:00"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "08:00",
+                        "end": "12:00"
+                    }
+                ],
+                "friday": [
+                    {
+                        "start": "08:00",
+                        "end": "12:00"
+                    }
+                ]
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": true,
+                "preferred_format": "in_person"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-04-10",
+                    "end_date": "2024-04-17",
+                    "reason": "Mental Health in Higher Education Conference"
+                },
+                {
+                    "start_date": "2024-06-15",
+                    "end_date": "2024-07-15",
+                    "reason": "Professional Development Sabbatical"
+                }
+            ]
+        }
+    },
+    {
+        "counselor_id": "jthompson",
+        "personal_info": {
+            "name": {
+                "first": "Jamal",
+                "last": "Thompson",
+                "title": "M.Ed."
+            },
+            "profile_image": "counselor_images/jthompson.jpg",
+            "contact": {
+                "email": "jthompson@upc.edu",
+                "phone": "555-921-4536",
+                "office": "Student Center, Room 322"
+            },
+            "department": "Diversity & Inclusion Advising",
+            "employment_history": {
+                "hire_date": "2020-01-15",
+                "previous_institutions": [
+                    {
+                        "name": "Eastern Technical Institute",
+                        "position": "Diversity Program Coordinator",
+                        "years": "2016-2020"
+                    },
+                    {
+                        "name": "Urban Youth Development Center",
+                        "position": "Educational Outreach Director",
+                        "years": "2013-2016"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "STEM Student Support",
+            "secondary_specializations": [
+                "First-Generation Student Success",
+                "Graduate School Preparation",
+                "International Student Transition"
+            ],
+            "academic_disciplines": [
+                "COSC",
+                "ENST",
+                "MATH",
+                "EEGS",
+                "BIOL"
+            ],
+            "student_populations": [
+                "underrepresented_in_stem",
+                "first_generation",
+                "international",
+                "transfer_students"
+            ],
+            "issue_expertise": [
+                "identity_development",
+                "community_building",
+                "inclusive_classrooms",
+                "cultural_transition",
+                "mentorship_development"
+            ],
+            "expertise_tags": [
+                "diverse_student_support",
+                "stem_inclusion",
+                "cultural_navigation",
+                "belonging_intervention",
+                "leadership_development"
+            ],
+            "expertise_weights": {
+                "inclusion_support": 0.95,
+                "academic_guidance": 0.85,
+                "cultural_integration": 0.90,
+                "confidence_building": 0.95
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "M.Ed.",
+                    "field": "Higher Education Administration",
+                    "institution": "Metropolitan University",
+                    "year": 2013
+                },
+                {
+                    "degree": "B.S.",
+                    "field": "Environmental Science",
+                    "institution": "State University",
+                    "year": 2010
+                },
+                {
+                    "degree": "Certificate",
+                    "field": "Diversity and Inclusion Leadership",
+                    "institution": "National Education Equity Alliance",
+                    "year": 2016
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "STEM Inclusion Facilitator",
+                    "organization": "National Alliance for STEM Diversity",
+                    "date_obtained": "2018-07-22",
+                    "expiration_date": "2028-07-22"
+                },
+                {
+                    "name": "Intercultural Development Inventory Qualified Administrator",
+                    "organization": "IDI, LLC",
+                    "date_obtained": "2020-11-05",
+                    "expiration_date": "2025-11-05"
+                },
+                {
+                    "name": "Equity-Centered Academic Advisor",
+                    "organization": "Association of College Counseling and Development",
+                    "date_obtained": "2021-03-15",
+                    "expiration_date": "2026-03-15"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Arabic",
+                    "proficiency": "Intermediate"
+                },
+                {
+                    "language": "French",
+                    "proficiency": "Conversational"
+                }
+            ],
+            "professional_memberships": [
+                "National Association of Diversity Officers in Higher Education (NADOHE)",
+                "Student Affairs Administrators in Higher Education (NASPA)",
+                "American Association for the Advancement of Science (AAAS)",
+                "National Association for Multicultural Education (NAME)",
+                "STEM Diversity Network (SDN)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 341,
+                "interventions_past_year": 132,
+                "interventions_current_semester": 63,
+                "by_intervention_type": {
+                    "inclusion_support": 117,
+                    "cultural_integration": 92,
+                    "confidence_building": 76,
+                    "academic_guidance": 56
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.92,
+                    "stem_retention_improvement": 0.32,
+                    "graduate_school_acceptance": 0.76,
+                    "average_satisfaction_rating": 4.9
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 287,
+                "graduate": 54,
+                "international": 97,
+                "first_generation": 152,
+                "by_major": {
+                    "COSC": 82,
+                    "BIOL": 67,
+                    "MATH": 56,
+                    "EEGS": 39,
+                    "ENST": 32,
+                    "CHEM": 24,
+                    "PHAS": 19,
+                    "ENGL": 12,
+                    "POSC": 10
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 47,
+            "maximum_capacity": 55,
+            "average_response_time_hours": 11.8,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "10:00",
+                        "end": "18:00"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "10:00",
+                        "end": "18:00"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "10:00",
+                        "end": "18:00"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "10:00",
+                        "end": "15:00"
+                    }
+                ],
+                "friday": [
+                    {
+                        "start": "10:00",
+                        "end": "15:00"
+                    }
+                ]
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": true,
+                "preferred_format": "in_person"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-05-08",
+                    "end_date": "2024-05-12",
+                    "reason": "Inclusive STEM Education Conference"
+                },
+                {
+                    "start_date": "2024-08-15",
+                    "end_date": "2024-09-05",
+                    "reason": "New International Student Orientation Programs"
+                }
+            ]
+        }
+    },
+    {
+        "counselor_id": "mgarcia",
+        "personal_info": {
+            "name": {
+                "first": "Maya",
+                "last": "Garcia",
+                "title": "Ph.D."
+            },
+            "profile_image": "counselor_images/mgarcia.jpg",
+            "contact": {
+                "email": "mgarcia@upc.edu",
+                "phone": "555-832-1795",
+                "office": "Student Wellness Center, Room 204"
+            },
+            "department": "Mental Health & Academic Support",
+            "employment_history": {
+                "hire_date": "2018-08-01",
+                "previous_institutions": [
+                    {
+                        "name": "Westlake University",
+                        "position": "Psychology Department Counselor",
+                        "years": "2015-2018"
+                    },
+                    {
+                        "name": "Community Mental Health Clinic",
+                        "position": "Graduate Student Therapist",
+                        "years": "2012-2015"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "Anxiety & Stress Management",
+            "secondary_specializations": [
+                "Academic Performance Counseling",
+                "Crisis Intervention",
+                "Multicultural Counseling"
+            ],
+            "academic_disciplines": [
+                "PBSC",
+                "EDUC",
+                "SOAN",
+                "WRIT",
+                "MUSI"
+            ],
+            "student_populations": [
+                "high_achieving_students",
+                "performance_anxiety",
+                "lgbtqia_plus",
+                "neurodiverse_students"
+            ],
+            "issue_expertise": [
+                "anxiety_management",
+                "perfectionism",
+                "work_life_balance",
+                "test_anxiety",
+                "creative_blocks"
+            ],
+            "expertise_tags": [
+                "mindfulness_techniques",
+                "cognitive_behavioral_approaches",
+                "strength_based_counseling",
+                "creative_expression_therapy",
+                "academic_resilience"
+            ],
+            "expertise_weights": {
+                "mental_health_support": 0.95,
+                "academic_performance": 0.85,
+                "crisis_management": 0.90,
+                "identity_support": 0.80
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "Ph.D.",
+                    "field": "Counseling Psychology",
+                    "institution": "University of California",
+                    "year": 2015
+                },
+                {
+                    "degree": "M.A.",
+                    "field": "Clinical Psychology",
+                    "institution": "University of California",
+                    "year": 2012
+                },
+                {
+                    "degree": "B.A.",
+                    "field": "Psychology and Music",
+                    "institution": "Northwestern University",
+                    "year": 2010
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Licensed Psychologist",
+                    "organization": "State Board of Psychology",
+                    "date_obtained": "2016-04-18",
+                    "expiration_date": "2026-04-18"
+                },
+                {
+                    "name": "Certified Mindfulness Instructor",
+                    "organization": "Center for Mindfulness",
+                    "date_obtained": "2017-09-12",
+                    "expiration_date": "2027-09-12"
+                },
+                {
+                    "name": "Crisis Intervention Specialist",
+                    "organization": "National Crisis Prevention Institute",
+                    "date_obtained": "2019-02-25",
+                    "expiration_date": "2029-02-25"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Spanish",
+                    "proficiency": "Fluent"
+                },
+                {
+                    "language": "Portuguese",
+                    "proficiency": "Conversational"
+                }
+            ],
+            "professional_memberships": [
+                "American Psychological Association (APA)",
+                "Association for University and College Counseling Center Directors (AUCCCD)",
+                "Association for Contextual Behavioral Science (ACBS)",
+                "National Association of Student Personnel Administrators (NASPA)",
+                "Higher Education Mental Health Alliance (HEMHA)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 512,
+                "interventions_past_year": 187,
+                "interventions_current_semester": 76,
+                "by_intervention_type": {
+                    "mental_health_support": 237,
+                    "academic_performance": 146,
+                    "crisis_management": 83,
+                    "identity_support": 46
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.93,
+                    "symptom_reduction_rate": 0.78,
+                    "academic_improvement_rate": 0.82,
+                    "average_satisfaction_rating": 4.8
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 342,
+                "graduate": 170,
+                "international": 86,
+                "first_generation": 105,
+                "by_major": {
+                    "PBSC": 96,
+                    "MUSI": 75,
+                    "EDUC": 58,
+                    "WRIT": 49,
+                    "ARTS": 42,
+                    "SOAN": 40,
+                    "ENGL": 38,
+                    "THEA": 32,
+                    "COSC": 28,
+                    "BIOL": 25,
+                    "CHEM": 18,
+                    "POSC": 11
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 52,
+            "maximum_capacity": 60,
+            "average_response_time_hours": 9.2,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "09:00",
+                        "end": "17:00"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "09:00",
+                        "end": "17:00"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "12:00",
+                        "end": "20:00"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "09:00",
+                        "end": "17:00"
+                    }
+                ],
+                "friday": [
+                    {
+                        "start": "09:00",
+                        "end": "14:00"
+                    }
+                ]
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": true,
+                "preferred_format": "client_preference"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-04-15",
+                    "end_date": "2024-04-19",
+                    "reason": "Mental Health Professional Conference"
+                },
+                {
+                    "start_date": "2024-07-10",
+                    "end_date": "2024-07-24",
+                    "reason": "Annual Leave"
+                }
+            ]
+        }
+    },
+    {
+        "counselor_id": "rwilson",
+        "personal_info": {
+            "name": {
+                "first": "Robert",
+                "last": "Wilson",
+                "title": "M.S.W."
+            },
+            "profile_image": "counselor_images/rwilson.jpg",
+            "contact": {
+                "email": "rwilson@upc.edu",
+                "phone": "555-421-3867",
+                "office": "Community Engagement Building, Room 118"
+            },
+            "department": "Student Success & Social Support",
+            "employment_history": {
+                "hire_date": "2019-06-15",
+                "previous_institutions": [
+                    {
+                        "name": "Bridgewater State University",
+                        "position": "Social Work Counselor",
+                        "years": "2017-2019"
+                    },
+                    {
+                        "name": "Veterans Support Services",
+                        "position": "Transition Counselor",
+                        "years": "2014-2017"
+                    },
+                    {
+                        "name": "Community Support Center",
+                        "position": "Case Manager",
+                        "years": "2012-2014"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "Life Transition Support",
+            "secondary_specializations": [
+                "Financial Hardship Navigation",
+                "Community Resources Connection",
+                "Veteran Student Support"
+            ],
+            "academic_disciplines": [
+                "SOAN",
+                "HIST",
+                "POSC",
+                "ECON",
+                "GEOG"
+            ],
+            "student_populations": [
+                "veterans",
+                "low_income_students",
+                "returning_students",
+                "students_in_crisis",
+                "commuter_students"
+            ],
+            "issue_expertise": [
+                "financial_insecurity",
+                "housing_instability",
+                "work_study_balance",
+                "community_integration",
+                "resource_navigation"
+            ],
+            "expertise_tags": [
+                "social_services_coordination",
+                "financial_aid_guidance",
+                "life_skills_development",
+                "crisis_resources",
+                "community_building"
+            ],
+            "expertise_weights": {
+                "resource_connection": 0.97,
+                "transition_support": 0.90,
+                "financial_guidance": 0.92,
+                "community_integration": 0.85
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "M.S.W.",
+                    "field": "Social Work",
+                    "institution": "Boston University",
+                    "year": 2012
+                },
+                {
+                    "degree": "B.A.",
+                    "field": "Sociology",
+                    "institution": "University of Massachusetts",
+                    "year": 2009
+                },
+                {
+                    "degree": "Certificate",
+                    "field": "Veteran Support Services",
+                    "institution": "National Veterans Education Foundation",
+                    "year": 2015
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Licensed Clinical Social Worker",
+                    "organization": "State Board of Social Work",
+                    "date_obtained": "2014-05-10",
+                    "expiration_date": "2026-05-10"
+                },
+                {
+                    "name": "Certified Financial Education Instructor",
+                    "organization": "National Financial Educators Council",
+                    "date_obtained": "2016-08-22",
+                    "expiration_date": "2026-08-22"
+                },
+                {
+                    "name": "Trauma-Informed Care Provider",
+                    "organization": "Trauma Resilience Institute",
+                    "date_obtained": "2018-03-14",
+                    "expiration_date": "2028-03-14"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "German",
+                    "proficiency": "Intermediate"
+                }
+            ],
+            "professional_memberships": [
+                "National Association of Social Workers (NASW)",
+                "Association of Veterans Education Certifying Officials (AVECO)",
+                "American College Personnel Association (ACPA)",
+                "National Academic Advising Association (NACADA)",
+                "College and University Financial Aid Administrators (CUFAA)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 428,
+                "interventions_past_year": 156,
+                "interventions_current_semester": 68,
+                "by_intervention_type": {
+                    "resource_connection": 190,
+                    "transition_support": 103,
+                    "financial_guidance": 87,
+                    "community_integration": 48
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.91,
+                    "resource_access_improvement": 0.88,
+                    "financial_stability_improvement": 0.75,
+                    "average_satisfaction_rating": 4.7
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 310,
+                "graduate": 118,
+                "international": 42,
+                "first_generation": 196,
+                "by_major": {
+                    "SOAN": 82,
+                    "POSC": 67,
+                    "ECON": 63,
+                    "HIST": 58,
+                    "GEOG": 41,
+                    "EDUC": 35,
+                    "COSC": 22,
+                    "ENGL": 18,
+                    "EEGS": 15,
+                    "BIOL": 14,
+                    "MATH": 13
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 49,
+            "maximum_capacity": 55,
+            "average_response_time_hours": 10.4,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "08:30",
+                        "end": "17:30"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "08:30",
+                        "end": "17:30"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "08:30",
+                        "end": "17:30"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "11:00",
+                        "end": "20:00"
+                    }
+                ],
+                "friday": [
+                    {
+                        "start": "08:30",
+                        "end": "15:30"
+                    }
+                ]
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": true,
+                "preferred_format": "in_person"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-05-23",
+                    "end_date": "2024-05-27",
+                    "reason": "Social Work Conference"
+                },
+                {
+                    "start_date": "2024-06-15",
+                    "end_date": "2024-06-30",
+                    "reason": "Veterans Support Program Training"
+                }
+            ]
+        }
+    },
+    {
+        "counselor_id": "lnguyen",
+        "personal_info": {
+            "name": {
+                "first": "Linh",
+                "last": "Nguyen",
+                "title": "Ph.D."
+            },
+            "profile_image": "counselor_images/lnguyen.jpg",
+            "contact": {
+                "email": "lnguyen@upc.edu",
+                "phone": "555-637-9201",
+                "office": "Global Studies Center, Room 412"
+            },
+            "department": "Academic & Career Development",
+            "employment_history": {
+                "hire_date": "2017-07-01",
+                "previous_institutions": [
+                    {
+                        "name": "Pacific International University",
+                        "position": "International Student Advisor",
+                        "years": "2014-2017"
+                    },
+                    {
+                        "name": "Global Education Alliance",
+                        "position": "Academic Consultant",
+                        "years": "2012-2014"
+                    },
+                    {
+                        "name": "Coastal State University",
+                        "position": "Graduate Teaching Assistant",
+                        "years": "2009-2012"
+                    }
+                ]
+            }
+        },
+        "expertise": {
+            "primary_specialization": "Career & Academic Integration",
+            "secondary_specializations": [
+                "Global Educational Systems Navigation",
+                "Humanities & Arts Career Pathways",
+                "Graduate Studies Preparation"
+            ],
+            "academic_disciplines": [
+                "EALL",
+                "CLAS",
+                "MELL",
+                "PHIL",
+                "RELG",
+                "ENGL",
+                "GERM",
+                "RMLL",
+                "HIST"
+            ],
+            "student_populations": [
+                "international",
+                "humanities_students",
+                "multilingual_learners",
+                "honors_program",
+                "pre_professional"
+            ],
+            "issue_expertise": [
+                "academic_planning",
+                "career_exploration",
+                "cross_cultural_communication",
+                "graduate_applications",
+                "research_opportunities"
+            ],
+            "expertise_tags": [
+                "global_career_development",
+                "humanities_pathways",
+                "multilingual_advising",
+                "cultural_academic_integration",
+                "study_abroad_advising"
+            ],
+            "expertise_weights": {
+                "academic_advising": 0.93,
+                "career_development": 0.95,
+                "cultural_navigation": 0.97,
+                "graduate_preparation": 0.90
+            }
+        },
+        "qualifications": {
+            "education": [
+                {
+                    "degree": "Ph.D.",
+                    "field": "Comparative Literature",
+                    "institution": "University of California",
+                    "year": 2013
+                },
+                {
+                    "degree": "M.A.",
+                    "field": "International Education",
+                    "institution": "Stanford University",
+                    "year": 2009
+                },
+                {
+                    "degree": "B.A.",
+                    "field": "East Asian Studies & Philosophy",
+                    "institution": "Yale University",
+                    "year": 2007
+                },
+                {
+                    "degree": "Certificate",
+                    "field": "Career Development Facilitation",
+                    "institution": "National Career Development Association",
+                    "year": 2015
+                }
+            ],
+            "certifications": [
+                {
+                    "name": "Certified Career Counselor",
+                    "organization": "National Career Development Association",
+                    "date_obtained": "2016-06-18",
+                    "expiration_date": "2026-06-18"
+                },
+                {
+                    "name": "Global Career Development Facilitator",
+                    "organization": "Center for Credentialing & Education",
+                    "date_obtained": "2015-09-30",
+                    "expiration_date": "2025-09-30"
+                },
+                {
+                    "name": "Intercultural Development Inventory Administrator",
+                    "organization": "IDI, LLC",
+                    "date_obtained": "2018-02-15",
+                    "expiration_date": "2028-02-15"
+                }
+            ],
+            "languages": [
+                {
+                    "language": "English",
+                    "proficiency": "Fluent"
+                },
+                {
+                    "language": "Vietnamese",
+                    "proficiency": "Native"
+                },
+                {
+                    "language": "Mandarin",
+                    "proficiency": "Advanced"
+                },
+                {
+                    "language": "French",
+                    "proficiency": "Intermediate"
+                },
+                {
+                    "language": "Japanese",
+                    "proficiency": "Conversational"
+                }
+            ],
+            "professional_memberships": [
+                "National Academic Advising Association (NACADA)",
+                "National Career Development Association (NCDA)",
+                "Association of International Educators (NAFSA)",
+                "Modern Language Association (MLA)",
+                "American Philosophical Association (APA)",
+                "Comparative & International Education Society (CIES)"
+            ]
+        },
+        "performance_metrics": {
+            "intervention_statistics": {
+                "total_interventions": 489,
+                "interventions_past_year": 175,
+                "interventions_current_semester": 72,
+                "by_intervention_type": {
+                    "academic_advising": 203,
+                    "career_development": 156,
+                    "cultural_navigation": 85,
+                    "graduate_preparation": 45
+                },
+                "success_metrics": {
+                    "overall_success_rate": 0.94,
+                    "graduate_school_placement": 0.89,
+                    "internship_placement": 0.83,
+                    "average_satisfaction_rating": 4.8
+                }
+            },
+            "student_demographics": {
+                "undergraduate": 295,
+                "graduate": 194,
+                "international": 247,
+                "first_generation": 87,
+                "by_major": {
+                    "ENGL": 83,
+                    "HIST": 76,
+                    "PHIL": 58,
+                    "EALL": 57,
+                    "MELL": 52,
+                    "RELG": 47,
+                    "CLAS": 43,
+                    "GERM": 38,
+                    "RMLL": 36,
+                    "ARTS": 28,
+                    "POSC": 21
+                }
+            }
+        },
+        "availability": {
+            "current_student_load": 51,
+            "maximum_capacity": 60,
+            "average_response_time_hours": 8.7,
+            "weekly_schedule": {
+                "monday": [
+                    {
+                        "start": "09:30",
+                        "end": "18:30"
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "start": "09:30",
+                        "end": "18:30"
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "start": "09:30",
+                        "end": "18:30"
+                    }
+                ],
+                "thursday": [
+                    {
+                        "start": "12:00",
+                        "end": "21:00"
+                    }
+                ],
+                "friday": [
+                    {
+                        "start": "09:30",
+                        "end": "15:30"
+                    }
+                ]
+            },
+            "meeting_preferences": {
+                "in_person": true,
+                "virtual": true,
+                "phone": true,
+                "preferred_format": "virtual"
+            },
+            "upcoming_unavailability": [
+                {
+                    "start_date": "2024-04-10",
+                    "end_date": "2024-04-20",
+                    "reason": "International Education Symposium & East Asian Studies Conference"
+                },
+                {
+                    "start_date": "2024-07-05",
+                    "end_date": "2024-07-20",
+                    "reason": "International Student Orientation Planning"
+                }
+            ]
+        }
+    }
+]
