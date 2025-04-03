@@ -1,5 +1,18 @@
-delta-spark==2.4.0
+# delta-spark==2.4.0
+# delta-spark
+delta-spark==2.2.0
 deltalake
 jupyterlab 
 pandas
-pyspark==3.4.1
+# pyspark==3.4.1
+pyspark==3.3.0
+apache-airflow
+apache-airflow-providers-amazon
+apache-airflow-providers-apache-spark
+apache-airflow-providers-ftp
+apache-airflow-providers-http
+apache-airflow-providers-imap
+apache-airflow-providers-sqlite
+backoff
+# pyspark
+requests

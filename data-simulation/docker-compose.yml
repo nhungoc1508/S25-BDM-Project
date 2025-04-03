@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  postgres:
+  postgres_sis:
     image: postgres:14
     container_name: postgres_sis
     environment:
@@ -18,6 +18,8 @@ services:
       - postgres_data:/var/lib/postgresql/data
     entrypoint: [ "bash", "-c", "/docker-entrypoint-initdb.d/load_data.sh && docker-entrypoint.sh postgres" ]
     restart: always
+    networks:
+      - data-processing-network
 
   fastapi:
     build: ./fastapi-api
@@ -25,7 +27,7 @@ services:
     ports:
       - "8000:8000"
     depends_on:
-      - postgres
+      - postgres_sis
 
   kafka:
     image: bitnami/kafka:latest
@@ -70,10 +72,14 @@ services:
     build: ./fastapi-counselor-data
     container_name: fastapi_counselor_data
     ports:
-      - "8001:8000"
+      - "8002:8000"
     depends_on:
       - mongodb
 
 volumes:
   postgres_data:
   mongodb_data:
+
+networks:
+  data-processing-network:
+    external: true
