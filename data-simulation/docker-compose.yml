@@ -67,6 +67,8 @@ services:
       - ./mongo/scripts/load_data.sh:/docker-entrypoint-initdb.d/load_data.sh
       - ./mongo/data:/data
     restart: always
+    networks:
+      - data-processing-network
 
   fastapi_counselor_data:
     build: ./fastapi-counselor-data
@@ -75,6 +77,8 @@ services:
       - "8002:8000"
     depends_on:
       - mongodb
+    networks:
+      - data-processing-network
 
 volumes:
   postgres_data:
