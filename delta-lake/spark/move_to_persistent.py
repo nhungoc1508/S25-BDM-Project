@@ -10,7 +10,7 @@ PERSISTENT_ZONE = f'{BASE_PATH}/persistent'
 
 def promote_data_to_persistent():
     builder = SparkSession.builder \
-        .appName("CounselorsIngestion") \
+        .appName("PersistentPromotion") \
         .config("spark.driver.host", "delta-lake-airflow-worker-1") \
         .config("spark.driver.bindAddress", "0.0.0.0") \
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
@@ -21,14 +21,14 @@ def promote_data_to_persistent():
     batches_to_promote = get_batches_by_status("INGESTED_TO_TEMPORAL")
     print(f'Found {len(batches_to_promote)} batches to promote')
     
-    for batch in batches:
+    for batch in batches_to_promote:
         source_name = batch["source_name"]
         batch_id = batch["batch_id"]
         ingestion_date = batch["ingestion_date"]
         temporal_path = batch["temporal_path"]
         print(f'Processing source {source_name}, batch {batch_id}')
 
-        persistent_path = f"{PERSISTENT_ZONE}/{source_name}/ingested={ingestion_date}/{batch_id}"
+        persistent_path = f"{PERSISTENT_ZONE}/{source_name}/ingested={ingestion_date}/batch={batch_id}"
 
         try:
             df = spark.read.format("delta").load(temporal_path)

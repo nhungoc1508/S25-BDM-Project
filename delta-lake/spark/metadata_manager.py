@@ -106,7 +106,7 @@ def update_metadata_for_promotion(batch_id, persistent_path):
         "promotion_timestamp": datetime.now().isoformat(),
         "process_status": "PROMOTED_TO_PERSISTENT"
     }
-    
+    print(f'[METADATA MANAGER] Successfully updated metadata for promotion of batch at {persistent_path}')
     return update_metadata_entry(batch_id, updates)
 
 def update_metadata_for_failed_promotion(batch_id, error_message):

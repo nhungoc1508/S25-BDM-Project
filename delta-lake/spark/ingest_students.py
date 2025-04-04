@@ -11,10 +11,10 @@ TEMPORAL_ZONE = f'{BASE_PATH}/temporal'
 PERSISTENT_ZONE = f'{BASE_PATH}/persistent'
 TMP_PATH = f'/data/tmp'
 
-def ingest_departments_data():
-    source_name = 'sis_departments'
+def ingest_students_data():
+    source_name = 'sis_students'
     builder = SparkSession.builder \
-        .appName("DepartmentsIngestion") \
+        .appName("StudentsIngestion") \
         .config("spark.driver.host", "delta-lake-airflow-worker-1") \
         .config("spark.driver.bindAddress", "0.0.0.0") \
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
@@ -31,7 +31,7 @@ def ingest_departments_data():
 
     df = spark.read.format("jdbc") \
         .option("url", "jdbc:postgresql://postgres_sis:5432/university")\
-        .option("dbtable", "departments")\
+        .option("dbtable", "students")\
         .option("user", "admin") \
         .option("password", "password") \
         .option("driver", "org.postgresql.Driver") \
@@ -65,5 +65,5 @@ def ingest_departments_data():
     return metadata
 
 if __name__ == '__main__':
-    metadata = ingest_departments_data()
+    metadata = ingest_students_data()
     print(f'Ingestion completed with batch ID: {metadata["batch_id"]}')
