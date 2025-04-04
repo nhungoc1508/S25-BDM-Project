@@ -51,6 +51,8 @@ services:
       - ./data:/data
       - ./spark:/opt/airflow/spark
       - ./spark/jars/postgresql-42.6.0.jar:/opt/bitnami/spark/jars/postgresql-42.6.0.jar
+      - ./spark/jars/spark-sql-kafka-0-10_2.12-3.2.0.jar:/opt/bitnami/spark/jars/spark-sql-kafka-0-10_2.12-3.2.0.jar
+      - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
     networks:
       - spark-network
       - data-processing-network
@@ -71,6 +73,8 @@ services:
       - ./data:/data
       - ./spark:/opt/airflow/spark
       - ./spark/jars/postgresql-42.6.0.jar:/opt/bitnami/spark/jars/postgresql-42.6.0.jar
+      - ./spark/jars/spark-sql-kafka-0-10_2.12-3.2.0.jar:/opt/bitnami/spark/jars/spark-sql-kafka-0-10_2.12-3.2.0.jar
+      - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
     networks:
       - spark-network
       - data-processing-network
@@ -91,6 +95,8 @@ services:
       - ./data:/data
       - ./spark:/opt/airflow/spark
       - ./spark/jars/postgresql-42.6.0.jar:/opt/bitnami/spark/jars/postgresql-42.6.0.jar
+      - ./spark/jars/spark-sql-kafka-0-10_2.12-3.2.0.jar:/opt/bitnami/spark/jars/spark-sql-kafka-0-10_2.12-3.2.0.jar
+      - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
     networks:
       - spark-network
       - data-processing-network
@@ -207,6 +213,8 @@ services:
     volumes:
       - ./data:/data
       - ./spark/jars/postgresql-42.6.0.jar:/opt/airflow/spark/jars/postgresql-42.6.0.jar
+      - ./spark/jars/spark-sql-kafka-0-10_2.12-3.2.0.jar:/opt/bitnami/spark/jars/spark-sql-kafka-0-10_2.12-3.2.0.jar
+      - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
