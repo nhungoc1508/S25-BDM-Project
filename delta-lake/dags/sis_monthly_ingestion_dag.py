@@ -17,23 +17,25 @@ spark_configs = {
     "spark.sql.extensions": "io.delta.sql.DeltaSparkSessionExtension",
     "spark.sql.catalog.spark_catalog": "org.apache.spark.sql.delta.catalog.DeltaCatalog",
 
-    "spark.submit.deployMode": "client",
+    "spark.submit.deployMode": "cluster",
     "spark.dynamicAllocation.enabled": "false",
-    "spark.executor.instances": "2",
+
+    "spark.executor.instances": "1",
+    "spark.executor.memory": "512m",
+    "spark.executor.memoryOverhead": "256m",
     "spark.executor.cores": "1",
-    "spark.executor.memory": "1g",
     "spark.memory.fraction": "0.5",
     "spark.memory.storageFraction": "0.3",
-    "spark.executor.memoryOverhead": "512m",
 
-    "spark.speculation": "true",
-    "spark.sql.shuffle.partitions": "2",
-    "spark.default.parallelism": "2",
+    "spark.speculation": "false",
+    "spark.sql.shuffle.partitions": "1",
+    "spark.default.parallelism": "1",
 
     "spark.driver.memory": "512m",
 }
 
 with DAG(dag_id="sis_monthly_ingestion",
+         tags=["ingestion", "student information system"],
          default_args=default_args,
          schedule_interval=None, # TODO: change to monthly
          catchup=False) as dag:

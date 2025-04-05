@@ -218,7 +218,7 @@ services:
         condition: service_completed_successfully
     volumes:
       - ./data:/data
-      - ./spark/jars/postgresql-42.6.0.jar:/opt/airflow/spark/jars/postgresql-42.6.0.jar
+      - ./spark/jars/postgresql-42.6.0.jar:/opt/bitnami/spark/jars/postgresql-42.6.0.jar
       - ./spark/jars/spark-sql-kafka-0-10_2.12-3.2.0.jar:/opt/bitnami/spark/jars/spark-sql-kafka-0-10_2.12-3.2.0.jar
       - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
       - ./spark/jars/commons-pool2-2.12.1.jar:/opt/bitnami/spark/jars/commons-pool2-2.12.1.jar

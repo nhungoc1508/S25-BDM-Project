@@ -12,6 +12,7 @@ default_args = {
 
 # Define the DAG
 with DAG(dag_id="counselors_ingestion",
+         tags=["ingestion", "counseling"],
          default_args=default_args,
          schedule_interval=None,
          catchup=False) as dag:
@@ -26,7 +27,7 @@ with DAG(dag_id="counselors_ingestion",
             "spark.master": "spark://spark-master:7077",
             "spark.driver.extraClassPath": "/opt/bitnami/spark/jars/postgresql-42.6.0.jar",
             "spark.executor.extraClassPath": "/opt/bitnami/spark/jars/postgresql-42.6.0.jar",
-            "spark.jars": "/opt/airflow/spark/jars/postgresql-42.6.0.jar",
+            "spark.jars": "/opt/bitnami/spark/jars/postgresql-42.6.0.jar",
             "spark.sql.extensions": "io.delta.sql.DeltaSparkSessionExtension",
             "spark.sql.catalog.spark_catalog": "org.apache.spark.sql.delta.catalog.DeltaCatalog",
 
@@ -43,7 +44,7 @@ with DAG(dag_id="counselors_ingestion",
             "spark.sql.shuffle.partitions": "2",
             "spark.default.parallelism": "2",
 
-            "spark.driver.memory": "512m",
+            "spark.driver.memory": "1g",
         }
     )
 

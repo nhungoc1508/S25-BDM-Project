@@ -27,7 +27,7 @@ def ingest_enrollment_data():
     ingestion_date = ingestion_timestamp.strftime("%Y-%m-%d")
     ingestion_time = ingestion_timestamp.strftime("%H-%M-%S")
 
-    temporal_path = f'{TEMPORAL_ZONE}/{source_name}/data={ingestion_date}/batch={batch_id}'
+    temporal_path = f'{TEMPORAL_ZONE}/{source_name}/date={ingestion_date}/batch={batch_id}'
 
     df = spark.read.format("jdbc") \
         .option("url", "jdbc:postgresql://postgres_sis:5432/university")\

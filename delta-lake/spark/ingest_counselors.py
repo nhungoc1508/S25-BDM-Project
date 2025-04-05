@@ -30,7 +30,7 @@ def ingest_json_to_temporal(api_url):
     ingestion_date = ingestion_timestamp.strftime("%Y-%m-%d")
     ingestion_time = ingestion_timestamp.strftime("%H-%M-%S")
 
-    temporal_path = f'{TEMPORAL_ZONE}/{source_name}/data={ingestion_date}/batch={batch_id}'
+    temporal_path = f'{TEMPORAL_ZONE}/{source_name}/date={ingestion_date}/batch={batch_id}'
 
     response = requests.get(api_url)
     if response.status_code != 200:
@@ -56,9 +56,9 @@ def ingest_json_to_temporal(api_url):
            .withColumn("_ingestion_date", lit(ingestion_date))
     
     df.write \
-      .format("delta") \
-      .mode("overwrite") \
-      .save(temporal_path)
+        .format("delta") \
+        .mode("overwrite") \
+        .save(temporal_path)
     print(f'Successfully ingested data to {temporal_path}')
     
     record_count = df.count()

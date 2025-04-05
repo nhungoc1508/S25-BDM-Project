@@ -38,7 +38,7 @@ def add_metadata_entry(entry):
     metadata_list = read_current_metadata()
     metadata_list.append(entry)
     write_metadata(metadata_list)
-    print(f'[METADATA MANAGER] Added metadata entry for batch {entry.get('batch_id')}')
+    print(f'[METADATA MANAGER] Added metadata entry for batch {entry.get("batch_id")}')
 
 def update_metadata_entry(batch_id, updates):
     metadata_list = read_current_metadata()
@@ -117,3 +117,10 @@ def update_metadata_for_failed_promotion(batch_id, error_message):
     }
     
     return update_metadata_entry(batch_id, updates)
+
+def get_last_timestamp(source_name):
+    metadata_list = read_current_metadata()
+    for entry in metadata_list[::-1]:
+        if entry.get('source_name') == source_name and entry.get('process_status') == 'INGESTED_TO_TEMPORAL':
+            return entry.get('last_timestamp')
+    return None

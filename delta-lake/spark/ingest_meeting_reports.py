@@ -15,10 +15,10 @@ TEMPORAL_ZONE = f'{BASE_PATH}/temporal'
 PERSISTENT_ZONE = f'{BASE_PATH}/persistent'
 TMP_PATH = f'/data/tmp'
 
-def ingest_meeting_requests(api_url):
-    source_name = 'meeting_requests'
+def ingest_meeting_reports(api_url):
+    source_name = 'meeting_reports'
     builder = SparkSession.builder \
-        .appName("MeetingRequestsIngestion") \
+        .appName("MeetingReportsIngestion") \
         .config("spark.driver.host", "delta-lake-airflow-worker-1") \
         .config("spark.driver.bindAddress", "0.0.0.0") \
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
@@ -72,7 +72,7 @@ def ingest_meeting_requests(api_url):
         print(f'Successfully ingested data to {temporal_path}')
         
         record_count = df.count()
-        last_timestamp = max(json_data, key=lambda x: x['request_timestamp'])['request_timestamp']
+        last_timestamp = max(json_data, key=lambda x: x['meeting_date'])['meeting_date']
         metadata = {
             "source_name": source_name,
             "batch_id": batch_id,
@@ -94,6 +94,6 @@ def ingest_meeting_requests(api_url):
     return metadata
 
 if __name__ == '__main__':
-    API_URL = 'http://fastapi_counselor_data:8000/meeting_requests'
-    metadata = ingest_meeting_requests(API_URL)
+    API_URL = 'http://fastapi_counselor_data:8000/meeting_reports'
+    metadata = ingest_meeting_reports(API_URL)
     print(f'Ingestion completed with batch ID: {metadata["batch_id"]}')
