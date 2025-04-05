@@ -64,12 +64,22 @@ services:
       - zookeeper
       - kafka
       - postgres_sis
+      - mongodb
     environment:
       - KAFKA_BOOTSTRAP_SERVERS=kafka:29092
       - KAFKA_SERVER=kafka:9092
-      - KAFKA_TOPIC=counselor-requests
     networks:
       - data-processing-network
+
+  financial-data:
+    build: ./financial-data
+    container_name: financial-data
+    ports:
+      - "8003:8000"
+    networks:
+      - data-processing-network
+    volumes:
+      - ./data/finance:/data/finance
 
   clickstream:
     build: ./kafka-clickstream
