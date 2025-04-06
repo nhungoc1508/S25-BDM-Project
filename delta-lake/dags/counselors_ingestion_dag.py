@@ -14,7 +14,7 @@ default_args = {
 with DAG(dag_id="counselors_ingestion",
          tags=["ingestion", "counseling"],
          default_args=default_args,
-         schedule_interval=None,
+         schedule_interval="@weekly",
          catchup=False) as dag:
 
     ingest_task = SparkSubmitOperator(

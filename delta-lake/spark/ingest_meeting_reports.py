@@ -14,6 +14,7 @@ BASE_PATH = 'file:///data/landing'
 TEMPORAL_ZONE = f'{BASE_PATH}/temporal'
 PERSISTENT_ZONE = f'{BASE_PATH}/persistent'
 TMP_PATH = f'/data/tmp'
+os.makedirs(TMP_PATH, exist_ok=True)
 
 def ingest_meeting_reports(api_url):
     source_name = 'meeting_reports'

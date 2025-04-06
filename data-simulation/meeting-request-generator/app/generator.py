@@ -211,7 +211,7 @@ def main():
         batch_counter = 0
         while True:
             now = datetime.datetime.now()
-            delay = 10 # Once every 30 seconds
+            delay = 10 # Once every 10 seconds
             if random.random() < 0.6: # Send a meeting request
                 request = generate_request(student_ids, majors, courses)
                 # producer.send(KAFKA_TOPIC_REQUESTS, request)

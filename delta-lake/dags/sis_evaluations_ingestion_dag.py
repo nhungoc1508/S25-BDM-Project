@@ -36,7 +36,7 @@ spark_configs = {
 with DAG(dag_id="sis_evaluations_ingestion",
          tags=["ingestion", "student information system"],
          default_args=default_args,
-         schedule_interval=None, # TODO: change to daily
+         schedule_interval="@daily",
          catchup=False) as dag:
     
     task_ingest_evaluations = SparkSubmitOperator(

@@ -36,7 +36,7 @@ spark_configs = {
 with DAG(dag_id="financial_files_ingestion",
          tags=["ingestion", "finance"],
          default_args=default_args,
-         schedule_interval=None,
+         schedule_interval="@daily",
          catchup=False) as dag:
     
     task_ingest_financial_files = SparkSubmitOperator(

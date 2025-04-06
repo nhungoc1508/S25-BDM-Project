@@ -93,7 +93,10 @@ def generate_metadata_summary():
     summary_list = list(summary.values())
     summary_list.sort(key=lambda x: (x['source_name'], x['month']), reverse=True)
     
-    summary_file = f"{BASE_PATH}/metadata/summary.json"
+    timestamp = datetime.now()
+    date = timestamp.strftime("%Y-%m-%d")
+    time = timestamp.strftime("%H-%M-%S")
+    summary_file = f"{BASE_PATH}/metadata/summary_{date}_{time}.json"
     with open(summary_file, 'w') as f:
         json.dump(summary_list, f, indent=2)
     
