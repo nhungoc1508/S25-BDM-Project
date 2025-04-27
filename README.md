@@ -84,11 +84,11 @@ Check that the webserver UI is up and running:
 docker logs airflow-apiserver | grep "Application startup complete"
 ```
 The Airflow webserver is available at `localhost:8080/`:
-<center><img src="imgs/airflow-ui-login.png" width=600/></center>
+<center><img src="imgs/airflow-ui-login.png" width=800/></center>
 
 Log in with username `airflow` and password `airflow`. After logging in, click on the **Dags** tab on the left menu bar, the webserver UI will list all available DAGs:
 
-<center><img src="imgs/airflow-ui-main.png" width=600/></center>
+<center><img src="imgs/airflow-ui-main-2.png" width=800/></center>
 
 <!-- ```bash
 data/landing/temporal
@@ -128,10 +128,11 @@ data/landing/temporal/counselor_api
 
 ### Setting up connection to Spark master
 
-In the Airflow webserver UI, go to **Admin** > **Connections**. Click on the blue + button (Add a new record) and add a connection to the Spark master with name `spark-default`, type `Spark`, host `spark://spark-master`, and port `7077`:
+In the Airflow webserver UI, go to **Admin** > **Connections**. Select **Add Connection** and add a connection to the Spark master with ID `spark-default`, type `Spark`, host `spark://spark-master`, and port `7077`:
 
-<center><img src="imgs/airflow-connection.png" width=500/></center>
+<center><img src="imgs/airflow-connection-2.png" width=600/></center>
+![alt text](image.png)
 
 ### Running DAGs
-Either trigger the DAGs manually or wait for scheduled runs, and monitor the DAG logs:
-<center><img src="imgs/airflow-ui-run.png" width=600/></center>
+Either trigger the DAGs manually or wait for scheduled runs, and monitor the DAG logs.
+<!-- <center><img src="imgs/airflow-ui-run.png" width=600/></center> -->

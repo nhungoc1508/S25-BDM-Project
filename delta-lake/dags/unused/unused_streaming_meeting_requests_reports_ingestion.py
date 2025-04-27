@@ -36,7 +36,7 @@ spark_configs = {
 
 with DAG(dag_id="unused_meeting_requests_reports_ingestion",
          default_args=default_args,
-         schedule_interval=None,
+         schedule=None,
          catchup=False) as dag:
     
     task_ingest_meeting_requests = SparkSubmitOperator(

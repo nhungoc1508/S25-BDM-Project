@@ -12,7 +12,7 @@ default_args = {
 with DAG(dag_id="persistent_promotion",
          tags=["ingestion", "organization"],
          default_args=default_args,
-         schedule_interval=None,
+         schedule=None,
          catchup=False) as dag:
 
     promote_task = SparkSubmitOperator(
