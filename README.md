@@ -34,6 +34,11 @@ docker-compose up meeting-request-generator -d
 ## Setting up Delta Lake and the ingestion pipeline
 
 ### Setting up Spark master and workers
+Initial build:
+```bash
+cd ../delta-lake
+docker-compose build --no-cache
+```
 Start master:
 ```bash
 docker-compose up spark-master -d
@@ -60,20 +65,28 @@ Once running, the Spark master UI is available at `localhost:8081/` and will sho
 
 ### Setting up Airflow
 ```bash
-cd ../delta-lake
 mkdir -p ./data ./logs ./plugins
 echo -e "AIRFLOW_UID=$(id -u)" > .env
-docker-compose up airflow-init -d
-docker-compose up airflow-worker airflow-scheduler airflow-webserver airflow-triggerer airflow-cli flower -d
+
+docker compose up airflow-init
 ```
-Check that the Airflow server is running:
+Check that Airflow is using PostgreSQL for metadata (and not SQLite):
 ```bash
-docker logs delta-lake-airflow-webserver-1 | grep "Listening at: http://0.0.0.0:8080"
+docker logs airflow-init | grep "DB: postgresql+psycopg2"
+```
+Start the rest of the Airflow-related services:
+```bash
+docker compose up airflow-worker airflow-scheduler airflow-dag-processor airflow-apiserver airflow-triggerer airflow-cli flower -d
+docker compose up -d
+```
+Check that the webserver UI is up and running:
+```bash
+docker logs airflow-apiserver | grep "Application startup complete"
 ```
 The Airflow webserver is available at `localhost:8080/`:
 <center><img src="imgs/airflow-ui-login.png" width=600/></center>
 
-Log in with username `airflow` and password `airflow`. After logging in, the webserver UI will list all available DAGs:
+Log in with username `airflow` and password `airflow`. After logging in, click on the **Dags** tab on the left menu bar, the webserver UI will list all available DAGs:
 
 <center><img src="imgs/airflow-ui-main.png" width=600/></center>
 

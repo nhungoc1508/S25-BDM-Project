@@ -2,7 +2,6 @@
 FROM apache/airflow:latest
 
 USER root
-COPY requirements.txt .
 # COPY notebooks/example.ipynb .
 # RUN apt-get update && apt-get install -y openjdk-8-jdk
 RUN apt-get update && \
@@ -27,4 +26,6 @@ ARG NB_GID=100
 # COPY scripts/ /usr/local/airflow/scripts/
 
 USER airflow
-RUN pip install --no-cache-dir -r requirements.txt && rm requirements.txt
+RUN pip install --upgrade pip
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
