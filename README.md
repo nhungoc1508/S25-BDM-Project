@@ -75,8 +75,8 @@ Check that Airflow is using PostgreSQL for metadata (and not SQLite):
 docker logs airflow-init | grep "DB: postgresql+psycopg2"
 ```
 Start the rest of the Airflow-related services:
+<!-- docker compose up airflow-worker airflow-scheduler airflow-dag-processor airflow-apiserver airflow-triggerer airflow-cli flower -d -->
 ```bash
-docker compose up airflow-worker airflow-scheduler airflow-dag-processor airflow-apiserver airflow-triggerer airflow-cli flower -d
 docker compose up -d
 ```
 Check that the webserver UI is up and running:
