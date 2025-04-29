@@ -17,14 +17,18 @@ x-airflow-common:
     AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
     AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
     AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__API_AUTH__JWT_SECRET: 'rFJmU3rJlnFKc7jetHRIBQ=='
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
-    # AIRFLOW__API__AUTH_BACKEND: 'airflow.api.auth.backend.basic_auth'
+    AIRFLOW__API__AUTH_BACKEND: 'airflow.api.auth.backend.basic_auth'
     AIRFLOW__CORE__EXECUTION_API_SERVER_URL: 'http://airflow-apiserver:8080/execution/'
+    AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
+    - ./config:/opt/airflow/config
     - ./plugins:/opt/airflow/plugins
     - ./spark:/opt/airflow/spark
     - ./spark/jars:/opt/airflow/spark/jars
@@ -138,6 +142,7 @@ services:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       interval: 10s
       retries: 5
+      start_period: 5s
     restart: always
     networks:
       - spark-network
@@ -159,7 +164,6 @@ services:
 
   airflow-apiserver:
     <<: *airflow-common
-    # command: webserver
     command: api-server
     container_name: airflow-apiserver
     ports:
@@ -346,8 +350,8 @@ services:
           echo "   https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#before-you-begin"
           echo
         fi
-        mkdir -p /sources/logs /sources/dags /sources/plugins
-        chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins}
+        mkdir -p /opts/airflow/{logs,dags,plugins,config}
+        chown -R "${AIRFLOW_UID}:0" /opts/airflow/{logs,dags,plugins,config}
         exec /entrypoint airflow version
     # yamllint enable rule:line-length
     environment:

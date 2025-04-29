@@ -65,7 +65,7 @@ Once running, the Spark master UI is available at `localhost:8081/` and will sho
 
 ### Setting up Airflow
 ```bash
-mkdir -p ./data ./logs ./plugins
+mkdir -p ./data ./logs ./plugins ./config
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 
 docker compose up airflow-init
@@ -134,5 +134,5 @@ In the Airflow webserver UI, go to **Admin** > **Connections**. Select **Add Con
 ![alt text](image.png)
 
 ### Running DAGs
-Either trigger the DAGs manually or wait for scheduled runs, and monitor the DAG logs.
-<!-- <center><img src="imgs/airflow-ui-run.png" width=600/></center> -->
+Either trigger the DAGs manually or wait for scheduled runs, and monitor the DAG logs:
+<center><img src="imgs/airflow-ui-run-2.png" width=600/></center>
