@@ -34,7 +34,10 @@ docker compose up meeting-request-generator -d
 ## Setting up Delta Lake and the ingestion pipeline
 
 > [!IMPORTANT]
-> If you are running locally, **comment out** this line in the `docker-compose.yaml` file (this line appears 3 times under `spark-master`, `spark-worker-1`, and `spark-worker-2`): `platform: linux/arm64`
+> If you are running locally, **comment out** this line in the `docker-compose.yaml` file (this line appears 3 times under `spark-master`, `spark-worker-1`, and `spark-worker-2`):
+> ```bash
+> platform: linux/arm64
+> ```
 
 ### Setting up Spark master and workers
 Initial build:
