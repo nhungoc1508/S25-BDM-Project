@@ -11,7 +11,7 @@ git clone https://github.com/nhungoc1508/S25-BDM-Project.git
 cd S25-BDM-Project
 cd data-simulation
 docker network create data-processing-network
-docker-compose up postgres_sis mongodb fastapi_counselor_data financial-data -d
+docker compose up postgres_sis mongodb fastapi_counselor_data financial-data -d
 ```
 
 Check that the PostgreSQL server is running and data has been loaded:
@@ -28,16 +28,19 @@ Should see `Mock data inserted successfully!`
 
 Now, you can safely run the meeting request/report generator (which depends on the PostgreSQL server and the MongoDB collections):
 ```bash
-docker-compose up meeting-request-generator -d
+docker compose up meeting-request-generator -d
 ```
 
 ## Setting up Delta Lake and the ingestion pipeline
+
+> [!IMPORTANT]
+> If you are running locally, **comment out** this line in the `docker-compose.yaml` file (this line appears 3 times under `spark-master`, `spark-worker-1`, and `spark-worker-2`): `platform: linux/arm64`
 
 ### Setting up Spark master and workers
 Initial build:
 ```bash
 cd ../delta-lake
-docker-compose build --no-cache
+docker compose build --no-cache
 ```
 Start master:
 ```bash

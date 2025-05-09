@@ -33,7 +33,6 @@ def ingest_financial_files(api_url):
     source_name = 'financial_data'
     builder = SparkSession.builder \
         .appName("FinancialDataIngestion") \
-        .config("spark.driver.host", "delta-lake-airflow-worker-1") \
         .config("spark.driver.bindAddress", "0.0.0.0") \
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
@@ -46,6 +45,7 @@ def ingest_financial_files(api_url):
     ingestion_time = ingestion_timestamp.strftime("%H-%M-%S")
 
     temporal_path = f'{TEMPORAL_ZONE}/{source_name}/date={ingestion_date}/batch={batch_id}'
+    os.makedirs(temporal_path, exist_ok=True)
 
     download_pdfs(api_url)
 

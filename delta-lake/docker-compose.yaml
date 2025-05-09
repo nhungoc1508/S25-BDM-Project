@@ -24,7 +24,7 @@ x-airflow-common:
     AIRFLOW__API__AUTH_BACKEND: 'airflow.api.auth.backend.basic_auth'
     AIRFLOW__CORE__EXECUTION_API_SERVER_URL: 'http://airflow-apiserver:8080/execution/'
     AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
-    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-} apache-airflow-providers-fab==2.0.2
     AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
   volumes:
     - ./dags:/opt/airflow/dags
@@ -43,7 +43,8 @@ x-airflow-common:
 
 services:
   spark-master:
-    image: docker.io/bitnami/spark:3
+    image: docker.io/bitnami/spark:latest
+    platform: linux/arm64
     container_name: spark-master
     hostname: spark-master
     environment:
@@ -64,14 +65,15 @@ services:
       - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
       - ./spark/jars/commons-pool2-2.12.1.jar:/opt/bitnami/spark/jars/commons-pool2-2.12.1.jar
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
-      - ./spark/jars/delta-core_2.12-2.2.0.jar:/opt/bitnami/spark/jars/delta-core_2.12-2.2.0.jar
-      - ./spark/jars/delta-storage-2.2.0.jar:/opt/bitnami/spark/jars/delta-storage-2.2.0.jar
+      - ./spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar
+      - ./spark/jars/delta-storage-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar
     networks:
       - spark-network
       - data-processing-network
 
   spark-worker-1:
-    image: docker.io/bitnami/spark:3
+    image: docker.io/bitnami/spark:latest
+    platform: linux/arm64
     container_name: spark-worker-1
     environment:
       - SPARK_MODE=worker
@@ -90,14 +92,15 @@ services:
       - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
       - ./spark/jars/commons-pool2-2.12.1.jar:/opt/bitnami/spark/jars/commons-pool2-2.12.1.jar
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
-      - ./spark/jars/delta-core_2.12-2.2.0.jar:/opt/bitnami/spark/jars/delta-core_2.12-2.2.0.jar
-      - ./spark/jars/delta-storage-2.2.0.jar:/opt/bitnami/spark/jars/delta-storage-2.2.0.jar
+      - ./spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar
+      - ./spark/jars/delta-storage-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar
     networks:
       - spark-network
       - data-processing-network
 
   spark-worker-2:
-    image: docker.io/bitnami/spark:3
+    image: docker.io/bitnami/spark:latest
+    platform: linux/arm64
     container_name: spark-worker-2
     environment:
       - SPARK_MODE=worker
@@ -116,8 +119,8 @@ services:
       - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
       - ./spark/jars/commons-pool2-2.12.1.jar:/opt/bitnami/spark/jars/commons-pool2-2.12.1.jar
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
-      - ./spark/jars/delta-core_2.12-2.2.0.jar:/opt/bitnami/spark/jars/delta-core_2.12-2.2.0.jar
-      - ./spark/jars/delta-storage-2.2.0.jar:/opt/bitnami/spark/jars/delta-storage-2.2.0.jar
+      - ./spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar
+      - ./spark/jars/delta-storage-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar
     networks:
       - spark-network
       - data-processing-network
@@ -274,8 +277,8 @@ services:
       - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
       - ./spark/jars/commons-pool2-2.12.1.jar:/opt/bitnami/spark/jars/commons-pool2-2.12.1.jar
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
-      - ./spark/jars/delta-core_2.12-2.2.0.jar:/opt/bitnami/spark/jars/delta-core_2.12-2.2.0.jar
-      - ./spark/jars/delta-storage-2.2.0.jar:/opt/bitnami/spark/jars/delta-storage-2.2.0.jar
+      - ./spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar
+      - ./spark/jars/delta-storage-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins

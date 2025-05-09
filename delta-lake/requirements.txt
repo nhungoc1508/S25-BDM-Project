@@ -1,11 +1,11 @@
 # delta-spark==2.4.0
 # delta-spark
-delta-spark==2.2.0
+delta-spark==3.0.0
 deltalake
 jupyterlab 
 pandas
 # pyspark==3.4.1
-pyspark==3.3.0
+pyspark==3.5.5
 apache-airflow
 apache-airflow-providers-standard
 apache-airflow-providers-amazon

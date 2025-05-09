@@ -11,25 +11,25 @@ default_args = {
 
 spark_configs = {
     "spark.master": "spark://spark-master:7077",
-    "spark.driver.extraClassPath": "/opt/bitnami/spark/jars/postgresql-42.6.0.jar",
-    "spark.executor.extraClassPath": "/opt/bitnami/spark/jars/postgresql-42.6.0.jar",
-    "spark.jars": "/opt/airflow/spark/jars/postgresql-42.6.0.jar",
+    "spark.driver.extraClassPath": "/opt/bitnami/spark/jars/postgresql-42.6.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar",
+    "spark.executor.extraClassPath": "/opt/bitnami/spark/jars/postgresql-42.6.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar",
+    "spark.jars": "/opt/airflow/spark/jars/postgresql-42.6.0.jar,/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar,/opt/bitnami/spark/jars/delta-storage-3.0.0.jar",
     "spark.sql.extensions": "io.delta.sql.DeltaSparkSessionExtension",
     "spark.sql.catalog.spark_catalog": "org.apache.spark.sql.delta.catalog.DeltaCatalog",
 
-    "spark.submit.deployMode": "cluster",
+    "spark.submit.deployMode": "client",
+    "spark.driver.host": "airflow-worker",
     "spark.dynamicAllocation.enabled": "false",
-
     "spark.executor.instances": "1",
-    "spark.executor.memory": "512m",
-    "spark.executor.memoryOverhead": "256m",
     "spark.executor.cores": "1",
+    "spark.executor.memory": "512m",
     "spark.memory.fraction": "0.5",
     "spark.memory.storageFraction": "0.3",
+    "spark.executor.memoryOverhead": "512m",
 
-    "spark.speculation": "false",
-    "spark.sql.shuffle.partitions": "1",
-    "spark.default.parallelism": "1",
+    "spark.speculation": "true",
+    "spark.sql.shuffle.partitions": "2",
+    "spark.default.parallelism": "2",
 
     "spark.driver.memory": "512m",
 }
@@ -37,7 +37,8 @@ spark_configs = {
 with DAG(dag_id="sis_monthly_ingestion",
          tags=["ingestion", "student information system"],
          default_args=default_args,
-         schedule="@monthly",
+        #  schedule="@monthly",
+         schedule=None,
          catchup=False) as dag:
     
     task_ingest_courses = SparkSubmitOperator(
@@ -45,7 +46,6 @@ with DAG(dag_id="sis_monthly_ingestion",
         application="/opt/airflow/spark/ingest_courses.py",
         conn_id="spark-default",
         application_args=[],
-        packages="io.delta:delta-core_2.12:2.2.0",
         conf=spark_configs
     )
 
@@ -54,7 +54,6 @@ with DAG(dag_id="sis_monthly_ingestion",
         application="/opt/airflow/spark/ingest_departments.py",
         conn_id="spark-default",
         application_args=[],
-        packages="io.delta:delta-core_2.12:2.2.0",
         conf=spark_configs
     )
 

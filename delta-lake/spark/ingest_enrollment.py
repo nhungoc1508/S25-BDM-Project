@@ -3,6 +3,7 @@ from delta import *
 from pyspark.sql.functions import current_timestamp, current_date, lit, col
 from datetime import datetime
 import uuid
+import os
 
 from metadata_manager import add_metadata_entry
 
@@ -15,7 +16,6 @@ def ingest_enrollment_data():
     source_name = 'sis_enrollment'
     builder = SparkSession.builder \
         .appName("EnrollmentIngestion") \
-        .config("spark.driver.host", "delta-lake-airflow-worker-1") \
         .config("spark.driver.bindAddress", "0.0.0.0") \
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
@@ -28,6 +28,7 @@ def ingest_enrollment_data():
     ingestion_time = ingestion_timestamp.strftime("%H-%M-%S")
 
     temporal_path = f'{TEMPORAL_ZONE}/{source_name}/date={ingestion_date}/batch={batch_id}'
+    os.makedirs(temporal_path, exist_ok=True)
 
     df = spark.read.format("jdbc") \
         .option("url", "jdbc:postgresql://postgres_sis:5432/university")\

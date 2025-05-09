@@ -11,17 +11,18 @@ default_args = {
 
 spark_configs = {
     "spark.master": "spark://spark-master:7077",
-    "spark.driver.extraClassPath": "/opt/bitnami/spark/jars/postgresql-42.6.0.jar",
-    "spark.executor.extraClassPath": "/opt/bitnami/spark/jars/postgresql-42.6.0.jar",
-    "spark.jars": "/opt/airflow/spark/jars/postgresql-42.6.0.jar",
+    "spark.driver.extraClassPath": "/opt/bitnami/spark/jars/postgresql-42.6.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar",
+    "spark.executor.extraClassPath": "/opt/bitnami/spark/jars/postgresql-42.6.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar",
+    "spark.jars": "/opt/airflow/spark/jars/postgresql-42.6.0.jar,/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar,/opt/bitnami/spark/jars/delta-storage-3.0.0.jar",
     "spark.sql.extensions": "io.delta.sql.DeltaSparkSessionExtension",
     "spark.sql.catalog.spark_catalog": "org.apache.spark.sql.delta.catalog.DeltaCatalog",
 
     "spark.submit.deployMode": "client",
+    "spark.driver.host": "airflow-worker",
     "spark.dynamicAllocation.enabled": "false",
-    "spark.executor.instances": "2",
+    "spark.executor.instances": "1",
     "spark.executor.cores": "1",
-    "spark.executor.memory": "1g",
+    "spark.executor.memory": "512m",
     "spark.memory.fraction": "0.5",
     "spark.memory.storageFraction": "0.3",
     "spark.executor.memoryOverhead": "512m",
@@ -36,7 +37,8 @@ spark_configs = {
 with DAG(dag_id="meeting_reports_ingestion",
          tags=["ingestion", "counseling"],
          default_args=default_args,
-         schedule="@hourly",
+        #  schedule="@hourly",
+         schedule=None,
          catchup=False) as dag:
     
     task_ingest_meeting_reports = SparkSubmitOperator(
@@ -44,7 +46,6 @@ with DAG(dag_id="meeting_reports_ingestion",
         application="/opt/airflow/spark/ingest_meeting_reports.py",
         conn_id="spark-default",
         application_args=[],
-        packages="io.delta:delta-core_2.12:2.2.0",
         conf=spark_configs
     )
 

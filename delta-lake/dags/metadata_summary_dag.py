@@ -12,7 +12,8 @@ default_args = {
 with DAG(dag_id="metadata_summary",
          tags=["organization"],
          default_args=default_args,
-         schedule="@weekly",
+        #  schedule="@weekly",
+         schedule=None,
          catchup=False) as dag:
     
     task_summarize_metadata = BashOperator(

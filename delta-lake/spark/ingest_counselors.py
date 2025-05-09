@@ -19,7 +19,6 @@ def ingest_json_to_temporal(api_url):
     source_name = "counselor_api"
     builder = SparkSession.builder \
         .appName("CounselorsIngestion") \
-        .config("spark.driver.host", "delta-lake-airflow-worker-1") \
         .config("spark.driver.bindAddress", "0.0.0.0") \
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
@@ -32,6 +31,7 @@ def ingest_json_to_temporal(api_url):
     ingestion_time = ingestion_timestamp.strftime("%H-%M-%S")
 
     temporal_path = f'{TEMPORAL_ZONE}/{source_name}/date={ingestion_date}/batch={batch_id}'
+    os.makedirs(temporal_path, exist_ok=True)
 
     response = requests.get(api_url)
     if response.status_code != 200:

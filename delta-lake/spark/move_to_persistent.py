@@ -11,7 +11,6 @@ PERSISTENT_ZONE = f'{BASE_PATH}/persistent'
 def promote_data_to_persistent():
     builder = SparkSession.builder \
         .appName("PersistentPromotion") \
-        .config("spark.driver.host", "delta-lake-airflow-worker-1") \
         .config("spark.driver.bindAddress", "0.0.0.0") \
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
