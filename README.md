@@ -43,6 +43,7 @@ docker compose up meeting-request-generator -d
 Initial build:
 ```bash
 cd ../delta-lake
+chmod -R a+rw ./data
 docker compose build --no-cache
 ```
 Start master:
