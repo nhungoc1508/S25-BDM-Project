@@ -17,6 +17,7 @@ x-airflow-common:
     AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
     AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
     AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__WEBSERVER__SECRET_KEY: '1pamLYAbH7/D8mSHFt0=+Q=='
     AIRFLOW__API_AUTH__JWT_SECRET: 'rFJmU3rJlnFKc7jetHRIBQ=='
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
@@ -63,6 +64,8 @@ services:
       - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
       - ./spark/jars/commons-pool2-2.12.1.jar:/opt/bitnami/spark/jars/commons-pool2-2.12.1.jar
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
+      - ./spark/jars/delta-core_2.12-2.2.0.jar:/opt/bitnami/spark/jars/delta-core_2.12-2.2.0.jar
+      - ./spark/jars/delta-storage-2.2.0.jar:/opt/bitnami/spark/jars/delta-storage-2.2.0.jar
     networks:
       - spark-network
       - data-processing-network
@@ -87,6 +90,8 @@ services:
       - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
       - ./spark/jars/commons-pool2-2.12.1.jar:/opt/bitnami/spark/jars/commons-pool2-2.12.1.jar
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
+      - ./spark/jars/delta-core_2.12-2.2.0.jar:/opt/bitnami/spark/jars/delta-core_2.12-2.2.0.jar
+      - ./spark/jars/delta-storage-2.2.0.jar:/opt/bitnami/spark/jars/delta-storage-2.2.0.jar
     networks:
       - spark-network
       - data-processing-network
@@ -111,6 +116,8 @@ services:
       - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
       - ./spark/jars/commons-pool2-2.12.1.jar:/opt/bitnami/spark/jars/commons-pool2-2.12.1.jar
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
+      - ./spark/jars/delta-core_2.12-2.2.0.jar:/opt/bitnami/spark/jars/delta-core_2.12-2.2.0.jar
+      - ./spark/jars/delta-storage-2.2.0.jar:/opt/bitnami/spark/jars/delta-storage-2.2.0.jar
     networks:
       - spark-network
       - data-processing-network
@@ -267,6 +274,8 @@ services:
       - ./spark/jars/kafka-clients-3.3.0.jar:/opt/bitnami/spark/jars/kafka-clients-3.3.0.jar
       - ./spark/jars/commons-pool2-2.12.1.jar:/opt/bitnami/spark/jars/commons-pool2-2.12.1.jar
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
+      - ./spark/jars/delta-core_2.12-2.2.0.jar:/opt/bitnami/spark/jars/delta-core_2.12-2.2.0.jar
+      - ./spark/jars/delta-storage-2.2.0.jar:/opt/bitnami/spark/jars/delta-storage-2.2.0.jar
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins

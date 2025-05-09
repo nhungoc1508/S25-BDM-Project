@@ -41,7 +41,7 @@ docker-compose build --no-cache
 ```
 Start master:
 ```bash
-docker-compose up spark-master -d
+docker compose up spark-master -d
 ```
 Check that master is running:
 ```bash
@@ -49,7 +49,7 @@ docker logs spark-master | grep "I have been elected leader! New state: ALIVE"
 ```
 Start workers:
 ```bash
-docker-compose up spark-worker-1 spark-worker-2 -d
+docker compose up spark-worker-1 spark-worker-2 -d
 ```
 Check that all nodes are running and the workers are registered with master:
 ```bash
@@ -58,7 +58,7 @@ docker logs spark-worker-2 | grep "Successfully registered with master spark://s
 ```
 In case of failure to register, run `compose down` then repeat previous steps:
 ```bash
-docker-compose down spark-master spark-worker-1 spark-worker-2 -v
+docker compose down spark-master spark-worker-1 spark-worker-2 -v
 ```
 Once running, the Spark master UI is available at `localhost:8081/` and will show 2 alive workers:
 <center><img src="imgs/spark-ui.png" width=500/></center>
@@ -75,9 +75,9 @@ Check that Airflow is using PostgreSQL for metadata (and not SQLite):
 docker logs airflow-init | grep "DB: postgresql+psycopg2"
 ```
 Start the rest of the Airflow-related services:
-<!-- docker compose up airflow-worker airflow-scheduler airflow-dag-processor airflow-apiserver airflow-triggerer airflow-cli flower -d -->
+<!-- docker compose up -d -->
 ```bash
-docker compose up -d
+docker compose up airflow-worker airflow-scheduler airflow-dag-processor airflow-apiserver airflow-triggerer airflow-cli flower -d
 ```
 Check that the webserver UI is up and running:
 ```bash
