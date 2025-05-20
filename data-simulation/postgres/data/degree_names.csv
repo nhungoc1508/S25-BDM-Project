@@ -1,0 +1,27 @@
+dept_code,department,major,degree_name
+ENGL,Arts and Humanities,English,Bachelor of Arts in English
+SOAN,Social Sciences,Sociology and Anthropology,Bachelor of Arts in Sociology and Anthropology
+MATH,Natural Sciences and Mathematics,Mathematics,Bachelor of Science in Mathematics
+ARTS,Arts and Humanities,Art and Art History,Bachelor of Arts in Art and Art History
+PHAS,Natural Sciences and Mathematics,Physics and Astronomy,Bachelor of Science in Physics and Astronomy
+CHEM,Natural Sciences and Mathematics,Chemistry,Bachelor of Science in Chemistry
+BIOL,Natural Sciences and Mathematics,Biology,Bachelor of Science in Biology
+EALL,University Studies,East Asian Languages and Literatures,Bachelor of Arts in East Asian Languages and Literatures
+CLAS,Arts and Humanities,Classics,Bachelor of Arts in Classics
+COSC,Natural Sciences and Mathematics,Computer Science,Bachelor of Science in Computer Science
+ECON,Social Sciences,Economics,Bachelor of Arts in Economics
+EDUC,University Studies,Educational Studies,Bachelor of Arts in Educational Studies
+ENST,University Studies,Environmental Studies,Bachelor of Arts in Environmental Studies
+RMLL,Arts and Humanities,Romance Languages and Literatures,Bachelor of Arts in Romance Languages and Literatures
+GEOG,Social Sciences,Geography,Bachelor of Science in Geography
+EEGS,Natural Sciences and Mathematics,Earth & Environmental Geosciences,Bachelor of Science in Earth & Environmental Geosciences
+GERM,Arts and Humanities,German,Bachelor of Arts in German
+WRIT,University Studies,Writing and Rhetoric,Bachelor of Arts in Writing and Rhetoric
+HIST,Social Sciences,History,Bachelor of Arts in History
+MUSI,Arts and Humanities,Music,Bachelor of Arts in Music
+PBSC,Natural Sciences and Mathematics,Psychological and Brain Sciences,Bachelor of Science in Psychological and Brain Sciences
+PHIL,Arts and Humanities,Philosophy,Bachelor of Arts in Philosophy
+POSC,Social Sciences,Political Science,Bachelor of Arts in Political Science
+RELG,Arts and Humanities,Religion,Bachelor of Arts in Religion
+THEA,Arts and Humanities,Theater,Bachelor of Arts in Theater
+MELL,University Studies,Middle East Languages and Literature,Bachelor of Arts in Middle East Languages and Literature
