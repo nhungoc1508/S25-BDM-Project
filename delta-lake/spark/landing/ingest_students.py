@@ -8,14 +8,12 @@ import os
 from metadata_manager import add_metadata_entry
 
 BASE_PATH = 'file:///data/landing'
-TEMPORAL_ZONE = f'{BASE_PATH}/temporal'
-PERSISTENT_ZONE = f'{BASE_PATH}/persistent'
 TMP_PATH = f'/data/tmp'
 
-def ingest_enrollment_data():
-    source_name = 'sis_enrollment'
+def ingest_students_data():
+    source_name = 'sis_students'
     builder = SparkSession.builder \
-        .appName("EnrollmentIngestion") \
+        .appName("StudentsIngestion") \
         .config("spark.driver.bindAddress", "0.0.0.0") \
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
@@ -27,12 +25,12 @@ def ingest_enrollment_data():
     ingestion_date = ingestion_timestamp.strftime("%Y-%m-%d")
     ingestion_time = ingestion_timestamp.strftime("%H-%M-%S")
 
-    temporal_path = f'{TEMPORAL_ZONE}/{source_name}/date={ingestion_date}/batch={batch_id}'
-    os.makedirs(temporal_path, exist_ok=True)
+    landing_path = f'{BASE_PATH}/{source_name}/date={ingestion_date}/batch={batch_id}'
+    os.makedirs(landing_path, exist_ok=True)
 
     df = spark.read.format("jdbc") \
         .option("url", "jdbc:postgresql://postgres_sis:5432/university")\
-        .option("dbtable", "enrollment")\
+        .option("dbtable", "students")\
         .option("user", "admin") \
         .option("password", "password") \
         .option("driver", "org.postgresql.Driver") \
@@ -46,8 +44,8 @@ def ingest_enrollment_data():
     df.write \
         .format('delta') \
         .mode('overwrite') \
-        .save(temporal_path)
-    print(f'Successfully ingested data to {temporal_path}')
+        .save(landing_path)
+    print(f'Successfully ingested data to {landing_path}')
 
     record_count = df.count()
     metadata = {
@@ -56,8 +54,7 @@ def ingest_enrollment_data():
         "ingestion_timestamp": ingestion_timestamp.isoformat(),
         "ingestion_date": ingestion_date,
         "record_count": record_count,
-        "temporal_path": temporal_path,
-        "process_status": "INGESTED_TO_TEMPORAL"
+        "landing_path": landing_path
     }
     add_metadata_entry(metadata)
 
@@ -66,5 +63,5 @@ def ingest_enrollment_data():
     return metadata
 
 if __name__ == '__main__':
-    metadata = ingest_enrollment_data()
+    metadata = ingest_students_data()
     print(f'Ingestion completed with batch ID: {metadata["batch_id"]}')

@@ -4,7 +4,7 @@ from datetime import datetime
 import fcntl
 
 BASE_PATH = '/data'
-METADATA_FILE = f'{BASE_PATH}/metadata/catalog.json'
+METADATA_FILE = f'{BASE_PATH}/metadata/landing/catalog.json'
 
 def initialize():
     os.makedirs(os.path.dirname(METADATA_FILE), exist_ok=True)
@@ -53,9 +53,9 @@ def update_metadata_entry(batch_id, updates):
     print(f'[METADATA MANAGER] Warning: Batch {batch_id} not found in metadata')
     return 
 
-def get_batches_by_status(status):
-    metadata_list = read_current_metadata()
-    return [entry for entry in metadata_list if entry.get('process_status') == status]
+# def get_batches_by_status(status):
+#     metadata_list = read_current_metadata()
+#     return [entry for entry in metadata_list if entry.get('process_status') == status]
 
 def generate_metadata_summary():
     metadata_list = read_current_metadata()
@@ -65,7 +65,6 @@ def generate_metadata_summary():
         source = entry.get('source_name')
         date = entry.get('ingestion_date', '')
         month = date[:7] if len(date) >= 7 else 'unknown'
-        status = entry.get('process_status')
         record_count = entry.get('record_count', 0)
         
         key = f"{source}_{month}"
@@ -82,13 +81,6 @@ def generate_metadata_summary():
         
         summary[key]['batch_count'] += 1
         summary[key]['total_records'] += record_count
-        
-        if status == 'PROMOTED_TO_PERSISTENT':
-            summary[key]['promoted_batches'] += 1
-        elif status == 'PROMOTION_FAILED':
-            summary[key]['failed_batches'] += 1
-        elif status == 'INGESTED_TO_TEMPORAL':
-            summary[key]['pending_batches'] += 1
     
     summary_list = list(summary.values())
     summary_list.sort(key=lambda x: (x['source_name'], x['month']), reverse=True)
@@ -96,34 +88,34 @@ def generate_metadata_summary():
     timestamp = datetime.now()
     date = timestamp.strftime("%Y-%m-%d")
     time = timestamp.strftime("%H-%M-%S")
-    summary_file = f"{BASE_PATH}/metadata/summary_{date}_{time}.json"
+    summary_file = f"{BASE_PATH}/metadata/landing/summary_{date}_{time}.json"
     with open(summary_file, 'w') as f:
         json.dump(summary_list, f, indent=2)
     
     print(f'[METADATA MANAGER] Generated metadata summary at {summary_file}')
     return summary_list
 
-def update_metadata_for_promotion(batch_id, persistent_path):
-    updates = {
-        "persistent_path": persistent_path,
-        "promotion_timestamp": datetime.now().isoformat(),
-        "process_status": "PROMOTED_TO_PERSISTENT"
-    }
-    print(f'[METADATA MANAGER] Successfully updated metadata for promotion of batch at {persistent_path}')
-    return update_metadata_entry(batch_id, updates)
+# def update_metadata_for_promotion(batch_id, persistent_path):
+#     updates = {
+#         "persistent_path": persistent_path,
+#         "promotion_timestamp": datetime.now().isoformat(),
+#         "process_status": "PROMOTED_TO_PERSISTENT"
+#     }
+#     print(f'[METADATA MANAGER] Successfully updated metadata for promotion of batch at {persistent_path}')
+#     return update_metadata_entry(batch_id, updates)
 
-def update_metadata_for_failed_promotion(batch_id, error_message):
-    updates = {
-        "process_status": "PROMOTION_FAILED",
-        "error_message": error_message,
-        "error_timestamp": datetime.now().isoformat()
-    }
+# def update_metadata_for_failed_promotion(batch_id, error_message):
+#     updates = {
+#         "process_status": "PROMOTION_FAILED",
+#         "error_message": error_message,
+#         "error_timestamp": datetime.now().isoformat()
+#     }
     
-    return update_metadata_entry(batch_id, updates)
+#     return update_metadata_entry(batch_id, updates)
 
 def get_last_timestamp(source_name):
     metadata_list = read_current_metadata()
     for entry in metadata_list[::-1]:
-        if entry.get('source_name') == source_name and entry.get('process_status') == 'INGESTED_TO_TEMPORAL':
+        if entry.get('source_name') == source_name:
             return entry.get('last_timestamp')
     return None

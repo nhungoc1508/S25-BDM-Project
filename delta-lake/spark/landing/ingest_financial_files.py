@@ -12,8 +12,6 @@ from bs4 import BeautifulSoup
 from metadata_manager import add_metadata_entry
 
 BASE_PATH = 'file:///data/landing'
-TEMPORAL_ZONE = f'{BASE_PATH}/temporal'
-PERSISTENT_ZONE = f'{BASE_PATH}/persistent'
 TMP_PATH = f'/data/tmp/financial_pdfs'
 os.makedirs(TMP_PATH, exist_ok=True)
 
@@ -44,8 +42,8 @@ def ingest_financial_files(api_url):
     ingestion_date = ingestion_timestamp.strftime("%Y-%m-%d")
     ingestion_time = ingestion_timestamp.strftime("%H-%M-%S")
 
-    temporal_path = f'{TEMPORAL_ZONE}/{source_name}/date={ingestion_date}/batch={batch_id}'
-    os.makedirs(temporal_path, exist_ok=True)
+    landing_path = f'{BASE_PATH}/{source_name}/date={ingestion_date}/batch={batch_id}'
+    os.makedirs(landing_path, exist_ok=True)
 
     download_pdfs(api_url)
 
@@ -62,8 +60,8 @@ def ingest_financial_files(api_url):
     df.write \
         .format("delta") \
         .mode("overwrite") \
-        .save(temporal_path)
-    print(f'Successfully ingested data to {temporal_path}')
+        .save(landing_path)
+    print(f'Successfully ingested data to {landing_path}')
 
     record_count = df.count()
     metadata = {
@@ -73,8 +71,7 @@ def ingest_financial_files(api_url):
         "ingestion_timestamp": ingestion_timestamp.isoformat(),
         "ingestion_date": ingestion_date,
         "record_count": record_count,
-        "temporal_path": temporal_path,
-        "process_status": "INGESTED_TO_TEMPORAL"
+        "landing_path": landing_path
     }
     add_metadata_entry(metadata)
 
