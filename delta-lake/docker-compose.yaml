@@ -32,6 +32,7 @@ x-airflow-common:
     - ./config:/opt/airflow/config
     - ./plugins:/opt/airflow/plugins
     - ./spark:/opt/airflow/spark
+    #- ./spark/landing:/opt/airflow/spark/landing
     - ./spark/jars:/opt/airflow/spark/jars
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
@@ -196,6 +197,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./spark:/opt/airflow/spark
+      #- ./spark/landing:/opt/airflow/spark/landing
       - ./spark/jars:/opt/airflow/spark/jars
 
   airflow-scheduler:
@@ -220,6 +222,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./spark:/opt/airflow/spark
+      #- ./spark/landing:/opt/airflow/spark/landing
       - ./spark/jars:/opt/airflow/spark/jars
 
   airflow-dag-processor:
@@ -244,6 +247,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./spark:/opt/airflow/spark
+      #- ./spark/landing:/opt/airflow/spark/landing
       - ./spark/jars:/opt/airflow/spark/jars
   
   airflow-worker:
@@ -283,6 +287,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./spark:/opt/airflow/spark
+      #- ./spark/landing:/opt/airflow/spark/landing
       - ./spark/jars:/opt/airflow/spark/jars
     networks:
       - spark-network
@@ -310,6 +315,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./spark:/opt/airflow/spark
+      #- ./spark/landing:/opt/airflow/spark/landing
       - ./spark/jars:/opt/airflow/spark/jars
 
   airflow-init:
@@ -380,6 +386,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./spark:/opt/airflow/spark
+      #- ./spark/landing:/opt/airflow/spark/landing
       - ./spark/jars:/opt/airflow/spark/jars
     networks:
       - spark-network
@@ -406,6 +413,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./spark:/opt/airflow/spark
+      #- ./spark/landing:/opt/airflow/spark/landing
       - ./spark/jars:/opt/airflow/spark/jars
 
   flower:
@@ -429,6 +437,21 @@ services:
         condition: service_completed_successfully
     networks:
       - spark-network
+
+  counseling-db:
+    image: mongo:6
+    container_name: counseling-db
+    ports:
+      - "27018:27018"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGO_INITDB_DATABASE: counseling
+    volumes:
+      - ./counseling-db/init.js:/docker-entrypoint-initdb.d/init.js
+    restart: always
+    networks:
+      - data-processing-network
 
 volumes:
   myvol:
