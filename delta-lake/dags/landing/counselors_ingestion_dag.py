@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 default_args = {
     "owner": "airflow",
-    "start_date": datetime(2025, 4, 1),
+    "start_date": datetime(2025, 3, 31),
     "retries": 1,
     "retry_delay": timedelta(minutes=5),
 }
@@ -34,19 +34,19 @@ spark_configs = {
     "spark.driver.memory": "512m",
 }
 
-with DAG(dag_id="financial_files_ingestion",
-         tags=["ingestion", "finance"],
+with DAG(dag_id="counselors_ingestion",
+         tags=["ingestion", "counseling"],
          default_args=default_args,
-        #  schedule="@daily",
+        #  schedule="@weekly",
          schedule=None,
          catchup=False) as dag:
-    
-    task_ingest_financial_files = SparkSubmitOperator(
-        task_id="submit_task_ingest_financial_files",
-        application="/opt/airflow/spark/ingest_financial_files.py",
+
+    ingest_task = SparkSubmitOperator(
+        task_id="submit_counselors_job",
+        application="/opt/airflow/spark/landing/ingest_counselors.py",
         conn_id="spark-default",
         application_args=[],
         conf=spark_configs
     )
 
-    task_ingest_financial_files
+    ingest_task

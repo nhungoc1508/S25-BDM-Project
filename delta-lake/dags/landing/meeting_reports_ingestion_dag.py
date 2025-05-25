@@ -34,19 +34,19 @@ spark_configs = {
     "spark.driver.memory": "512m",
 }
 
-with DAG(dag_id="meeting_requests_ingestion",
+with DAG(dag_id="meeting_reports_ingestion",
          tags=["ingestion", "counseling"],
          default_args=default_args,
         #  schedule="@hourly",
          schedule=None,
          catchup=False) as dag:
     
-    task_ingest_meeting_requests = SparkSubmitOperator(
-        task_id="submit_task_ingest_meeting_requests",
-        application="/opt/airflow/spark/ingest_meeting_requests.py",
+    task_ingest_meeting_reports = SparkSubmitOperator(
+        task_id="submit_task_ingest_meeting_reports",
+        application="/opt/airflow/spark/landing/ingest_meeting_reports.py",
         conn_id="spark-default",
         application_args=[],
         conf=spark_configs
     )
 
-    task_ingest_meeting_requests
+    task_ingest_meeting_reports

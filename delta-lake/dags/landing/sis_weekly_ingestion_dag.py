@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 default_args = {
     "owner": "airflow",
-    "start_date": datetime(2025, 3, 31),
+    "start_date": datetime(2025, 4, 1),
     "retries": 1,
     "retry_delay": timedelta(minutes=5),
 }
@@ -34,19 +34,35 @@ spark_configs = {
     "spark.driver.memory": "512m",
 }
 
-with DAG(dag_id="counselors_ingestion",
-         tags=["ingestion", "counseling"],
+with DAG(dag_id="sis_weekly_ingestion",
+         tags=["ingestion", "student information system"],
          default_args=default_args,
         #  schedule="@weekly",
          schedule=None,
          catchup=False) as dag:
-
-    ingest_task = SparkSubmitOperator(
-        task_id="submit_counselors_job",
-        application="/opt/airflow/spark/ingest_counselors.py",
+    
+    task_ingest_students = SparkSubmitOperator(
+        task_id="submit_task_ingest_students",
+        application="/opt/airflow/spark/landing/ingest_students.py",
         conn_id="spark-default",
         application_args=[],
         conf=spark_configs
     )
 
-    ingest_task
+    task_ingest_faculty = SparkSubmitOperator(
+        task_id="submit_task_ingest_faculty",
+        application="/opt/airflow/spark/landing/ingest_faculty.py",
+        conn_id="spark-default",
+        application_args=[],
+        conf=spark_configs
+    )
+
+    task_ingest_enrollment = SparkSubmitOperator(
+        task_id="submit_task_ingest_enrollment",
+        application="/opt/airflow/spark/landing/ingest_enrollment.py",
+        conn_id="spark-default",
+        application_args=[],
+        conf=spark_configs
+    )
+
+    task_ingest_students >> task_ingest_faculty >> task_ingest_enrollment

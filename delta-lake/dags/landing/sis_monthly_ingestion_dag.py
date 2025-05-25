@@ -34,35 +34,27 @@ spark_configs = {
     "spark.driver.memory": "512m",
 }
 
-with DAG(dag_id="sis_weekly_ingestion",
+with DAG(dag_id="sis_monthly_ingestion",
          tags=["ingestion", "student information system"],
          default_args=default_args,
-        #  schedule="@weekly",
+        #  schedule="@monthly",
          schedule=None,
          catchup=False) as dag:
     
-    task_ingest_students = SparkSubmitOperator(
-        task_id="submit_task_ingest_students",
-        application="/opt/airflow/spark/ingest_students.py",
+    task_ingest_courses = SparkSubmitOperator(
+        task_id="submit_task_ingest_courses",
+        application="/opt/airflow/spark/landing/ingest_courses.py",
         conn_id="spark-default",
         application_args=[],
         conf=spark_configs
     )
 
-    task_ingest_faculty = SparkSubmitOperator(
-        task_id="submit_task_ingest_faculty",
-        application="/opt/airflow/spark/ingest_faculty.py",
+    task_ingest_departments = SparkSubmitOperator(
+        task_id="submit_task_ingest_departments",
+        application="/opt/airflow/spark/landing/ingest_departments.py",
         conn_id="spark-default",
         application_args=[],
         conf=spark_configs
     )
 
-    task_ingest_enrollment = SparkSubmitOperator(
-        task_id="submit_task_ingest_enrollment",
-        application="/opt/airflow/spark/ingest_enrollment.py",
-        conn_id="spark-default",
-        application_args=[],
-        conf=spark_configs
-    )
-
-    task_ingest_students >> task_ingest_faculty >> task_ingest_enrollment
+    task_ingest_courses >> task_ingest_departments

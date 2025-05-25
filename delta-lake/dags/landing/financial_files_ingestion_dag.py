@@ -34,27 +34,19 @@ spark_configs = {
     "spark.driver.memory": "512m",
 }
 
-with DAG(dag_id="sis_monthly_ingestion",
-         tags=["ingestion", "student information system"],
+with DAG(dag_id="financial_files_ingestion",
+         tags=["ingestion", "finance"],
          default_args=default_args,
-        #  schedule="@monthly",
+        #  schedule="@daily",
          schedule=None,
          catchup=False) as dag:
     
-    task_ingest_courses = SparkSubmitOperator(
-        task_id="submit_task_ingest_courses",
-        application="/opt/airflow/spark/ingest_courses.py",
+    task_ingest_financial_files = SparkSubmitOperator(
+        task_id="submit_task_ingest_financial_files",
+        application="/opt/airflow/spark/landing/ingest_financial_files.py",
         conn_id="spark-default",
         application_args=[],
         conf=spark_configs
     )
 
-    task_ingest_departments = SparkSubmitOperator(
-        task_id="submit_task_ingest_departments",
-        application="/opt/airflow/spark/ingest_departments.py",
-        conn_id="spark-default",
-        application_args=[],
-        conf=spark_configs
-    )
-
-    task_ingest_courses >> task_ingest_departments
+    task_ingest_financial_files

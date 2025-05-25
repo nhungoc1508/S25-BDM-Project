@@ -18,7 +18,7 @@ with DAG(dag_id="metadata_summary",
     
     task_summarize_metadata = BashOperator(
         task_id="run_task_summarize_metadata",
-        bash_command="python /opt/airflow/spark/summarize_metadata.py"
+        bash_command="python /opt/airflow/spark/landing/summarize_metadata.py"
     )
 
     task_summarize_metadata
