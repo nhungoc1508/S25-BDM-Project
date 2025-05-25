@@ -1,0 +1,862 @@
+[
+    {
+        "id": "c332a656-32f0-4671-9199-e56f256a1179",
+        "student_id": "kh836",
+        "counselor_id": "lnguyen",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by music studies and academic expectations",
+            "description": "Hi, I\u2019m Kimberly, a first-year music major. I\u2019ve taken a few music courses and really enjoyed them, but I\u2019m also in a honors-level music major and a lot of what I\u2019m doing is studying music theory, history, and performance. I\u2019ve been in classes with very talented students, and I feel like I\u2019m taking on a lot of pressure to perform well. I\u2019m also in a research-intensive major, and I\u2019m worried that I\u2019m not doing enough research to prepare for music school. I\u2019m feeling really stressed and anxious about everything I\u2019m doing, and I don\u2019t know if I\u2019m doing okay."
+        },
+        "timestamp": "2025-03-28T11:08:00"
+    },
+    {
+        "id": "1d116448-ad49-4dac-ac6a-12ee0f196903",
+        "student_id": "sh549",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Help with understanding course material and estimating grades",
+            "description": "Hi, I'm Sonia, a third-year Computer Science major. Last semester was really challenging \u2014 I took a lot of advanced courses that I didn't really understand, and I ended up with a lot of lower grades. I felt overwhelmed and unsure if I was doing well enough to pass. Now I'm in a more technical course this semester, and I'm still not sure what to expect. I'm worried that I'll get a lower grade again, and I'm starting to panic. I'm majoring in CS because I love technology and want to work in it, but I don't know if that's what I should be doing. I'm feeling disconnected from the academic community in my major and worried that I'm not connecting with the right people. I'm hoping to talk with someone who can help me understand what I'm doing in class, how to approach assignments better, and how to stay on track."
+        },
+        "timestamp": "2025-03-28T15:27:40"
+    },
+    {
+        "id": "3b133fff-0382-4f6b-a8e3-202b099fdf21",
+        "student_id": "bb869",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Need help improving writing skills in my major",
+            "description": "Hi, I'm Brandon, a junior majoring in English. I\u2019ve been doing okay academically, but lately I\u2019ve been struggling with writing assignments. Some of the essays I\u2019ve written have been okay, but I keep making mistakes. I feel like I\u2019m not doing anything right in my major. I\u2019m not sure if I should be in English or something else, but I\u2019m really passionate about the subject and want to do well. I\u2019m hoping to talk to someone about how to improve and get help."
+        },
+        "timestamp": "2025-03-29T14:20:10"
+    },
+    {
+        "id": "9d0736ec-f900-4e89-b472-594d3186fbf2",
+        "student_id": "jb631",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Need help staying in my major and understanding my weaknesses",
+            "description": "Hi, I\u2019m Jacqueline, a second-year Psychology major. I\u2019ve taken a lot of interesting and challenging courses, but lately I\u2019ve been struggling to keep up. Some of my classes have covered topics like addiction, trauma, and mental health, and I\u2019ve found them really interesting but not necessarily applicable to my major. I\u2019m also feeling frustrated because I\u2019ve been doing well in other parts of my life, like my extracurriculars and academic performance overall, but I\u2019m not sure if I should be in this major anymore. I\u2019d really appreciate help understanding what's been happening and how to improve my academic performance without dropping the major entirely."
+        },
+        "timestamp": "2025-04-02T11:07:10"
+    },
+    {
+        "id": "1191447f-77ad-4ed9-911a-f9c73d695014",
+        "student_id": "jb232",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Need help improving writing skills in my major",
+            "description": "Hi, I'm Joe, a third-year English major. Last semester was really rough academically, and I ended up with a B in English based on a mix of lower-level courses and a few major-specific papers. I struggled with writing, and I didn't realize how much I was falling behind until now. I'm taking more English and literature courses this semester, but I still feel like I'm not doing well in them. I'm not sure how to improve my writing skills, especially since I'm not doing research or writing papers like I did last semester. I'm also worried that my grades might drop again if I don't do better. I'm hoping to talk to someone about how to get better at writing in my major and how to stay on track this semester."
+        },
+        "timestamp": "2025-04-02T13:54:25"
+    },
+    {
+        "id": "8b6d2642-30cc-4457-a533-f878ed34d703",
+        "student_id": "mm847",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure if I can keep up in this major",
+            "description": "Hi, I\u2019m Mary, a second-year Political Science major. I\u2019ve taken a few interesting but unrelated courses lately, like \u201cGovernment and Society\u201d and \u201cInternational Relations and Politics\u201d, and I\u2019m finding it hard to keep up with the content and pace. Some of the topics are really complex and I\u2019m not familiar with the theories or methods used in these fields, and I\u2019m feeling like I\u2019m falling behind both academically and emotionally. I\u2019m also dealing with some personal issues that are affecting my focus and motivation, and I\u2019m not sure if I should be still in the Political Science major or if I should switch to something else. I\u2019m really enjoying the intellectual content of my classes, but I\u2019m starting to feel overwhelmed and worried that I\u2019m not cut out for this major."
+        },
+        "timestamp": "2025-04-02T14:03:59"
+    },
+    {
+        "id": "a273a9ca-096b-4144-801c-64b4a5254fdc",
+        "student_id": "as960",
+        "counselor_id": "lnguyen",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure if I can keep up in my education",
+            "description": "Hi, I\u2019m Aaron, a third-year student majoring in Education. I\u2019ve taken a lot of interesting courses, from history to education policy to teaching methods. But even though I\u2019ve done well academically, I\u2019ve started to feel like I\u2019m not quite fitting in or understanding what I\u2019m doing. I\u2019m not sure if I should be in the education major or if I should switch to something else, but I\u2019m worried I\u2019m falling behind and not doing well enough to graduate on time. I\u2019m also struggling with personal essays and feeling like I don\u2019t have a strong voice as a student. I\u2019d love to talk with someone about how to stay on track and feel more confident in my education."
+        },
+        "timestamp": "2025-04-03T15:30:34"
+    },
+    {
+        "id": "a68ca4a7-c4ff-4a03-8935-ea4f4d0adf70",
+        "student_id": "ew711",
+        "counselor_id": "ajackson",
+        "meeting_request": {
+            "purpose": "Struggling academically and feeling lost in my major",
+            "description": "Hi, I\u2019m Eric, a senior majoring in East Asian Languages and Literatures. Last semester was really tough \u2014 I fell behind in most of my courses, and I\u2019m still not back on track. My grades are down significantly, and I\u2019m starting to feel really discouraged. I\u2019ve been struggling with writing and reading in Chinese, and I\u2019m not sure if I even understand what I\u2019m doing wrong. I\u2019ve been talking to my professors, but they seem frustrated by my performance and are encouraging me to take a break. I\u2019m also dealing with personal issues that have been weighing me down, and I\u2019m not sure how to balance both academics and my personal life. I\u2019m feeling really overwhelmed and not sure if I\u2019m going to make it through this semester without falling further behind."
+        },
+        "timestamp": "2025-04-04T15:26:09"
+    },
+    {
+        "id": "21497e45-4dcc-4bdd-a26e-5f3468e9aacb",
+        "student_id": "sh372",
+        "counselor_id": "schen",
+        "meeting_request": {
+            "purpose": "Struggling academically and uncertain first-year experience",
+            "description": "Hi, my name is Sandra and I'm a first-year student in Romance Languages major. I\u2019ve taken undergraduate courses in Spanish and French, and I\u2019ve been doing okay in classes like literature and language theory, but I\u2019ve never really been in a high-stakes environment like this one. My major is still being evaluated, and I\u2019m still in the first semester. I feel overwhelmed by the workload and uncertain about how to succeed. I\u2019m struggling with grades, feeling isolated, and questioning if I\u2019m even cut out for this major. I\u2019d like some guidance on how to improve academically and how to navigate this new environment."
+        },
+        "timestamp": "2025-04-04T16:12:03"
+    },
+    {
+        "id": "a64eaa0f-0818-4315-93e5-3bdd2aa50bde",
+        "student_id": "rs903",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by my first-year geography course and unsure if I can keep up",
+            "description": "Hi, my name is Richard and I'm a first-year student in the geography major. I\u2019ve taken a few classes so far, including anthropology and geography. Both of these courses are really interesting, but I\u2019m finding it hard to keep up with the content and the pace. I\u2019m still in college, and I\u2019m still trying to figure out what I want to do with my major. I feel like I\u2019m already falling behind, and I don\u2019t know if I can keep doing this on my own. I\u2019m also dealing with some personal stress from school and family issues, and I\u2019m not sure if I\u2019m handling it well. I\u2019m interested in talking with someone about how to manage my academic load and my mental health, and I think this is a good opportunity."
+        },
+        "timestamp": "2025-04-04T17:32:55"
+    },
+    {
+        "id": "f51d5d94-ef6f-4cca-b58e-6ee120298abc",
+        "student_id": "jh396",
+        "counselor_id": "acasados",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by the academic expectations and social isolation in my art major",
+            "description": "Hi, I\u2019m Joel, a first-year art major. I\u2019ve been in the arts program at this university, and so far I\u2019ve taken a lot of really interesting courses, including a studio art class on environmental art and another one on the history of art and race. But I\u2019m also in a really large arts program with a lot of students, and I\u2019m feeling like everyone else in my class is already ahead of me academically, and I don\u2019t know if I can keep up. I also really love art, but I feel like I don\u2019t fit into the social aspects of the major, like how to connect with other artists or find a community. I\u2019m not sure if this is just a first-year feeling or if I\u2019m going to be really isolated in this major if I keep going."
+        },
+        "timestamp": "2025-04-07T14:11:46"
+    },
+    {
+        "id": "b3f5114e-3bd3-4f7c-bbce-a6a41868765d",
+        "student_id": "jc132",
+        "counselor_id": "lnguyen",
+        "meeting_request": {
+            "purpose": "Help deciding between major and career options",
+            "description": "Hi, I'm John, a second-year Earth and Environmental Geosciences major. I'm really enjoying my major and the courses I'm taking, but I'm not sure if I want to pursue a traditional environmental science career or something more specialized like environmental policy or outreach. I'm still in the early stages of my major, and I'm worried about whether I'll be ready for a more advanced career in environmental science or if I should focus more on academic research or public engagement. I'm also concerned about the job market for students with environmental majors right now, especially with the recent political climate around climate change and environmental issues."
+        },
+        "timestamp": "2025-04-07T15:32:39"
+    },
+    {
+        "id": "b31d4802-5a32-49fb-9b33-d34940077ff9",
+        "student_id": "lb622",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Need help staying in my major and understanding my weaknesses",
+            "description": "Hi, I\u2019m Lori, a second-year Psych major. I\u2019ve taken a lot of interesting courses, but I\u2019m not really sure what I\u2019m good at yet. My psychology professor even acknowledged that I\u2019m not really interested in the major, but I keep pushing myself. I\u2019m also taking some neuroscience and language courses, but I\u2019m not sure if those are even related to psychology. I feel like I\u2019m falling behind, and I don\u2019t know if I can keep doing this. I\u2019m doing okay academically, but I\u2019m starting to feel overwhelmed and worried about whether I\u2019m even qualified to major in psychology. I\u2019d love to talk to someone about how to improve my academic performance without sacrificing my passion or understanding of the field."
+        },
+        "timestamp": "2025-04-07T17:10:24"
+    },
+    {
+        "id": "ebc4047f-ac57-409c-8e46-a6d0cc5b518d",
+        "student_id": "js325",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Struggling to keep up with advanced CS courses",
+            "description": "Hi, I\u2019m Jose, a third-year Computer Science major. I\u2019ve been taking a lot of technical courses lately, and I\u2019m starting to feel overwhelmed. In my first two semesters, I took two CS classes and two math classes, and I ended up with a B in each one. But now I\u2019m taking three more advanced CS courses, and I\u2019m starting to get a little bit behind. My grades are still okay, but I\u2019m starting to feel like I\u2019m falling behind, and I\u2019m worried that I\u2019m not going to be able to keep up this semester. I\u2019m also taking a couple of electives, including a course on machine learning and another on computer security. I\u2019m not sure if these courses are going to be harder than the ones I\u2019ve already been doing, and I\u2019m worried that I\u2019m going to fall behind again."
+        },
+        "timestamp": "2025-04-07T17:22:14"
+    },
+    {
+        "id": "160f6aa8-4088-4c67-9bc8-8a6ec4c95022",
+        "student_id": "mo879",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Need help staying in my history course but feeling overwhelmed",
+            "description": "Hi, I\u2019m Marcus, a senior in history. I\u2019ve taken a lot of history courses over the past few years, and I\u2019ve ended up majoring in history. This semester, I\u2019m taking a history of Europe course that I really enjoy, but I\u2019m feeling a bit overwhelmed by the material. My professor has been really helpful, but sometimes it feels like there\u2019s a lot of information to digest, and I just don\u2019t know where to start. I\u2019m also taking a history of the Americas course next semester, and I\u2019m not sure if I should be taking both of those or just focus on one. I\u2019m feeling frustrated and worried that I\u2019m falling behind, and I\u2019m not sure if I\u2019m doing anything wrong or if I should be worried about graduating on time."
+        },
+        "timestamp": "2025-04-08T10:04:54"
+    },
+    {
+        "id": "43dde3fe-1a87-4856-a0ed-10fe0262983b",
+        "student_id": "cr166",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Need help improving my writing and presentation skills",
+            "description": "Hi, I'm Chad, a second-year Writing Studies major. I\u2019ve been doing well academically, but I\u2019m finding it harder than usual to write effectively, especially in my writing-intensive courses. Last semester, I took a writing seminar and a research paper, and both were really difficult. I spent hours drafting papers, but then I would get stuck on the same structure or analysis, and I would end up with a mess of a draft. This semester, I\u2019m taking a writing seminar and a research paper again, and I\u2019m already behind on my work. I know I need to improve, but I find writing and presentation difficult even when I know what I\u2019m doing. I\u2019m not sure how to get better, so I\u2019m reaching out to talk about strategies. I want to work with a tutor or mentor to work on a writing plan, practice writing in different contexts, and learn how to present my work effectively."
+        },
+        "timestamp": "2025-04-08T11:55:47"
+    },
+    {
+        "id": "3a3e9eaf-60f4-4b3f-a76f-3b18d6a31a3c",
+        "student_id": "cu420",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling disconnected from my major and uncertain about my future",
+            "description": "Hi, I\u2019m Cheryl, a first-year Political Science major. I\u2019ve taken a few classes and already feel like I\u2019m in a different world than what I\u2019m used to doing. Some of my classes are really heavy on political theory and history, and I\u2019m not really interested in that. Other than that, I\u2019m not really sure what I\u2019m supposed to be doing here. I\u2019m trying to major in something I\u2019m really passionate about (environmental policy), but I\u2019m not sure if I even fit in here or if I should be switching things up. I\u2019m also feeling really isolated from other students in my major, and I don\u2019t know if I\u2019m alone in feeling this way."
+        },
+        "timestamp": "2025-04-08T11:59:20"
+    },
+    {
+        "id": "bb08f22b-6a94-449a-8e5a-7ed5f082a00c",
+        "student_id": "rw133",
+        "counselor_id": "acasados",
+        "meeting_request": {
+            "purpose": "Feeling lost and uncertain about my career path",
+            "description": "Hi, I\u2019m Ryan, a senior Art major in my final year. I\u2019ve enjoyed the course very much, but I\u2019m also feeling a bit disillusioned about what the future holds for the arts. I\u2019ve always loved art, but I don\u2019t know if I want to pursue a career in it. I\u2019m not sure what I should be studying or doing, and I feel like I\u2019m losing touch with what I\u2019m passionate about. I\u2019m also worried about the economic and social impact of the arts, and I\u2019m worried that I might be leaving something important behind if I don\u2019t figure out what to do soon."
+        },
+        "timestamp": "2025-04-08T12:18:40"
+    },
+    {
+        "id": "fcbe4274-738e-4bf7-bcda-4592397927dd",
+        "student_id": "lp870",
+        "counselor_id": "ajackson",
+        "meeting_request": {
+            "purpose": "Help with academic pressure and uncertainty in my economics course",
+            "description": "Hi, I'm Lauren, a second-year Economics major. Last semester was really challenging for me academically. I took a number of difficult and advanced economics courses, and I ended up with a B-minus average in my major. It was really hard to keep up, and I started to feel overwhelmed. Now, this semester, I'm taking more economics-related courses and I'm still struggling. I'm also dealing with some personal stress and anxiety, and I'm not sure if my academic performance is going to keep up with my emotional and mental health. I'm taking this course because it's part of my major, but I feel like I'm not doing well enough to keep up. I'm worried that I'll fall behind again and get a bad grade, which will make me feel even more anxious and discouraged."
+        },
+        "timestamp": "2025-04-08T16:15:34"
+    },
+    {
+        "id": "fd4c8929-72e0-48e0-ba3d-fa26fd3ddbcc",
+        "student_id": "ng407",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Struggling to understand religious beliefs in a post-Christian world",
+            "description": "Hi, I\u2019m Noah, a senior majoring in Religion. Last semester was really challenging \u2014 I struggled with understanding faith in a post-Christian world, and I\u2019m still grappling with how to reconcile my faith with the new beliefs and values emerging in society. I\u2019ve tried talking to professors, but they don\u2019t seem to know how to address my specific concerns. I\u2019m interested in exploring how I can engage with religious studies in a more nuanced way and learn how to think critically about faith in the modern world. I hope to schedule a meeting to discuss how to build skills and perspectives that will help me navigate this challenging period."
+        },
+        "timestamp": "2025-04-09T09:58:58"
+    },
+    {
+        "id": "a3395334-fb96-406f-944b-81b44494a377",
+        "student_id": "rd473",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure if I can keep up in this major",
+            "description": "Hi, I\u2019m Rebecca, a senior majoring in Politics at UC Berkeley. I\u2019ve taken a lot of political science and international relations courses, and I\u2019ve really enjoyed them but I\u2019m finding it harder than expected to apply what I\u2019ve learned in class to real-world issues. Some of my courses have focused on issues like immigration, climate change, or human rights, and I\u2019m trying to connect what I\u2019ve read to what I\u2019m doing in my internships and student organizations. I feel like I\u2019m falling behind, even though I\u2019ve been working hard. I\u2019d like some help understanding what I\u2019m doing well in my major and how to stay on track, or advice on how to engage more meaningfully with the issues I\u2019m studying."
+        },
+        "timestamp": "2025-04-09T13:29:57"
+    },
+    {
+        "id": "7edc8a6f-1d1c-445c-8595-bb4a1b68ab8f",
+        "student_id": "ab602",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure if I can keep up in this major",
+            "description": "Hi, I\u2019m Alexa, a third-year Political Science major. I\u2019ve taken a bunch of political and social science courses lately and I\u2019m really enjoying them, but I\u2019m also feeling a lot more interested in business and humanities than I was before. I\u2019ve always been interested in politics, but I never thought I\u2019d be in a major that would involve so much of it. I\u2019m majoring because I think it\u2019s a good fit for my interests, but I\u2019m also starting to feel like I\u2019m not doing well in the classes and I don\u2019t know if I can keep up. I want some help understanding what I\u2019m doing well in and what areas need work, and I\u2019m open to any advice or strategies."
+        },
+        "timestamp": "2025-04-09T14:04:13"
+    },
+    {
+        "id": "1406e15a-b5f6-4a4e-9933-2a2c0e88742f",
+        "student_id": "kl111",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by first-year classes and my major",
+            "description": "Hi, I\u2019m Kimberly, a first-year English major. I\u2019ve taken two difficult classes so far and feel like I\u2019m falling behind. I\u2019m still in the learning process, but I\u2019m worried I\u2019ll fail my major and feel like I\u2019m not cut out for college. I\u2019m also dealing with anxiety around school and personal goals. I\u2019d like some support dealing with these emotions and figuring out how to thrive in this major."
+        },
+        "timestamp": "2025-04-09T14:20:10"
+    },
+    {
+        "id": "7e201839-1b66-4f63-bf4d-b4f1010b7d16",
+        "student_id": "cs612",
+        "counselor_id": "lnguyen",
+        "meeting_request": {
+            "purpose": "Struggling with depression and feeling lost after graduation",
+            "description": "Hi, I\u2019m Caroline, a senior Religious Studies major. Last semester was really tough \u2014 I struggled with depression and anxiety, and I\u2019m still dealing with those issues now. I felt like everything was falling apart, and I felt like I was lost without a clear sense of purpose. I ended up taking a lot of classes that weren\u2019t directly related to my major, and I ended up overloading with coursework and feeling overwhelmed. I started talking to friends and faculty about how I was feeling, but I didn\u2019t realize how deep the depression was until I started feeling like I was losing control. I\u2019m still trying to figure out what comes next, and I feel like I\u2019m not alone in this. I want to talk to someone about how to get better and work on rebuilding my sense of self and direction."
+        },
+        "timestamp": "2025-04-09T15:23:53"
+    },
+    {
+        "id": "544b73a8-5021-43ab-a365-9ad701d4756b",
+        "student_id": "pp712",
+        "counselor_id": "rsharma",
+        "meeting_request": {
+            "purpose": "Help with academic challenges and self-doubt",
+            "description": "Hi, I'm Patricia, a third-year Physics and Astronomy major. This semester has been tough as I'm taking a mix of physics and math courses, and I'm already behind in some of my classes. I'm feeling overwhelmed and questioning if I even like the subject or if I'm doing something wrong. I'm also experiencing a lot of self-doubt, especially around my academic performance. I feel like everyone else is ahead of me and I'm falling behind, even though I've been working hard. I'm worried that I'll fail these courses and lose faith in my ability to succeed in this major. I want help to feel more confident in my work and to find a way to stay engaged in my studies."
+        },
+        "timestamp": "2025-04-10T09:30:52"
+    },
+    {
+        "id": "66f31a8a-0879-4284-b65f-7b3b1dd0a499",
+        "student_id": "js830",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling lost and uncertain about what to do next after starting college",
+            "description": "Hi, I\u2019m James, a first-year Political Science major. I\u2019ve taken a few electives so far and really enjoyed some of the history and sociology courses, but I\u2019m still not sure what I want to do with my major. I\u2019ve been thinking about working in politics or nonprofits, but I\u2019m not sure if that\u2019s the right path or if I need to explore other options first. I\u2019m also feeling overwhelmed by all the information I\u2019ve already taken and the demands of college, especially since I\u2019m not in a major that requires a lot of writing or critical thinking. I\u2019m not sure if I should be feeling this way, but it\u2019s definitely affecting my academic and personal engagement."
+        },
+        "timestamp": "2025-04-10T10:20:22"
+    },
+    {
+        "id": "a8d8dc5d-fc56-47b3-a0ba-ce718b8b8401",
+        "student_id": "je963",
+        "counselor_id": "rsharma",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by my first-year Chemistry class and academic expectations",
+            "description": "Hi, I\u2019m John, a first-year majoring in Chemistry. I\u2019ve taken a few courses so far and already feel like I\u2019m in over my head. Some of the readings have been really difficult, and the material is really complex. I\u2019m worried that I\u2019m not doing well enough to pass the class, and I\u2019m starting to panic. I\u2019m also really interested in the chemistry of addiction and how drugs work, but I don\u2019t know if I\u2019m even eligible to take that course or if it\u2019s just too advanced for me. I\u2019m feeling really isolated in my major and worried that everyone else is ahead of me, which is making me even more anxious. I\u2019d love to talk to someone about how to manage my academic and emotional stress, and I\u2019m excited to meet with you about trying something different in my first semester."
+        },
+        "timestamp": "2025-04-10T12:37:26"
+    },
+    {
+        "id": "3aaafa6e-ccf3-4cfb-9722-46b82e31856e",
+        "student_id": "ro222",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure if I can keep up in my history course",
+            "description": "Hi, my name is Robert and I'm a fourth-year History major. This is the final semester of my major, and I\u2019m really feeling the pressure to do well. Last year, I took a lot of history classes and ended up with a 3.5 GPA, but this semester I\u2019m taking more advanced courses and I\u2019m worried I won\u2019t be able to keep up. I\u2019m also involved in a few academic clubs and am trying to balance my studies with extracurriculars and internships. I feel like I\u2019m falling behind, but I don\u2019t know if I\u2019m even doing the right things. I\u2019m hoping to talk with someone who can help me manage my academic load and work on improving my skills in history."
+        },
+        "timestamp": "2025-04-11T14:34:23"
+    },
+    {
+        "id": "d8b5d749-2b63-40df-b1e3-cd0805b9c502",
+        "student_id": "sw404",
+        "counselor_id": "lnguyen",
+        "meeting_request": {
+            "purpose": "Feeling discouraged and unsure if I can graduate",
+            "description": "Hi, I\u2019m Sara, a fourth-year History major. I\u2019ve been doing really well in my classes, with a 3.8 GPA. But lately, I\u2019ve been feeling more anxious about my grades and worried that I won\u2019t be able to keep up. I\u2019ve also been struggling with some of the more historical or theoretical aspects of my courses, and I\u2019m finding it harder to connect with the material in a meaningful way. I\u2019m feeling overwhelmed by everything I\u2019ve already done, and not sure if I can keep going. I\u2019m hoping to talk to someone about how to stay focused and improve my academic performance, but I\u2019m not sure how to ask for help or what to say. I\u2019m also interested in exploring some creative writing or digital media options as a way to shift my focus away from history and into something more contemporary or experimental."
+        },
+        "timestamp": "2025-04-11T15:04:18"
+    },
+    {
+        "id": "5b2ba835-b599-4d12-80a8-b1073da451f9",
+        "student_id": "db646",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Frustrated about failing harder courses",
+            "description": "Hi, I'm Dennis, a third-year music major. I've been doing well in some of my upper-level music courses, like harmony and counterpoint, but I'm starting to feel like I'm falling behind in harder and more abstract ones. Last semester, I took two harder music theory courses and another one on jazz improvisation. I got a C- in each one, and I'm not sure if I did enough to pass. Now I'm in a music elective that's more like the ones I'm struggling in, and I'm worried I'll get a D or lower. I feel frustrated and discouraged, and I don't know if I'm even doing enough to keep up. I'm hoping to talk to someone about how to improve my performance in music courses, especially since I'm in a major."
+        },
+        "timestamp": "2025-04-14T11:20:17"
+    },
+    {
+        "id": "88133cca-af9c-4ea0-838d-1739b0c4c546",
+        "student_id": "nb320",
+        "counselor_id": "lnguyen",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure if I can keep up in my education",
+            "description": "Hi, I\u2019m Nancy, a second-year student in the education major. I\u2019ve been taking a lot of classes, from English to sociology to education studies. Some of them are interesting, but others are just really heavy and over my head. I\u2019m struggling to keep up with grades, and I\u2019m worried I\u2019ll fall behind and lose interest. I\u2019m also feeling frustrated by the content and the way it\u2019s being presented. I\u2019d love to talk about what I\u2019m doing wrong and how to improve, but I don\u2019t know how to ask for help or how to make progress in my major."
+        },
+        "timestamp": "2025-04-14T15:33:25"
+    },
+    {
+        "id": "03f626f5-cc90-4789-9e30-c9a2b9aa555c",
+        "student_id": "st513",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Struggling to adjust to college and find my footing",
+            "description": "Hi, I\u2019m Selena, a first-year Sociology major. I\u2019ve taken a mix of humanities and social science courses, but I\u2019m still trying to figure out what I\u2019m supposed to do here. My major is interesting, but I don\u2019t really know what I\u2019m supposed to be doing. I\u2019ve taken some classes that are really heavy on social issues, but I don\u2019t really understand how to apply that to my major. I also feel like I don\u2019t fit in with the other students here, even though I\u2019m from a different socioeconomic background. I\u2019m worried I\u2019m not doing well enough to be a Sociology major, and I\u2019m not sure how to get help."
+        },
+        "timestamp": "2025-04-14T16:11:27"
+    },
+    {
+        "id": "28cfcb2d-8220-4458-99a5-fa98e43dd25a",
+        "student_id": "mp904",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by first-year classes and my major",
+            "description": "Hi, I\u2019m Matthew, a first-year English major. I\u2019ve taken two difficult classes so far and am already feeling like I\u2019m falling behind. I\u2019m worried that I\u2019m not measuring up to my major, and I\u2019m worried that I\u2019m not doing well enough to succeed. I\u2019d like some support dealing with academic pressure and first-year anxiety."
+        },
+        "timestamp": "2025-04-15T10:05:59"
+    },
+    {
+        "id": "1232edbb-265b-4f88-8198-b13441c02e16",
+        "student_id": "mc821",
+        "counselor_id": "schen",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure if I'm on track in my environmental studies major",
+            "description": "Hi, my name is Michelle and I'm a first-year student majoring in Environmental Studies. This is my first semester in college, and I\u2019ve already taken a few major-specific courses and some general environmental studies classes. However, I\u2019m feeling a lot more stressed than I thought I would be, and I\u2019m questioning if I even belong in this major or if I should be switching to something else. I also feel really burned out from school and feeling like I\u2019m doing something important, but I don\u2019t know if that's what I\u2019m doing. I'm worried I'm not doing well enough to be in this major, and I'm not sure how to get help."
+        },
+        "timestamp": "2025-04-15T12:11:03"
+    },
+    {
+        "id": "5a7d2dce-94d5-4f9e-aae1-643783ee7af6",
+        "student_id": "kp316",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Need help staying in my history major",
+            "description": "Hi, I'm Kim, a second year history major. Last semester was really tough \u2014 I struggled in my history of Europe course and got a D- on the final exam. I\u2019m not sure if I\u2019m doing something wrong this year, or if I\u2019m just not cut out for the major. I\u2019m trying to stay in the department, but it\u2019s not helping. I\u2019m interested in internships and career paths related to history, but I\u2019m not sure how to get involved or what courses I should be taking to get ready. I\u2019m also interested in exploring other majors, but I don\u2019t know if history is the right fit for me. I want to talk to someone about how to stay in my major and improve my academic performance."
+        },
+        "timestamp": "2025-04-16T09:52:52"
+    },
+    {
+        "id": "6719f359-d8d4-4336-99ed-380345badc7e",
+        "student_id": "sn191",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Need help improving grades and understanding material",
+            "description": "Hi, I'm Sabrina, a third-year chemistry major. I\u2019ve been taking a wide variety of courses, from organic chemistry to biochemistry to physics, and I\u2019m trying my best to keep up with the material. However, most of the content is still new to me, and I feel overwhelmed by what I\u2019m learning. My professor\u2019s been helpful, but I\u2019m also feeling frustrated and uncertain about whether I\u2019m doing something wrong or if I\u2019m just not cut out for this major. I\u2019m currently in a chemistry seminar and am also taking a bioinformatics course, which is adding to my load. I\u2019m worried that I\u2019m falling behind and will eventually fall behind even more if I keep this up. I\u2019d really appreciate help understanding what I\u2019m doing well in the major, what areas need improvement, and how to stay on track without feeling overwhelmed. I\u2019d also think about exploring other majors or career paths that might be more aligned with my interests and skills."
+        },
+        "timestamp": "2025-04-16T09:54:55"
+    },
+    {
+        "id": "6ed2e4ae-e392-4dc5-880a-b1994304ef77",
+        "student_id": "cs805",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "I\u2019m feeling overwhelmed by my history coursework and worried about passing the major with a high GPA",
+            "description": "Hi, I\u2019m Corey, a senior in History. I\u2019ve taken a lot of history classes lately, both undergrad and through a minor. I\u2019ve really enjoyed them, but I\u2019m finding it harder to understand the concepts and apply them in real contexts. I\u2019m also in a major, which is expected to require a lot of history in some way. I\u2019m worried that if I don\u2019t keep up, I might not make the GPA I\u2019m trying to achieve or get into a good graduate program. I\u2019d like some help understanding what I\u2019m doing well in history and how to keep up, and how to make sure I\u2019m doing well in my major and future studies."
+        },
+        "timestamp": "2025-04-16T12:13:39"
+    },
+    {
+        "id": "9261f984-c03f-4792-b85b-54af3faef735",
+        "student_id": "bp949",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by my philosophy course and uncertain about my future path",
+            "description": "Hi, I\u2019m Brian, a first-year Philosophy major. I\u2019ve taken a few classes so far and really enjoyed some of the readings, but lately I\u2019m feeling a lot more anxious than I used to. I\u2019m worried that I\u2019m not doing well enough to pass the course, and I\u2019m also starting to wonder if I should be majoring in something else entirely. I\u2019ve always been interested in the humanities, but I don\u2019t know if I should be trying to pursue a serious academic field like philosophy at this early stage. I\u2019d love to talk to someone about how to manage my workload and feel more confident in what I\u2019m doing, and I think this is a good opportunity to get some support."
+        },
+        "timestamp": "2025-04-16T13:42:01"
+    },
+    {
+        "id": "c1617dd9-ff7a-4fc0-86af-ab582690d6f1",
+        "student_id": "cg705",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling lost and disconnected from the political process",
+            "description": "Hi, I\u2019m Christopher, a senior Political Science major. I\u2019ve been doing well academically, but lately I\u2019ve been feeling disillusioned about the state of the country and the political system. I used to be passionate about issues like climate change and inequality, but now I just don\u2019t care anymore. I\u2019m frustrated with the way politics is covered in the media and how politicians are able to manipulate public opinion. I\u2019m worried that I\u2019m losing interest in the system I\u2019m trying to change and I don\u2019t know if I should keep pushing or if I should just give up."
+        },
+        "timestamp": "2025-04-17T11:22:31"
+    },
+    {
+        "id": "2f23a948-b859-4297-9124-80aaa3feaef2",
+        "student_id": "aw850",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Help with adjusting to college and feeling overwhelmed in my math-heavy major",
+            "description": "Hi, I\u2019m Antonio, a sophomore in the mathematics major. I\u2019ve been doing well academically, with a 3.7 GPA so far. But I\u2019m in a really heavy math-heavy track, and there\u2019re a lot of coursework I\u2019m taking that I don\u2019t really understand or relate to. I\u2019m also in a major that requires a lot of writing and critical thinking, and I find those assignments really difficult. I\u2019m feeling overwhelmed and not sure if I\u2019m doing well enough in my major or if I\u2019m even on track. I\u2019m reaching out because I\u2019m starting to feel like I\u2019m not living up to the expectations of the major I\u2019ve chosen, even though I\u2019m doing well academically."
+        },
+        "timestamp": "2025-04-17T12:48:46"
+    },
+    {
+        "id": "d3fdb342-5de9-4d11-97d7-bffa90f06c93",
+        "student_id": "tj642",
+        "counselor_id": "acasados",
+        "meeting_request": {
+            "purpose": "Need help adjusting to college arts program and major",
+            "description": "Hi, I\u2019m Thomas, a first-year art major. I\u2019ve been attending the University of Chicago \u2014 a highly respected arts institution with a broad arts and humanities curriculum \u2014 and I\u2019m really enjoying my art history and studio courses, but I\u2019m still feeling a bit lost. I\u2019m in my first semester, and the major and major requirement are still being finalized. I don\u2019t have a lot of art experience, and I don\u2019t know where to fit in. I\u2019m not a visual artist, but I\u2019m interested in making art and want to explore that direction. I\u2019m also taking some writing and film courses, but I\u2019m not sure how to integrate them into my art education. I\u2019m feeling overwhelmed and unsure if I\u2019m on the right path, and I\u2019m having a hard time finding a good balance between academics and my artistic interests."
+        },
+        "timestamp": "2025-04-17T17:48:37"
+    },
+    {
+        "id": "6336d125-9605-4b0e-bacb-8ffeb1af7368",
+        "student_id": "rb330",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure if I can keep up in music-related courses",
+            "description": "Hi, I\u2019m Robin, a senior in music major. I\u2019ve taken a lot of music courses lately, from improvisation to composition to performance. I\u2019ve really enjoyed them, but I\u2019m also feeling the pressure to show progress and get into a music industry or music education program. My peers are doing well, and I\u2019m starting to feel like I\u2019m falling behind. I don\u2019t know if I can keep up, and I\u2019m worried I\u2019m missing out on a serious career path if I don\u2019t figure this out. I\u2019m interested in talking about how to stay committed and how to graduate strong in my music major."
+        },
+        "timestamp": "2025-04-18T10:07:03"
+    },
+    {
+        "id": "fabb563b-f7b2-4e17-b6f4-f246e4e17c5a",
+        "student_id": "pm896",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Help deciding between graduate school and industry work or transfer to a different major",
+            "description": "Hi, I\u2019m Phillip, a senior in Romance Languages. I\u2019ve taken a lot of interesting courses, but not sure if graduate school is the right fit right now. I\u2019ve been considering industry work or a nonprofit, but I\u2019m not sure if I want to go back to a traditional academic setting. Also, I\u2019m really passionate about Romance languages and literature, but I don\u2019t know if I can make a living doing that. I\u2019m open to exploring options, but I\u2019m not sure where to start. Can you help me think through my career path and potential transfer options? I want to make sure I make the right decision."
+        },
+        "timestamp": "2025-04-18T12:42:20"
+    },
+    {
+        "id": "d6ec27c4-dccc-43bb-b727-2ccc521b5b41",
+        "student_id": "lb725",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Help with understanding chemistry material",
+            "description": "Hi, I'm Lori, a third-year Chemistry major. Last semester was really hard \u2014 I struggled with most of my chemistry courses, and I\u2019m still not fully recovered. My professor even gave me a low grade on one of my papers because I\u2019d made mistakes in a lab. Now I\u2019m trying to catch up, but it\u2019s still really overwhelming. I\u2019m feeling frustrated and lost, and I\u2019m worried that I\u2019ll fall behind again this semester. I\u2019m interested in talking to someone about how to approach chemistry better this time around, and I\u2019m hoping you can help me get on track."
+        },
+        "timestamp": "2025-04-18T13:00:50"
+    },
+    {
+        "id": "35356eab-b97a-4dce-98d4-72c26f386deb",
+        "student_id": "cd118",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by my history course and uncertain about my future",
+            "description": "Hi, I'm Chelsea, a first-year History major. Last semester was really tough for me, and I started to feel a lot of anxiety and uncertainty about where I\u2019m even going. I took a lot of history classes, and I ended up taking at least 10 different ones, including European and American history, World War II, and early modern Europe. I ended up taking about 3/4 of my load in one semester, and I ended up with a C+ average. I\u2019m still struggling to balance schoolwork and personal life, and I\u2019m worried that I\u2019m not measuring up to what I\u2019m doing in class or how I\u2019m showing up. I\u2019m really feeling like I\u2019m not in control of what I\u2019m doing or where I\u2019m heading, and I\u2019m worried I\u2019m not going to graduate on time because of all the stress I\u2019m putting in."
+        },
+        "timestamp": "2025-04-18T13:22:31"
+    },
+    {
+        "id": "0b04c8ca-31dd-48f9-ac52-29912193786c",
+        "student_id": "cw598",
+        "counselor_id": "mgarcia",
+        "meeting_request": {
+            "purpose": "Help with improving my academic performance in Philosophy",
+            "description": "Hi, I\u2019m Carrie, a third-year Philosophy student. I\u2019ve taken a lot of difficult and abstract courses lately, and I\u2019m feeling frustrated. Some of my grades are still low, and I\u2019m not sure if I should keep going or if I\u2019ve reached a plateau. I\u2019ve also been involved in some Philosophy-related clubs and events, and I\u2019m trying to connect with the community, but I feel like I\u2019m still not fully engaged. I\u2019m interested in exploring my career options after undergraduate study, but I don\u2019t know where to start or what to do. I want to talk to someone who can help me feel more confident, make progress, and figure out what's possible."
+        },
+        "timestamp": "2025-04-18T15:04:59"
+    },
+    {
+        "id": "39af8b4c-db7e-4a08-9b65-4ffd677f4a1c",
+        "student_id": "as376",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "I'm having a hard time keeping up with the course material in my English honors seminar",
+            "description": "Hi, I'm April, a senior majoring in English. This is the second semester of my honors English course, and I\u2019m really struggling to understand the complex ideas being covered. Some of the readings are really challenging and require deep analysis, and I\u2019m finding it hard to separate between what I\u2019ve already understood and what I need to understand now. I\u2019m also feeling overwhelmed by the course load overall, with two other majors and a minor and a bunch of required writing courses. I\u2019m not doing well in any of my other courses, and this is starting to affect my grades. I\u2019m hoping to talk to someone about how to stay on track in this semester and improve my academic performance."
+        },
+        "timestamp": "2025-04-18T16:25:04"
+    },
+    {
+        "id": "281f6057-05c9-4a70-8878-c9cbe7248eb6",
+        "student_id": "jm600",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by my Philosophy course and uncertain about my future after college",
+            "description": "Hi, my name is Joseph and I'm a first-year student in Philosophy. This is my first semester in college, and I\u2019m really struggling with the course material. Some of the topics are really complex and I\u2019m not sure I understand everything yet. I\u2019m also feeling really anxious about what I\u2019m learning and what I\u2019ll be expected to do in college. I\u2019m in a major that I\u2019m not really passionate about, and I\u2019m not sure if Philosophy is the right fit for me. I feel like I\u2019m not doing well academically and I\u2019m worried I\u2019ll fail the course and feel like I\u2019m falling behind."
+        },
+        "timestamp": "2025-04-21T14:41:39"
+    },
+    {
+        "id": "1f0d2e64-3a4b-4f0c-b392-9bb4cf04c9cf",
+        "student_id": "nj175",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by first-year classes and my major",
+            "description": "Hi, my name is Nicholas and I'm a first-year student in English. I\u2019m really enjoying my first-year English professor and some of the themes and topics we\u2019re covering, but I also feel really nervous about the workload and whether I can keep up. I\u2019ve also majored in history, and I\u2019m not sure if that will help me in this major, especially since I\u2019m not really interested in history anymore. I\u2019m still new to college, and I\u2019m worried I\u2019m not doing well enough to fit in already."
+        },
+        "timestamp": "2025-04-22T09:05:17"
+    },
+    {
+        "id": "489bab08-c49f-4182-bc84-10c995e191b5",
+        "student_id": "jr393",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Help deciding between graduate school and industry work",
+            "description": "Hi, I'm Javier, a second-year majoring in East Asian Languages and Literatures. I\u2019ve had a really strong academic experience, with a mix of classes in history, literature, and language. I\u2019ve been really passionate about East Asian cultures and languages, and I\u2019ve done well in my major. Recently, I\u2019ve been thinking about graduate school or industry work as a way to further explore my interests, but I\u2019m not sure what to do next. I\u2019ve had a lot of faculty advisors, and I\u2019ve been working on a thesis, but I\u2019m not sure if that\u2019s the right path. I\u2019m also considering transferring to a different major, but I\u2019m not sure what I\u2019d like to do after graduation. I\u2019m open to advice on graduate school, industry work, or something else, but I\u2019m not sure where to start."
+        },
+        "timestamp": "2025-04-22T12:21:12"
+    },
+    {
+        "id": "2e9d95ca-c7ae-4c67-983b-3b86eab6c3ad",
+        "student_id": "rr143",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling lost and overwhelmed in my first-year physics course",
+            "description": "Hi, I\u2019m Richard, a first-year student in the physics major. I\u2019ve been attending class regularly but still feel like I\u2019m not understanding what we\u2019re doing. Some of the topics we\u2019re covering, like quantum mechanics or astrophysics, are really complex and abstract, and I\u2019m still not sure if I\u2019m making sense. I\u2019m also experiencing academic burnout. I\u2019ve been working hard in class, but I\u2019m also feeling exhausted and overwhelmed by the material. I\u2019m not sure if I should be in this course or if I should be taking something else, but I\u2019m not sure what to do. I\u2019m reaching out because I\u2019m feeling lost and unsure if I\u2019m even doing well in this major."
+        },
+        "timestamp": "2025-04-22T12:29:18"
+    },
+    {
+        "id": "f20fcd62-d953-43fe-b825-d6fa36921a4f",
+        "student_id": "tw751",
+        "counselor_id": "rsharma",
+        "meeting_request": {
+            "purpose": "Help with adjusting to biology coursework and feeling overwhelmed by academic expectations",
+            "description": "Hi, I\u2019m Timothy, a senior biology major. I\u2019ve been doing well academically, with a 3.7 GPA and a mix of biology and math courses. However, I\u2019m feeling a bit lost lately. Some of my biology classes have covered different topics, and I\u2019m not sure how to connect what I\u2019m learning to real-world applications or how I\u2019ll apply it. I\u2019m also feeling pressure to do well in finals, which are coming up soon. I\u2019m not sure if I should be worried about grades or if I\u2019m just getting tired of the coursework. I\u2019d like some guidance on how to stay on track and feel more confident in my biology studies."
+        },
+        "timestamp": "2025-04-22T13:52:19"
+    },
+    {
+        "id": "ba09a168-680e-418a-baa5-6e95bb1b464e",
+        "student_id": "kp516",
+        "counselor_id": "schen",
+        "meeting_request": {
+            "purpose": "Need help adjusting to college life and finding my place in the Asian American studies major",
+            "description": "Hi, I\u2019m Keith, a first-year East Asian major. I\u2019ve taken a few classes and already feel overwhelmed by the sheer number of courses and the variety of topics. I\u2019m not particularly interested in traditional academic subjects like history or literature, but I\u2019m not sure what else I should be doing. I also feel isolated from the Asian American community here, and I\u2019m not sure if I belong in the Asian American studies major or if it\u2019s just a bad fit. I\u2019d really appreciate help understanding what I\u2019m doing well in the program, how to engage more deeply with the coursework, and how to find a balance between academic exploration and personal growth."
+        },
+        "timestamp": "2025-04-22T15:02:42"
+    },
+    {
+        "id": "9d4f2605-e943-4dcf-a67d-215a1fd6eb11",
+        "student_id": "kw796",
+        "counselor_id": "lnguyen",
+        "meeting_request": {
+            "purpose": "Help deciding between graduate school and a different career path",
+            "description": "Hi, I\u2019m Kevin, a third-year majoring in East Asian Languages and Literatures. I\u2019ve taken a lot of interesting courses, but I\u2019m not sure if graduate school is the right fit for what I\u2019ve been studying. My major is Chinese, and I\u2019ve taken classes in Chinese literature, translation, and film, as well as history and philosophy of East Asian civilizations. I\u2019ve also taken courses on globalization, migration, and cultural exchange, which have really engaged me. I\u2019m considering applying to graduate programs in East Asian studies or international affairs, but I\u2019m not sure if I should stay in the Asian studies track or switch to something else. I\u2019m not sure what career path I\u2019m interested in, but I\u2019m interested in something related to language, education, or international relations. I\u2019m worried about transferring if I don\u2019t figure out what I want to do soon."
+        },
+        "timestamp": "2025-04-23T09:34:45"
+    },
+    {
+        "id": "8d116156-35c4-4243-a66c-bdac93851d91",
+        "student_id": "em135",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure of my ability to succeed in my major",
+            "description": "Hi, I\u2019m Eric, a senior majoring in Physics and Astronomy. I\u2019ve taken a lot of difficult and abstract courses lately, and I\u2019m starting to feel like I\u2019m falling behind. Some of the classes even overlap with my major, and I\u2019m worried that I\u2019m not doing enough to stay in the program. I\u2019re also involved in a few student organizations, and I\u2019m trying to balance them all while studying. I feel frustrated and uncertain about whether I\u2019m even capable of doing what I\u2019m doing in my major, and I\u2019m not sure how to get help. I\u2019m hoping to meet with a counselor or mentor who can help me plan out my coursework more effectively, or to discuss whether my approach is working or if I need to make any major changes."
+        },
+        "timestamp": "2025-04-23T09:39:44"
+    },
+    {
+        "id": "29ae31ef-61c6-4c6d-a657-97c8c805b021",
+        "student_id": "ar983",
+        "counselor_id": "rsharma",
+        "meeting_request": {
+            "purpose": "Feeling disheartened and uncertain about my academic progress",
+            "description": "Hi, I\u2019m Ashley, a senior Sociology and Anthropology major. Last semester was really tough \u2014 I struggled a lot in my sociology and anthropology courses, and I\u2019m not sure if I did well enough to pass them. I\u2019m also feeling overwhelmed by the rest of my major and some of my other coursework, and I\u2019m worried that I\u2019m falling behind and will fail the major if I don\u2019t do better. I\u2019m currently in a mix of anthropology and history courses, and I\u2019m really interested in the intersection of humanity and culture, but I\u2019m not sure I\u2019m doing something meaningful with my major. I feel like I\u2019m falling behind and afraid I\u2019ll never catch up, and I\u2019m worried I\u2019ll drop out or lose interest if things keep getting this bad."
+        },
+        "timestamp": "2025-04-24T12:51:23"
+    },
+    {
+        "id": "8bc9b826-1302-404e-9707-ab77aadf6ffe",
+        "student_id": "rc478",
+        "counselor_id": "acasados",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure of my academic path in art studies",
+            "description": "Hi, my name is Richard, and I'm a second-year art major. Last semester was really tough \u2014 I struggled in most of my art classes, and I ended up with a D-average. It\u2019s not like I didn\u2019t do well in some of the more abstract or technical courses, but I just couldn\u2019t keep up. I\u2019m majoring in art because I\u2019ve always loved art, and I\u2019ve been really passionate about it. I\u2019ve always thought I\u2019d major in something like English or history, but now I\u2019m not sure what I should be doing. I\u2019m interested in art history, but I don\u2019t know if that\u2019s a good fit or if I should be majoring in something else entirely. I\u2019m also interested in writing and performance, but I\u2019m not sure how to combine those two in a way that makes sense. I\u2019m trying to talk to my professors, but I\u2019m not sure how to articulate what I\u2019m really struggling with or what I\u2019m asking for help on. I\u2019m hoping to schedule an appointment soon so I can get some guidance."
+        },
+        "timestamp": "2025-04-24T13:33:28"
+    },
+    {
+        "id": "5ddfd666-bcc7-4705-b623-3bf842d8e7ee",
+        "student_id": "bb225",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure if I can keep up in this major",
+            "description": "Hi, I\u2019m Bryce, a third-year Political Science major. I\u2019ve taken a bunch of political science and international relations courses, but I\u2019m finding it harder than ever to keep up with the content and the pace. Some of the classes even cover topics I don\u2019t really care about, like immigration or human rights. I\u2019m feeling frustrated and worried that I\u2019m not doing well in this major, and I\u2019m having a hard time expressing how much it\u2019s been affecting me. I\u2019d love to talk with someone about how to stay engaged in this coursework and improve my academic performance, but I don\u2019t know where to find an honest counselor like you."
+        },
+        "timestamp": "2025-04-24T13:42:30"
+    },
+    {
+        "id": "fb935a61-7ebc-47c1-a3a9-d9e7e8a375e4",
+        "student_id": "rm702",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Help with understanding course material and estimating grades",
+            "description": "Hi, I'm Randall, a third-year Computer Science major. Last semester was really hard, and I\u2019m still struggling to understand the concepts in my classes. Some of the topics are really complex, and I\u2019m not sure how to apply what I\u2019ve learned to real-world problems. I also have a lot of coursework left, and I\u2019m not sure if I can keep up with the grading schedule. I\u2019m interested in working with a counselor to figure out how to improve my academic performance, but I\u2019m not sure where to start. I\u2019ve been in the computer science program, so I\u2019m familiar with the course content, but I\u2019m still feeling overwhelmed."
+        },
+        "timestamp": "2025-04-24T14:25:03"
+    },
+    {
+        "id": "e7b93593-7dea-4908-8c16-b6e4ede6b12e",
+        "student_id": "st451",
+        "counselor_id": "jpatel",
+        "meeting_request": {
+            "purpose": "Help deciding between graduate school and working in environmental policy or academia",
+            "description": "Hi, I\u2019m Sheryl, a senior majoring in Earth & Environmental Geosciences. I\u2019ve taken a lot of interesting courses, from climate change to geology to environmental policy. I\u2019ve even interned with a nonprofit and really enjoyed it. But now I\u2019m thinking about graduate school or working in environmental policy or academia. I don\u2019t know which path would be best for me, and I\u2019m feeling a bit overwhelmed. I want advice about whether to pursue graduate school right now or if I should take a year off and explore more options before applying. I also feel like the major I chose is not explicitly focused on policy, and I don\u2019t want to end up doing something that doesn\u2019t align with my long-term goals."
+        },
+        "timestamp": "2025-04-24T15:30:59"
+    },
+    {
+        "id": "3ff8d04a-9bf7-4711-bce5-37169b9edd32",
+        "student_id": "cc143",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Help with understanding economics course material",
+            "description": "Hi, I'm Calvin, a third-year Economics major. Last semester was really hard \u2014 I had to take a bunch of economics courses, and I ended up falling behind \u2014 I was behind in my intro courses and had to retake some of them. It was overwhelming, and I ended up feeling confused and frustrated. Now I'm in a few different economics classes, and I'm still not sure what this stuff means. I'm not really interested in business or finance, but I still feel like I'm not making sense of what I'm learning. I'm trying to take some different courses this semester, but I'm not sure if I'm on track. I'm also worried that I'm not passing enough courses to graduate on time, which is making me even more anxious about my major."
+        },
+        "timestamp": "2025-04-25T10:42:21"
+    },
+    {
+        "id": "9f1704d9-7bf3-4d00-a103-4f1340592279",
+        "student_id": "mb704",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by first-year classes and my major",
+            "description": "Hi, my name is Martin and I'm in the first year of undergraduate study. I\u2019m majoring in English and have taken a few classes so far, but I\u2019m already feeling a lot of pressure to perform well. Some of the courses are really challenging and I\u2019m not sure if I\u2019m ready to tackle them at this level. I\u2019m also dealing with some personal issues that are making me anxious, and I\u2019m not sure how to balance all this stress with my personal life. I\u2019m feeling really isolated and unsure of who I am as a student or a person right now."
+        },
+        "timestamp": "2025-04-25T16:10:05"
+    },
+    {
+        "id": "2386b469-9d71-420e-9732-34bebc28b4fc",
+        "student_id": "dm156",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Need help with writing assignments and identifying a career path",
+            "description": "Hi, I\u2019m Denise, a junior majoring in Writing and Rhetoric. I\u2019ve taken a lot of writing courses and done well in them, but lately my writing has been getting worse. I\u2019m trying to write essays for grad school applications, but I keep getting stuck on the same issues. I also do a lot of academic writing, like reviewing books or summarizing articles, but I don\u2019t see how what I\u2019m doing is relevant to my major. I feel like I\u2019m not even close to understanding what to do with my degree, and I\u2019m having a hard time finding a career path that fits. I\u2019m hoping to talk with someone about how to improve my writing and explore options for graduate school or other writing-related jobs."
+        },
+        "timestamp": "2025-04-25T17:14:40"
+    },
+    {
+        "id": "f5130924-abcd-4a34-b16e-447d407fb644",
+        "student_id": "fm233",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Need help improving writing skills in my major",
+            "description": "Hi, I'm Francisco, a senior majoring in English. I've been doing okay academically, but lately I've been struggling with writing assignments. Most of the material I'm working on is literary criticism, and I find it hard to connect with the text on a deep level. I'm also feeling overwhelmed by the course load and feel like I'm not keeping up. I'm not sure if I'm doing anything wrong or if I need help, and I'm worried that I'm falling behind because of my major. I'm hoping to talk to someone who can help me improve my writing and feel more confident in my work."
+        },
+        "timestamp": "2025-04-27T14:10:05"
+    },
+    {
+        "id": "5a98260d-f52c-4361-b48c-0c707b03a916",
+        "student_id": "cl971",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling down and struggling with depression and uncertainty about my next steps",
+            "description": "Hi, I\u2019m Christopher, a senior Religious Studies major. Last semester was really tough \u2014 I had to transition from a completely different major (psychology) to Religion, and it was a big adjustment. I felt really low at times, especially during the pandemic when everything felt overwhelming. Now I\u2019m trying to figure out what\u2019s next, and I\u2019m still feeling a bit anxious about what I\u2019ll do after graduation. I\u2019m open to talking about depression, anxiety, graduation stress, or anything else related to post-graduation adjustment. I\u2019ve talked to some professors and peers, but I\u2019m still feeling alone in how I feel."
+        },
+        "timestamp": "2025-04-28T11:53:24"
+    },
+    {
+        "id": "ce11307d-ec9e-41b4-b39f-6233c7ea0a11",
+        "student_id": "jb885",
+        "counselor_id": "rsharma",
+        "meeting_request": {
+            "purpose": "Need help adjusting academically",
+            "description": "Hi, I'm Jessica, a second-year math major. Last semester was really tough \u2014 I fell behind in most of my courses, and I had to take a bunch of electives just to stay in the math track. Now I\u2019m trying to catch up, but everything is getting harder. I\u2019m still struggling with math concepts, and I\u2019m getting frustrated. I\u2019m also dealing with some personal issues that are affecting my academic performance, and I don\u2019t know if I\u2019m falling apart or if I\u2019m just not cut out for math. I\u2019m open to talking about how to improve academically, but I\u2019m not sure where to start. I want someone who can help me navigate this challenging major and work out a plan for improvement."
+        },
+        "timestamp": "2025-04-28T12:03:44"
+    },
+    {
+        "id": "ed7756a8-c4be-460d-852f-44d7d84b9cb2",
+        "student_id": "ma979",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by my Philosophy course and uncertain about my future after college",
+            "description": "Hi, I\u2019m Melanie, a first-year majoring in Philosophy. I\u2019ve taken a few classes so far and am really enjoying the content, but I\u2019m also feeling really stressed out. I\u2019ve been working on a lot of papers, and some of them are really challenging and require a lot of thinking. I\u2019m worried that I won\u2019t be able to handle college-level work, and I\u2019m starting to feel like I\u2019m not measuring up. I also feel a little bit over overwhelmed by all the academic expectations for college students, especially since I\u2019m not really sure what my major even means anymore. I\u2019d love to talk about how to manage my academic load, deal with stress, and figure out if Philosophy is even a good fit for me."
+        },
+        "timestamp": "2025-04-28T13:09:11"
+    },
+    {
+        "id": "1af31152-7569-452b-83e3-9589de54f325",
+        "student_id": "ej609",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure of my ability to succeed in the theater program",
+            "description": "Hi, I\u2019m Erin, a senior majoring in theater. Last semester was really tough \u2014 I had a lot of coursework in the major, including a seminar on theater history, a seminar on film and performance, and a theater elective I really enjoyed. But then I took a bunch of upper-level theater courses, and I started to feel like I was overloading and losing ground. I ended up taking a bunch of classes I shouldn\u2019t have been taking, and I started to feel like I was falling behind both academically and artistically. Now I\u2019m feeling really discouraged and unsure if I can keep up. I\u2019m in a really good theater major, but I don\u2019t feel like I\u2019m doing anything particularly well in it. I\u2019m not doing well in any of my theater classes, and I\u2019m struggling to keep up with the reading and assignments. I\u2019m worried that I\u2019m going to fall behind and lose confidence in my ability to succeed in the major."
+        },
+        "timestamp": "2025-04-28T14:09:48"
+    },
+    {
+        "id": "88e93c32-3ffa-41b3-85e1-e4f6c2fd1a41",
+        "student_id": "cg778",
+        "counselor_id": "acasados",
+        "meeting_request": {
+            "purpose": "Dealing with emotional distress after a disappointing academic experience",
+            "description": "Hi, I\u2019m Carlos, a senior Art major. Last semester I took a course in art history that I found challenging and uninteresting. I\u2019ve been struggling with the material, and I\u2019m not sure if I should have even tried it. After the first few weeks, I started to feel really down. I didn\u2019t want to do the work anymore, and I started avoiding art-related activities. Now I\u2019m in a major course, and I\u2019m really invested in it, but I\u2019m also really scared of failing. I feel like everyone else in my class is doing better than me, and I\u2019m starting to feel like a failure. I don\u2019t know if I should be still in the course, or if I should drop out. I\u2019m reaching out because I\u2019m worried about how to cope with this emotional distress, and I\u2019m not sure who to talk to."
+        },
+        "timestamp": "2025-04-28T14:28:25"
+    },
+    {
+        "id": "81a016c8-dbc5-4d90-8087-08c70b5dad8f",
+        "student_id": "sr276",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by my history course and uncertain about my future in academia",
+            "description": "Hi, I\u2019m Sharon, a first-year History major. I\u2019ve taken a few history courses and really enjoyed them, but I\u2019m also in a major with a lot of math and science courses, and I\u2019m still feeling like I don\u2019t quite fit in with the academic culture here. I\u2019m not sure if I should be in this major, and I\u2019m worried that I\u2019m not measuring up academically. I\u2019m also really interested in writing and history, but I don\u2019t know how to connect what I\u2019m learning to something meaningful or how to do research. I\u2019m attending a private university with a very strong academic culture, and I\u2019m feeling like everyone else is already ahead of me, but I don\u2019t know if I belong here."
+        },
+        "timestamp": "2025-04-29T10:53:44"
+    },
+    {
+        "id": "d219ee46-dae1-4322-b479-ba9abfdd5b47",
+        "student_id": "mg707",
+        "counselor_id": "schen",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by first-year coursework and uncertain about my major",
+            "description": "Hi, I\u2019m Mark, a first-year student in Romance Languages. I\u2019ve taken a mix of English and Spanish classes, and while I\u2019ve enjoyed some of the content, I\u2019m feeling like I\u2019m doing a lot of work and not getting anywhere. My grades are still in the high range, but I\u2019m starting to feel like I\u2019m not measuring up to what I\u2019m doing, and I\u2019m starting to wonder if I should major in something like French or Italian instead. I\u2019m also feeling burned out from school, with long days and a lot of work ahead. I\u2019m not sure if I\u2019m doing okay, and I\u2019m worried I\u2019m falling behind or missing something important."
+        },
+        "timestamp": "2025-04-29T11:49:03"
+    },
+    {
+        "id": "c29dc9ac-9ba4-492f-a3c4-c3a7685715b7",
+        "student_id": "mc170",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Frustrated and unsure of my ability to succeed in my major",
+            "description": "Hi, I\u2019m Monica, a second-year math major. I\u2019ve taken a lot of math courses, both core and elective, and I\u2019ve really enjoyed them all. I\u2019ve even been able to earn high grades, but now I feel like I\u2019m falling behind and not really understanding what I\u2019m doing wrong. I\u2019m still in a major that requires a lot of math, and I\u2019m not sure if I should be trying to major in math or if I should be switching to something else. I\u2019m also involved in a few math-focused clubs and trying to connect with the community, but I feel overwhelmed by all the material and feel like I\u2019m not doing enough to succeed."
+        },
+        "timestamp": "2025-04-29T12:10:59"
+    },
+    {
+        "id": "93f821be-b8af-4644-8582-6ad685028326",
+        "student_id": "jw745",
+        "counselor_id": "lnguyen",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by first-year coursework and uncertain about my major",
+            "description": "Hi, I\u2019m Joshua, a first-year student in Earth & Environmental Geosciences. I\u2019m still in my first semester, and already feeling the pressure to do well in all my classes. Some of my classes are really challenging, with topics like climate change, earthquakes, and geology. I\u2019m also majoring in Environmental Studies, which is a broad field with a lot of overlap. It\u2019s hard not to get caught up in everything I\u2019m reading and hearing about, and I\u2019m starting to feel overwhelmed. I\u2019m not sure if I should be taking all these classes, and I\u2019m starting to feel like I\u2019m not measuring up to what I\u2019m doing. I\u2019m also worried about majoring in something I don\u2019t really care about, and I\u2019m starting to wonder if I\u2019m making the right choice."
+        },
+        "timestamp": "2025-04-29T12:52:57"
+    },
+    {
+        "id": "5a88cb27-47bb-4eb0-8dfe-9c2035a2fa6f",
+        "student_id": "mb283",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Struggling to adjust to college and feeling overwhelmed",
+            "description": "Hi, I\u2019m Margaret, a first-year Chemistry major. I\u2019ve taken a few classes and already feel like I\u2019m behind, both academically and emotionally. I\u2019m worried that I\u2019ll fail this semester and feel like I\u2019m not living up to what I\u2019m doing. I\u2019d like some support dealing with my anxiety and feeling isolated in my major. I\u2019m in a good academic unit, but I\u2019m not sure how to make friends or find a community that can help me. I\u2019m excited to be in college, but I\u2019m still feeling like an outsider."
+        },
+        "timestamp": "2025-04-29T12:54:48"
+    },
+    {
+        "id": "5eba45af-1abb-4d29-91d5-6106f73449e0",
+        "student_id": "ga873",
+        "counselor_id": "schen",
+        "meeting_request": {
+            "purpose": "Struggling to keep up with advanced Romance Languages courses",
+            "description": "Hi, my name is Gary Andrade and I'm a second-year Romance Languages major. Last semester was really tough for me \u2014 I took a bunch of Romance courses, including \u201cRomantic Poetry and Prose\u201d, \u201cThe Romantic Revolution\u201d, and \u201cRomanticism and Modernity\u201d, and I ended up falling behind and feeling overwhelmed. This semester, I\u2019m taking \u201cRomanticism and Literary Theory\u201d and \u201cRomanticism and Film\u201d, and I\u2019m worried that I\u2019ll be even more behind than last time. I\u2019m still really enjoying Romance, but I\u2019m starting to feel like I\u2019m not cut out for these kinds of courses yet, and I\u2019m worried I\u2019ll fall behind again if I don\u2019t work hard. I want to talk to someone about how to stay on track in these courses and whether I\u2019m doing enough to succeed this semester."
+        },
+        "timestamp": "2025-04-30T11:20:05"
+    },
+    {
+        "id": "43ac8ed1-5cea-4ccf-8c4e-7c1bcaab6731",
+        "student_id": "ks942",
+        "counselor_id": "rsharma",
+        "meeting_request": {
+            "purpose": "Need help adjusting academically",
+            "description": "Hi, I'm Karen, a senior Economics major. Last semester was really tough \u2014 I failed most of my courses, and I\u2019m currently on academic probation. It\u2019s been really hard to focus on anything else, and I\u2019m not sure if I can make it through this semester. I\u2019ve been working hard on coursework, but I\u2019m not sure if I\u2019m even on the right track. I\u2019d love to talk to someone about how to improve my academic performance and feel more confident in my major. I\u2019m open to any advice, from course selection to graduation requirements, but I\u2019m really struggling right now."
+        },
+        "timestamp": "2025-04-30T11:34:55"
+    },
+    {
+        "id": "d30430c6-daea-44a3-8d9a-3326e7ccc788",
+        "student_id": "mm682",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by first-year classes and my major",
+            "description": "Hi, I\u2019m Melissa, a first-year English major. I\u2019ve taken two difficult classes so far and feel like I\u2019m falling behind. I\u2019m worried that I\u2019ll fail these majors and feel like I\u2019m not cut out for college. I\u2019m also dealing with anxiety around school and personal goals. I\u2019d like some support dealing with my first semester and how to manage academically."
+        },
+        "timestamp": "2025-04-30T13:03:36"
+    },
+    {
+        "id": "5e10e94c-24c9-4d2e-92f5-681607a53918",
+        "student_id": "jo372",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Help deciding between graduate school and working in the Middle East",
+            "description": "Hi, I\u2019m Jason, a second-year majoring in Middle East Languages and Literature. I\u2019ve really enjoyed my major and have been doing well academically. However, I\u2019m still not sure if graduate school is the right path for me or if I should consider working in the Middle East after graduation. I\u2019m interested in exploring my options and talking with someone about what opportunities are available. I\u2019m interested in graduate school, but I\u2019m also interested in working in the Middle East after graduation, and I\u2019m not sure if that would be a good fit. I\u2019m also interested in exploring other career paths that involve working with the Middle East or studying the region, but I\u2019m not sure where to start."
+        },
+        "timestamp": "2025-04-30T16:48:00"
+    },
+    {
+        "id": "8bbb5450-a8cc-4985-baab-8833270397b0",
+        "student_id": "vc902",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by first-year classes and my major",
+            "description": "Hi, I'm Veronica, a first-year English major. Last semester was really tough for me \u2014 I felt really confused about what I\u2019m supposed to be doing, and my major was actually not clearly defined. I ended up taking a variety of classes, from literature to history to creative writing, and ended up with a 2.5 GPA. I\u2019m still not sure what I want to do with my degree, and I\u2019m feeling really anxious about graduation and what comes next. I\u2019m in a really good academic community here, but I\u2019m also feeling isolated and unsure how to connect with others who are going through similar experiences."
+        },
+        "timestamp": "2025-04-30T17:23:32"
+    },
+    {
+        "id": "a26e4d3e-0a5c-457c-84ad-57f2c4a96217",
+        "student_id": "ar110",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by my first-year History class and uncertain about my ability to succeed",
+            "description": "Hi, my name is Angela and I'm a first-year student in the History program. I\u2019ve taken a few classes so far, including a first-year seminar and a history of science course. I\u2019ve enjoyed the material in both, but I\u2019m feeling a lot more anxious lately than I was before class. Some of the topics are really complex and I\u2019m still learning a lot, and I\u2019m starting to feel like I\u2019m not doing well in the class. I also feel like I don\u2019t quite fit in with the other students in the class, which is making me even more anxious. I\u2019m worried that I\u2019m not good enough to be in this major, and I\u2019m having a hard time processing whether or not I should even be in the course."
+        },
+        "timestamp": "2025-05-01T10:20:19"
+    },
+    {
+        "id": "461229fb-3ae8-4413-8781-24e8b13cd30f",
+        "student_id": "ns555",
+        "counselor_id": "mrodriguez",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by my first-year geography course and unsure if I can keep up",
+            "description": "Hi, I'm Nancy, a first-year student in geography. I\u2019ve taken a rigorous introductory course this semester and already feel like I\u2019m behind. Some of the readings are really challenging, and the lectures are long and dense. I\u2019m struggling to understand concepts even partially, and I\u2019m starting to feel overwhelmed. I\u2019m also feeling a bit burned out from school already, and I\u2019m not sure if I can keep up this level of academic engagement. I\u2019m not in any particularly tight academic bind yet, but I\u2019m worried that I\u2019m going to fall behind and feel really bad if I don't keep up."
+        },
+        "timestamp": "2025-05-01T12:25:13"
+    },
+    {
+        "id": "df875c72-f047-4bff-a40f-ce5393b4e016",
+        "student_id": "bf960",
+        "counselor_id": "rsharma",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed by first-year Biology classes and academic expectations",
+            "description": "Hi, I\u2019m Bridget, a first-year Biology major. I\u2019ve taken two biology classes so far and really enjoyed them, but I\u2019m also in a honors-level English course and a philosophy class. My academic load is heavy, and I\u2019m feeling like I\u2019m not keeping up with everything. I\u2019m worried that I\u2019m not going to be able to keep up with this major, and I\u2019m starting to feel really anxious and stressed. I\u2019m not sure if I\u2019m doing well enough to succeed in this major, and I\u2019m worried about whether I\u2019m even qualified to be a Biology major."
+        },
+        "timestamp": "2025-05-01T12:56:14"
+    },
+    {
+        "id": "95c5f82c-a0d2-47ee-9cff-6d0aad323c7c",
+        "student_id": "af792",
+        "counselor_id": "schen",
+        "meeting_request": {
+            "purpose": "Feeling lost and overwhelmed in my Middle East Languages and Literature course",
+            "description": "Hi, I\u2019m Aaron, a second-year student majoring in Middle East Languages and Literatures. I\u2019ve taken a really challenging course this semester, covering topics like Arabic poetry, Islamic art, and the Quran. I\u2019m really struggling to understand anything, and I\u2019m feeling like I\u2019m falling behind and panicking about graduation. I\u2019ve also been dealing with academic pressure and anxiety from other classes, but this one feels different. It\u2019s really immersive and intense, and I\u2019m worried I\u2019m not doing enough to succeed. I\u2019m hoping to talk with a counselor about how to stay on track, but I\u2019m not sure how to make an appointment or what to say. I\u2019m excited to work together to get better, but I\u2019m feeling really down right now."
+        },
+        "timestamp": "2025-05-01T13:05:04"
+    },
+    {
+        "id": "dab80b75-9619-41da-8791-36b1897260ad",
+        "student_id": "lj688",
+        "counselor_id": "rwilson",
+        "meeting_request": {
+            "purpose": "Help with deciding between graduate school and working in social justice or community organizing",
+            "description": "Hi, I\u2019m Lisa, a senior majoring in Sociology and Anthropology. I\u2019ve taken a lot of interesting courses lately, from social inequality to race and class, and I\u2019ve really enjoyed exploring these topics. But now I\u2019m starting to think about graduate school or working in a social justice organization, and I\u2019m not sure which path would be best. I\u2019ve been in a social justice class last semester, and it was really engaging, but I also had a lot of class participation and I\u2019m not sure if I would be able to do that in a professional setting. I\u2019m also interested in community organizing or social justice work, but I don\u2019t know if that\u2019s even a legitimate career path right now. I\u2019m feeling really uncertain and overwhelmed, and I\u2019m not sure if I should be taking classes or applying to graduate programs right now. I\u2019d really appreciate help figuring out what I should do next."
+        },
+        "timestamp": "2025-05-01T16:20:23"
+    },
+    {
+        "id": "2a5121f7-9e2c-4999-a175-ea79595630f1",
+        "student_id": "cr872",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure if I'm doing well enough in my major",
+            "description": "Hi, I\u2019m Christina, a senior Psychology major. This semester has been especially tough \u2014 I\u2019m taking a lot of different courses, including some really challenging ones like addiction psychology and trauma intervention, and I\u2019m feeling like I\u2019m falling behind. I\u2019ve been working hard, but I\u2019m also starting to question if I even like psychology or if I should be majoring in something else. I\u2019m struggling to focus and feel like I\u2019m losing interest, even though I\u2019ve really enjoyed some of the content I\u2019m learning. I feel like I\u2019m not doing well enough in class to pass, but I also feel like I\u2019m not really engaged with the material enough to pass on my own. I\u2019m worried that I\u2019m falling behind and that I\u2019m not going to graduate on time, which would be devastating for my mental health and my future."
+        },
+        "timestamp": "2025-05-01T16:46:11"
+    },
+    {
+        "id": "cb7b6a2a-71b3-4836-9fd4-7162649b8cdd",
+        "student_id": "jf954",
+        "counselor_id": "awashington",
+        "meeting_request": {
+            "purpose": "Feeling overwhelmed and unsure if I can keep up in music-related courses",
+            "description": "Hi, I\u2019m Jonathan, a senior majoring in Music. Last semester was really challenging \u2014 I took a few music courses that were really difficult, and I\u2019m still struggling to keep up. Some of the songs I\u2019m playing are really complex and I\u2019m still not sure if I can keep up with the tempo or understanding. I\u2019m also worried about what comes next after graduation. I\u2019m interested in business or arts management, but I don\u2019t know if I\u2019m even eligible to apply for jobs or internships if I major in music. I\u2019m trying to talk to professors, but I feel overwhelmed and not sure where to start. I need help understanding how to handle this stress and figure out what to do next."
+        },
+        "timestamp": "2025-05-01T16:52:15"
+    }
+]

@@ -1,0 +1,2284 @@
+[
+    {
+        "id": "981e432a-1f0c-4cdc-b006-911c1396d59e",
+        "request_id": "110be7ab-4359-4a0f-be99-1cf0929ea698",
+        "student_id": "sl629",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Samuel is struggling with academic performance in history coursework, and is interested in strategies to stay ahead.",
+            "key_concerns": [
+                "Losing grades in history courses last semester",
+                "Feeling more confident in other courses but still struggling",
+                "Difficulty seeking out academic support in the department",
+                "Need for personalized advice on how to stay up in history coursework"
+            ],
+            "action_plan": [
+                "Recommend scheduling adjustment to allow for more time in HIST courses",
+                "Encourage Samuel to seek out academic tutoring and peer review sessions",
+                "Discuss strategies for managing history content effectively (e.g., reading notes, summarizing, quizzing)",
+                "Encourage openness about academic goals and how to stay ahead in the major"
+            ],
+            "follow_up_plan": [
+                "Check on Samuel's scheduling adjustment in mid-semester",
+                "Book appointment for academic advising update",
+                "Encourage follow-up meeting to review academic progress and what to work on",
+                "Remind about the importance of self-care in a rigorous major"
+            ]
+        },
+        "timestamp": "2025-04-02T15:45:00"
+    },
+    {
+        "id": "2b1c4348-526f-4075-974d-e0153afae762",
+        "request_id": "3b133fff-0382-4f6b-a8e3-202b099fdf21",
+        "student_id": "bb869",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Brandon is struggling with writing in his English major and is uncertain about his major's suitability for academic performance.",
+            "key_concerns": [
+                "Lately, struggles with writing assignments in various academic courses",
+                "Making errors in essays, but not sure if it's a weakness or a pattern",
+                "Desire to major in English but worried about academic fit",
+                "Need for academic guidance, including writing tutoring and review sessions"
+            ],
+            "action_plan": [
+                "Help Brandon identify which writing coursework is most relevant to his major (English or creative writing)",
+                "Connect Brandon to tutoring services available through the Writing Center that specialize in literary studies",
+                "Recommend attending writing workshops for both English and creative writing courses",
+                "Encourage Brandon to focus on developing strong writing skills even outside of his major"
+            ],
+            "follow_up_plan": [
+                "Check in after first writing workshop to check progress and provide feedback",
+                "Offer to keep in touch with afterward to discuss which major is best for Brandon's writing abilities",
+                "Encourage Brandon to explore if the English major is a good fit for his interests and abilities"
+            ]
+        },
+        "timestamp": "2025-04-03T13:25:14"
+    },
+    {
+        "id": "6ae2acac-3c97-4d04-9fdd-c35ed902b12c",
+        "request_id": "1d116448-ad49-4dac-ac6a-12ee0f196903",
+        "student_id": "sh549",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Sonia is struggling with the technical nature of her major and the academic demands of her coursework, leading to low grades and anxiety.",
+            "key_concerns": [
+                "Low academic performance in advanced CS courses last semester",
+                "Panic about repeating a lower-grade course this semester",
+                "Disconnection from the Computer Science major and academic community",
+                "Uncertainty about grades and future prospects in a technical major"
+            ],
+            "action_plan": [
+                "Help Sonia to identify which CS courses are most relevant to her long-term goals (e.g. Data science, machine learning, software development)",
+                "Connect Sonia with a peer tutoring group for Computer Science students in the College of Letters & Science",
+                "Suggest attending a weekly academic support group for technical majors",
+                "Encourage Sonia to attend workshops on writing for academic audiences and presentation skills"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in next week to review course selection and grades",
+                "Offer to meet again after a midterm review or final exam",
+                "Encourage Sonia to reach out for academic referral if she feels overwhelmed again"
+            ]
+        },
+        "timestamp": "2025-04-04T11:21:59"
+    },
+    {
+        "id": "8bba11d5-45f0-490f-969b-6ee30d19c280",
+        "request_id": "9d0736ec-f900-4e89-b472-594d3186fbf2",
+        "student_id": "jb631",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Jacqueline is struggling to stay in her psychology major, feeling confused and frustrated by her academic performance and internal feelings.",
+            "key_concerns": [
+                "Lately, struggles with complex coursework in psychology, particularly trauma, addiction, and mental health",
+                "Declining academic performance despite strong extracurriculars and academic achievements",
+                "Feeling uncertain about the major\u2019s suitability without dropping",
+                "Feeling discouraged and frustrated with internal feelings of inadequacy and overload"
+            ],
+            "action_plan": [
+                "Review course selection and assignments over the next few weeks to identify areas of weakness",
+                "Encourage Jacqueline to attend academic support sessions for psychology majors, including a psychology tutoring center",
+                "Discuss the potential for a minor in another academic discipline (e.g., English, sociology)",
+                "Help Jacqueline reframe her major as a research-oriented field with a focus on mental health and social issues"
+            ],
+            "follow_up_plan": [
+                "Check in after midterms to assess academic performance and confidence",
+                "Offer a wrap-up meeting after finals to review progress and next steps",
+                "Encourage Jacqueline to consider a different career path if academically challenged without dropping the major"
+            ]
+        },
+        "timestamp": "2025-04-08T14:42:38"
+    },
+    {
+        "id": "e3ca77e4-aa54-4532-a4a7-3eccb698f62a",
+        "request_id": "8b6d2642-30cc-4457-a533-f878ed34d703",
+        "student_id": "mm847",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Mary is struggling with academic performance in political science and policy-related courses, which is affecting her emotional state and motivation.",
+            "key_concerns": [
+                "Falling behind both academically and emotionally in political science and social science courses",
+                "Struggle with intellectual content in the major, including complex theories and methods",
+                "Feeling overwhelmed and not sure if she should still be in the major",
+                "Emotional instability and difficulty maintaining focus and motivation"
+            ],
+            "action_plan": [
+                "Recommend staying in the Political Science major, but emphasize the academic rigor and the importance of engagement",
+                "Discuss the interdisciplinary nature of the major and how to balance academic content with personal and intellectual growth",
+                "Introduce workshops or tutoring services for students in both majors to build skills and confidence",
+                "Encourage journaling or reflective writing as a way to process emotions and stay engaged"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in later this semester to assess academic progress and emotional state",
+                "Encourage a major switch if academic performance is still an issue or if the emotional toll is too high",
+                "Refer Mary to a mental health professional if emotional concerns persist"
+            ]
+        },
+        "timestamp": "2025-04-08T16:40:13"
+    },
+    {
+        "id": "d5202981-10dc-4550-8dc2-c916e2e774db",
+        "request_id": "a273a9ca-096b-4144-801c-64b4a5254fdc",
+        "student_id": "as960",
+        "counselor_id": "lnguyen",
+        "meeting_report": {
+            "summary": "Aaron is experiencing academic stress and is struggling to stay on track in his education major.",
+            "key_concerns": [
+                "Low academic performance in both academic and personal essay assignments",
+                "Feeling disconnected from the education field and uncertain about the major",
+                "Struggling to fit into the education major and not sure if it\u2019s right for him",
+                "Feeling anxious about graduation and potential failure",
+                "Need for support in developing a stronger academic identity"
+            ],
+            "action_plan": [
+                "Help Aaron reviewing course outlines and assessments to identify weaknesses",
+                "Discuss the potential majors within the education program to help Aaron make a more informed decision",
+                "Encourage Aaron to join a student-led academic support group",
+                "Review personal essay strategies and help Aaron feel more confident in his identity as a student",
+                "Encourage regular check-ins to stay on track and address any setbacks early"
+            ],
+            "follow_up_plan": [
+                "Schedule a follow-up meeting after finals week to review academic progress",
+                "Offer a reflection session on future education options or career pathways",
+                "Encourage Aaron to apply for a student-led academic advising position if he decides to change majors",
+                "Reach out to a campus mentor or alumni network for career advice"
+            ]
+        },
+        "timestamp": "2025-04-09T11:02:23"
+    },
+    {
+        "id": "91b808f1-5afd-4f31-aa3f-84216fcc57d3",
+        "request_id": "21497e45-4dcc-4bdd-a26e-5f3468e9aacb",
+        "student_id": "sh372",
+        "counselor_id": "schen",
+        "meeting_report": {
+            "summary": "Sandra is struggling academically in her first semester and unsure of her fit in the Romance Languages major. She is experiencing low grades, feeling overwhelmed, and questioning her ability to succeed."
+        },
+        "timestamp": "2025-04-09T15:27:12"
+    },
+    {
+        "id": "e36ca046-2b11-486d-a333-aea330b42543",
+        "request_id": "1191447f-77ad-4ed9-911a-f9c73d695014",
+        "student_id": "jb232",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Joe is concerned about academic performance and the impact of a lower grade last semester on his major coursework this year.",
+            "key_concerns": [
+                "Struggling with writing in English and literature courses",
+                "Declining grades last semester",
+                "Worrying about academic integrity",
+                "Uncertainty about whether to continue majoring in English"
+            ],
+            "action_plan": [
+                "Recommend a writing workshop led by a faculty member specializing in writing for humanities students",
+                "Suggest attending writing center sessions for other students in the same major",
+                "Provide guidance on how to effectively use literature for academic purposes in English and creative writing courses",
+                "Encourage Joe to maintain a high academic standard but also focus on improving writing skills in a supportive environment"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in session in a few weeks to review progress and strategies",
+                "Evaluate progress after writing workshop and academic performance monitor",
+                "Encourage Joe to apply for writing or writing-related scholarships if he's struggling"
+            ]
+        },
+        "timestamp": "2025-04-09T15:28:24"
+    },
+    {
+        "id": "8a7f4ff9-ecbe-4998-a241-ecbff7e494be",
+        "request_id": "a68ca4a7-c4ff-4a03-8935-ea4f4d0adf70",
+        "student_id": "ew711",
+        "counselor_id": "ajackson",
+        "meeting_report": {
+            "summary": "Eric is struggling with academic and personal stress, which is affecting his academic performance and overall well-being.",
+            "key_concerns": [
+                "Low grades in his major courses despite strong performance in Chinese language courses",
+                "Declining academic performance, including drop in G\u00e9me\u00e8s average",
+                "Uncertainty about writing skills and reading ability in Chinese",
+                "Unresolved personal issues and academic stress leading to negative self-talk",
+                "Feeling discouraged and not sure if he can make it through the semester"
+            ],
+            "action_plan": [
+                "Refer Eric to writing workshops and peer tutoring services to improve writing skills",
+                "Suggest meeting with his writing professor and peer tutoring coordinator to discuss academic concerns",
+                "Discuss personal issues with academic advisors and provide support for self-care strategies",
+                "Encourage journaling and reflection exercises to manage emotions and stay focused",
+                "Revisit major plan and schedule to ensure balance between academic and personal work"
+            ],
+            "follow_up_plan": [
+                "Check on academic progress in mid-semester and offer a review session",
+                "Encourage a break from coursework before returning to more intense work",
+                "Revisit major decision and schedule in spring semester to avoid crunch time",
+                "Introduce executive functioning workshops next semester to help manage multiple stresses"
+            ]
+        },
+        "timestamp": "2025-04-10T11:03:18"
+    },
+    {
+        "id": "91d27385-be50-4d0c-97dd-521ad742ff1b",
+        "request_id": "b31d4802-5a32-49fb-9b33-d34940077ff9",
+        "student_id": "lb622",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Lori is struggling to stay in her psychology major despite taking a wide range of interesting courses and majoring despite lacking a clear academic interest.",
+            "key_concerns": [
+                "Low academic performance despite majoring in psychology",
+                "Struggle to understand weaknesses in major (psychology vs. Neuroscience, Linguistics, etc.)",
+                "Worries about academic integrity and potential loss of qualification",
+                "Need for academic reassurance without sacrificing passion or understanding of the field"
+            ],
+            "action_plan": [
+                "Help Lori identify which courses are supporting her psychology major (e.g. Psychology, neuroscience, language, psychology electives)",
+                "Connect Lori with a faculty advisor for psychology to understand her strengths and weaknesses",
+                "Recommend a course rotation that avoids heavy psychology content and focuses on non-psychology topics",
+                "Encourage Lori to explore alternative majors (e.g. English, neuroscience, international relations, data science) if academics become a priority"
+            ],
+            "follow_up_plan": [
+                "Check in after first semester to check academic progress and whether Lori is still in psychology major",
+                "Offer support for a transfer plan if academics become a priority",
+                "Refer Lori to career center if she\u2019s interested in non-psychology majors and wants to explore opportunities"
+            ]
+        },
+        "timestamp": "2025-04-10T14:23:54"
+    },
+    {
+        "id": "a0c39576-c731-47ab-afec-25255df9edf2",
+        "request_id": "b3f5114e-3bd3-4f7c-bbce-a6a41868765d",
+        "student_id": "jc132",
+        "counselor_id": "lnguyen",
+        "meeting_report": {
+            "summary": "Student is uncertain about career prospects in environmental science or environmental policy after majoring in Earth & Environmental Geosciences.",
+            "key_concerns": [
+                "Uncertainty about whether to pursue a traditional environmental science career or something more specialized",
+                "Political climate and job market uncertainty for students with environmental majors",
+                "Worries about the academic and public engagement pathways for students with environmental majors"
+            ],
+            "action_plan": [
+                "Help student identifying potential career paths within the major (environmental policy, environmental law, outreach, etc.), including job market and academic pathway options",
+                "Connect student with career center's environmental sector network, including environmental nonprofits and government agencies",
+                "Refer student to alumni in similar majors who have advanced their careers in environmental fields",
+                "Offer career readiness workshops on environmental policy, environmental law, or outreach in the future"
+            ],
+            "follow_up_plan": [
+                "Schedule follow-up meeting to review career options and network building plans",
+                "Evaluate interest in environmental policy or environmental law, but also consider nonprofit or community engagement options",
+                "Discuss potential internships or co-op opportunities in environmental sectors, including academia and nonprofits"
+            ]
+        },
+        "timestamp": "2025-04-10T15:56:43"
+    },
+    {
+        "id": "b5fbd049-4fe6-4e60-8a97-26eabf285ab0",
+        "request_id": "f51d5d94-ef6f-4cca-b58e-6ee120298abc",
+        "student_id": "jh396",
+        "counselor_id": "acasados",
+        "meeting_report": {
+            "summary": "Joel is experiencing first-year anxiety related to academic and social challenges in his arts major, but is unsure of the severity or whether he\u2019ll be isolated in a large program.",
+            "key_concerns": [
+                "Feeling overwhelmed by academic expectations and social isolation in first-year art and arts major",
+                "Severity not yet clear as a first-year student in a large arts program",
+                "Lack of connection with peers in different art disciplines and potential isolation",
+                "Uncertainty about fit in arts-focused social community"
+            ],
+            "action_plan": [
+                "Recommend scheduling a meeting with art and academic advisors to understand academic expectations and social integration",
+                "Introduce first-year peer group and art history coursework as potential connections",
+                "Encourage participation in art and design events and social groups to build relationships",
+                "Review course selection based on academic fit and social compatibility"
+            ],
+            "follow_up_plan": [
+                "Check in mid-semester after taking more academic-focused courses",
+                "Encourage reflection on social and academic integration in semester reports",
+                "Recommend electing a minor or major that aligns more with personal interests in the second semester"
+            ]
+        },
+        "timestamp": "2025-04-11T10:57:49"
+    },
+    {
+        "id": "5ceff993-0e27-48c2-afe1-5b35519591ed",
+        "request_id": "bb08f22b-6a94-449a-8e5a-7ed5f082a00c",
+        "student_id": "rw133",
+        "counselor_id": "acasados",
+        "meeting_report": {
+            "summary": "Ryan is struggling with his art and social science major, and is experiencing feelings of disillusionment and uncertainty about his future in the arts.",
+            "key_concerns": [
+                "Loss of passion and sense of purpose",
+                "Doubts about the economic and social impact of the arts",
+                "Disillusionment with the academic and professional pathways available to artists",
+                "Lack of clarity about career options in art or creative fields"
+            ],
+            "action_plan": [
+                "Help Ryan reflect on his passion and values, including his artistic vision and potential impact",
+                "Recommend exploring non-traditional art school or industry pathways, such as arts management or community arts",
+                "Connect Ryan with alumni in the arts and creative industries who can offer guidance and mentorship",
+                "Encourage Rya to join the Arts Leadership and Entrepreneurship program in the next semester"
+            ],
+            "follow_up_plan": [
+                "Schedule a follow-up meeting to review progress and explore long-term goals",
+                "Offer a career assessment toolkit and networking opportunities for the arts industry",
+                "Encourage Rya to apply what she\u2019s learned to a more diverse set of opportunities in the future"
+            ]
+        },
+        "timestamp": "2025-04-11T12:09:39"
+    },
+    {
+        "id": "c7745804-07ec-457c-9669-f54a3b367afa",
+        "request_id": "a64eaa0f-0818-4315-93e5-3bdd2aa50bde",
+        "student_id": "rs903",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Richard is experiencing academic stress and first-year burnout, but is still in college and trying to major in geography. He is dealing with personal and academic stress, and is not managing his load effectively.",
+            "key_concerns": [
+                "Facing first-year academic burnout and difficulty staying on top of geography course material",
+                "Experiencing academic stress and trying to major in geography despite lack of experience",
+                "Personal and academic stress, including family issues",
+                "Uncertainty about how to manage a heavy academic load in a new major"
+            ],
+            "action_plan": [
+                "Help Richard understand the academic demands of the geography major and the importance of attention to detail",
+                "Recommend a flexible schedule to reduce stress and allow time for review",
+                "Encourage mindfulness and self-care strategies for academic stress, including journaling and relaxation exercises",
+                "Connect Richard with student support services for academic adjustment and mental health support"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in later this semester to monitor academic load and emotional state",
+                "Offer referral to mental health or academic adjustment services if needed",
+                "Encourage Richard to continue his geography major, but also emphasize the importance of self-care and balance"
+            ]
+        },
+        "timestamp": "2025-04-11T12:43:58"
+    },
+    {
+        "id": "9c9c9742-6a64-4610-84f6-e39c6ddef468",
+        "request_id": "3a3e9eaf-60f4-4b3f-a76f-3b18d6a31a3c",
+        "student_id": "cu420",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Cheryl is experiencing feelings of disconnection, uncertainty, and isolation in her first-year political science major due to a lack of engagement and unfamiliarity with her major.",
+            "key_concerns": [
+                "Feeling disconnected from the content of her classes and uncertain about her major",
+                "Lack of engagement with other students in the major, leading to feelings of isolation",
+                "Unfamiliarity with the political theory and history content of her major",
+                "Suggestion of first-year adjustment disorder or first-year blues"
+            ],
+            "action_plan": [
+                "Encourage Cheryl to attend at least one major-specific seminar or workshop to explore alternative career paths or policy areas",
+                "Introduce Cheryl to student organizations focused on environmental justice, civic engagement, and social justice in the major",
+                "Refer Cheryl to mental health resources for first-year adjustment and first-year blues",
+                "Help Cheryl develop a plan for her major that aligns with her interests and values"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in later this semester to monitor Cheryl's progress and assess if the major is still aligning with her long-term goals",
+                "Refer Cheryl to a career counseling session if she becomes more interested in non-academic paths",
+                "Encourage Cheryl to continue reaching out for support through student affairs or mental health services"
+            ]
+        },
+        "timestamp": "2025-04-11T15:03:36"
+    },
+    {
+        "id": "05a1e759-6e83-455d-a3ad-851991048274",
+        "request_id": "fcbe4274-738e-4bf7-bcda-4592397927dd",
+        "student_id": "lp870",
+        "counselor_id": "ajackson",
+        "meeting_report": {
+            "summary": "Lauren is struggling with academic pressure and the emotional toll of taking economics in her major, leading to a lack of confidence in her academic performance.",
+            "key_concerns": [
+                "Struggling with academic performance in economics and finance courses",
+                "Experiencing emotional distress and anxiety due to academic stress",
+                "Lack of confidence in academic performance in second-year",
+                "Lack of support in a high-pressure academic environment"
+            ],
+            "action_plan": [
+                "Recommend scheduling a meeting to discuss academic expectations and the range of economics courses available in the major",
+                "Recommend reviewing academic writing and time management strategies for the economics course",
+                "Encourage laundry and emotional support resources for students in the economics major",
+                "Connect Lauren with peer tutoring or academic coaching for her economics courses"
+            ],
+            "lead_action": "request referral to academic support services"
+        },
+        "timestamp": "2025-04-14T14:36:32"
+    },
+    {
+        "id": "5d46d9c5-26ab-4174-acfb-00e68253aef1",
+        "request_id": "160f6aa8-4088-4c67-9bc8-8a6ec4c95022",
+        "student_id": "mo879",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Marcus is experiencing academic stress due to a heavy course load in history and history of Europe, combined with the uncertainty of graduation timelines.",
+            "key_concerns": [
+                "Struggling with academic performance in history and history of Europe course",
+                "Feeling overwhelmed by overwhelming material in recent courses",
+                "Regularly checking grades but not sure if he\u2019s on track to graduate",
+                "Uncertainty about graduation timeline and potential for failure",
+                "Lack of support from professor and peers"
+            ],
+            "action_plan": [
+                "Refer to tutoring service for history courses if available",
+                "Explore alternative courses like history of the Americas or global history if available",
+                "Consider taking a lower load in history of Europe and focus on mastering key concepts",
+                "Work with academic advisor to set graduation timeline and review progress",
+                "Encourage self-care practices like breaks between heavy courses"
+            ],
+            "follow_up_plan": [
+                "Schedule check-in later this semester to assess academic stress and progress",
+                "Offer mindfulness and self-help resources through the tutoring center",
+                "Recommend attending a graduation counseling session if needed",
+                "Encourage student to seek out positive peer support and academic accountability"
+            ]
+        },
+        "timestamp": "2025-04-14T14:57:37"
+    },
+    {
+        "id": "8f8a9d03-9724-4e64-8062-dd663afd4f1d",
+        "request_id": "a3395334-fb96-406f-944b-81b44494a377",
+        "student_id": "rd473",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Rebecca is struggling with academic integration in political science and international relations courses, and is struggling to apply what she\u2019s learned to real-world issues.",
+            "key_concerns": [
+                "Finding it challenging to engage with political or social issues in class",
+                "Experiencing burnout from heavy course load and trying to apply course material",
+                "Difficulty connecting what I\u2019m doing in internships and student organizations to what I\u2019m learning",
+                "Need for support in developing a more integrated academic and activist identity"
+            ],
+            "action_plan": [
+                "Help Rebecca identify which political science and international relations courses are most relevant to her internships and student organizations",
+                "Suggest attending at least one seminar or workshop that engages with real-world issues and policy",
+                "Recommend journaling as a way to connect intellectual understanding with personal impact",
+                "Encourage networking with students or faculty working on social justice or political reform"
+            ],
+            "follow_up_plan": [
+                "Schedule a follow-up meeting after a semester-long reflection course",
+                "Offer to help Rebecca apply what she\u2019s learned to a specific internship or policy project",
+                "Encourage Rebecca to join a new student group focused on social justice and civic engagement"
+            ]
+        },
+        "timestamp": "2025-04-14T15:11:55"
+    },
+    {
+        "id": "7f05cd0e-8ddb-47c1-b2a8-e160b7001e01",
+        "request_id": "ebc4047f-ac57-409c-8e46-a6d0cc5b518d",
+        "student_id": "js325",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Jose is experiencing significant stress and academic burnout due to heavy course load in his major, with concern over further academic performance and mental health.",
+            "key_concerns": [
+                "Low grades in previous computer science courses despite strong performance in math and statistics",
+                "Heavy load in advanced CS courses this semester (including new electives), leading to academic stress and potential loss of focus",
+                "Worry about falling behind in advanced courses and risking further academic failure",
+                "Uncertainty about the severity of his academic performance and the impact on mental health and academic performance overall"
+            ],
+            "action_plan": [
+                "Recommend scheduling a tutoring session to help manage workload and identify strategies for each course",
+                "Suggest that elective choices be limited to lower-stress options or enrollment in academic support courses",
+                "Encourage journaling or breakdown sessions to process academic stress and re-evaluate mental state",
+                "Use a positive academic lens and remind Jose of the academic rigor of his major and the benefits of taking many courses"
+            ],
+            "follow_up_plan": [
+                "Check in later this semester after major coursework has ended to monitor academic performance and emotional well-being",
+                "Offer support for graduation planning and career goals in a supportive environment",
+                "Recommend new academic interests (e.g., data science, humanities, social impact) for next steps"
+            ]
+        },
+        "timestamp": "2025-04-14T15:11:56"
+    },
+    {
+        "id": "3e564e1e-95f5-4755-944d-6edff1939279",
+        "request_id": "7edc8a6f-1d1c-445c-8595-bb4a1b68ab8f",
+        "student_id": "ab602",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Alexa is experiencing mixed feelings about her political science and social science coursework, questioning her ability to succeed in the major.",
+            "key_concerns": [
+                "Enjoyment of political content and concepts",
+                "Strengths in specific courses (e.g. International relations, political theory)",
+                "Difficulty fitting within a larger academic framework",
+                "Uncertainty about ability to keep up in major"
+            ]
+        },
+        "timestamp": "2025-04-15T13:47:20"
+    },
+    {
+        "id": "9f114256-4dab-4a9d-9522-43a1d4813a58",
+        "request_id": "43dde3fe-1a87-4856-a0ed-10fe0262983b",
+        "student_id": "cr166",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Chad is struggling with writing and presentation skills in his Writing Studies major, even when preparing well in his courses.",
+            "key_concerns": [
+                "Facing difficulty in writing and presentation in the Writing Seminar and Research Paper courses",
+                "Uncertainty about progress and need for improvement",
+                "Difficulty finding tutor or mentor to work on strategies",
+                "Wish to work with a tutor to develop a writing plan, practice writing in different contexts, and present effectively"
+            ],
+            "action_plan": [
+                "Schedule a meeting to discuss the specific writing and presentation challenges facing Chad, including the types of papers and seminars he\u2019s been working on",
+                "Recommend a writing workshop or individual tutoring session to address the messy drafts Chad experiences",
+                "Provide guidance on presenting effectively in the Writing Studies major, including tips for organizing ideas and visualizing ideas",
+                "Encourage Chad to join writing groups or peer tutoring sessions to build confidence and skills"
+            ],
+            "follow_up_plan": [
+                "Check in again after a writing seminar or research paper assignment",
+                "Offer to check on Chad's progress after a tutoring session or writing assignment",
+                "Encourage Chad to reflect on how to use the action plan recommended in this meeting"
+            ]
+        },
+        "timestamp": "2025-04-15T13:54:10"
+    },
+    {
+        "id": "f64a27dc-882d-4616-9104-85f4bca75c62",
+        "request_id": "7e201839-1b66-4f63-bf4d-b4f1010b7d16",
+        "student_id": "cs612",
+        "counselor_id": "lnguyen",
+        "meeting_report": {
+            "summary": "Caroline is dealing with depression and anxiety during the pandemic's aftermath, and is still searching for her next step academically and personally.",
+            "key_concerns": [
+                "Depression and anxiety symptoms during the pandemic and post-graduation adjustment",
+                "Lack of academic support during heavy course load and fear of failure",
+                "Lack of sense of self and uncertainty about future goals",
+                "Difficulty rebuilding confidence and identifying healthy coping mechanisms"
+            ],
+            "action_plan": [
+                "Recommend counseling for depression and anxiety disorders",
+                "Connect Caroline with campus resources for academic adjustment and mental health support",
+                "Encourage exploration of career paths that align with her faith and values, including ministry or social work",
+                "Help Caroline identify healthy coping mechanisms, such as mindfulness, journaling, or volunteering"
+            ],
+            "follow_up_plan": [
+                "Check in later this semester after adjustment period has ended",
+                "Refer Caroline to a semester-long mental health and academic integration course",
+                "Monitor progress after depression and anxiety recovery and offer support when needed again"
+            ]
+        },
+        "timestamp": "2025-04-15T14:14:53"
+    },
+    {
+        "id": "f35d06be-9fa0-4172-b42d-77b431862b33",
+        "request_id": "1406e15a-b5f6-4a4e-9933-2a2c0e88742f",
+        "student_id": "kl111",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Kimberly is experiencing first-year anxiety and academic stress, which is exacerbated by a difficult first-year class load and emotional turmoil.",
+            "key_concerns": [
+                "Worrisome first-year anxiety and depression",
+                "Difficulty keeping up in first-year English and history classes",
+                "Emotional turmoil from first semester's academic experiences",
+                "Inability to manage anxiety or stress effectively"
+            ],
+            "action_plan": [
+                "Recommend counseling for academic adjustment and emotional wellness",
+                "Suggest attending first-year seminar series to get a sense of the content and style of the major",
+                "Encourage journaling and mindfulness exercises to manage emotions",
+                "Provide support for academic stress and emotional regulation through the major"
+            ],
+            "follow_up_plan": [
+                "Check in mid-semester after major-related assignments",
+                "Offer check-in sessions after first-year writing retreats or seminar sessions",
+                "Request reflection logs and feedback on academic and emotional impacts",
+                "Discuss how to integrate the major and emotional self in future academic experiences"
+            ]
+        },
+        "timestamp": "2025-04-15T16:14:47"
+    },
+    {
+        "id": "df29e08b-0c4f-48aa-9b06-a3ee37c915ab",
+        "request_id": "a8d8dc5d-fc56-47b3-a0ba-ce718b8b8401",
+        "student_id": "je963",
+        "counselor_id": "rsharma",
+        "meeting_report": {
+            "summary": "John is experiencing first-year anxiety and academic stress due to a difficult first-year chemistry course, interest in addiction and chemistry, and fear of being left behind.",
+            "key_concerns": [
+                "First-year anxiety and academic stress caused by a difficult chemistry course",
+                "Interest in advanced topics in chemistry, but not eligibility or experience",
+                "Feeling isolated in his major and worrying about falling behind",
+                "Excitement about addiction and chemistry research but not prepared for academic demands"
+            ],
+            "action_plan": [
+                "Help John identify strategies to manage his anxiety, including mindfulness and relaxation techniques",
+                "Explain that the chemistry of addiction is a growing area of research, not yet covered in the first-year chemistry course",
+                "Recommend taking a lower-level chemistry course or a hybrid option that includes addiction research",
+                "Encourage John to join a research or independent study group to build skills outside of his first-year course"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in later in the semester to monitor John's anxiety and academic stress, and provide referral to a mental health professional if needed",
+                "Offer to provide referral to the campus counseling center or support group for first-year students with high-stress first-year experiences",
+                "Encourage John to attend workshops on mental health and academic adjustment in the future"
+            ]
+        },
+        "timestamp": "2025-04-16T11:09:41"
+    },
+    {
+        "id": "5b5a9491-81df-4c7c-94e5-d9ea6c345acf",
+        "request_id": "fd4c8929-72e0-48e0-ba3d-fa26fd3ddbcc",
+        "student_id": "ng407",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Noah is struggling with reconciling his faith with the changing cultural and political landscape, and is seeking academic support to explore his identity through a more nuanced and critical lens.",
+            "key_concerns": [
+                "Difficulty understanding religious beliefs in a post-Christian world",
+                "Talking with faculty about my major\u2019s without engaging with religious studies or faith",
+                "Feeling disconnected from other students with similar backgrounds",
+                "Need for academic support to reconcile faith and contemporary culture"
+            ],
+            "action_plan": [
+                "Schedule a discussion of religious studies and post-Christian culture in the context of Noah's major and personal interests",
+                "Recommend engaging with religious studies courses that explore faith in different contexts (e.g., secularism, Islam, indigenous faiths)",
+                "Encourage reflection on faith vs. Reality vs. Belief vs. Identity in a post-truth world",
+                "Connect Noah with student organizations or academic programs that engage with religious and cultural issues"
+            ],
+            "follow_up_plan": [
+                "Check in after first semester adjustment period to check if Noah is feeling more grounded",
+                "Offer to check in periodically based on academic goals or interest changes",
+                "Encourage reflection on how to best support Noah's personal and academic growth"
+            ]
+        },
+        "timestamp": "2025-04-16T12:46:54"
+    },
+    {
+        "id": "cf43b295-e167-4a46-8812-4007b134dd5f",
+        "request_id": "544b73a8-5021-43ab-a365-9ad701d4756b",
+        "student_id": "pp712",
+        "counselor_id": "rsharma",
+        "meeting_report": {
+            "summary": "Patricia is experiencing academic stress, self-doubt, and a loss of interest in her physics and astronomy coursework.",
+            "key_concerns": [
+                "Struggling with mixed-course load in physics and maths",
+                "Feeling behind in third-year courses",
+                "Self-doubt and uncertainty about ability in physics",
+                "Loss of interest and potential for dropout"
+            ],
+            "action_plan": [
+                "Recommend scheduling adjustment to reduce workload and focus on critical thinking and problem-solving",
+                "Encourage practicing positive self-talk and building confidence through gradual progress",
+                "Provide academic support through tutoring and workshops on scientific concepts",
+                "Encourage attendance and participation in class to build competence"
+            ],
+            "follow_up_plan": [
+                "After scheduler session, check progress on academic challenges and work habits",
+                "Introduce study group or peer tutoring for physics and astronomy students",
+                "Recommend attendance at a science-focused seminar or workshop",
+                "Encourage long-term plan for graduation and potential transfer to a different major"
+            ]
+        },
+        "timestamp": "2025-04-16T14:47:06"
+    },
+    {
+        "id": "2154dc63-8986-46a7-89f7-ce66a8978f90",
+        "request_id": "d8b5d749-2b63-40df-b1e3-cd0805b9c502",
+        "student_id": "sw404",
+        "counselor_id": "lnguyen",
+        "meeting_report": {
+            "summary": "Sara is experiencing academic stress and is uncertain about her course selection and future direction.",
+            "key_concerns": [
+                "Higher than expected GPA in history courses, but increasingly interested in non-history fields",
+                "Difficulty connecting with the material in history classes, especially the more theoretical aspects",
+                "Feeling overwhelmed by the amount of work already done, but not sure if she can keep up",
+                "Struggling with academic pressure and feeling like she\u2019s already failed something"
+            ],
+            "action_plan": [
+                "Help Sara review her academic performance and identify areas for improvement, both in terms of grades and engagement",
+                "Discuss the potential overlap between history and creative fields (e.g. History of art, history of design, archives)",
+                "Introduce students in Sara\u2019s major to creative writing and digital media programs as potential future options",
+                "Encourage Sara to explore a more flexible course of study that allows her to stay in the history department if that\u2019s what she wants to do"
+            ],
+            "follow_up_plan": [
+                "Check in after finals week to check if Sara has made any progress on her academic goals",
+                "Refer Sara to a writing or creative skills workshop if she's interested in exploring non-traditional majors",
+                "Encourage Sara to reach out for academic support after finals if she feels more confident"
+            ]
+        },
+        "timestamp": "2025-04-16T15:17:42"
+    },
+    {
+        "id": "c8dfdb3d-775d-4ef6-8c52-8715a50b0297",
+        "request_id": "66f31a8a-0879-4284-b65f-7b3b1dd0a499",
+        "student_id": "js830",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "James is uncertain about his major and career direction, feeling overwhelmed by college demands and unsettled about his engagement.",
+            "key_concerns": [
+                "Desire to work in politics or nonprofits but not sure what major or career path to consider",
+                "Lack of clarity about major or first-year academic and social experiences",
+                "Unrest around first year of college and feeling overwhelmed",
+                "Feeling disconnected from engagement despite strong academic record"
+            ],
+            "action_plan": [
+                "Help James identify potential career paths in areas like public policy, advocacy, or international relations",
+                "Introduce first-year seminar series focused on social and political issues, including nonprofit and policy work",
+                "Encourage James to join campus groups or internships related to his major and academic interests",
+                "Schedule regular check-ins to monitor academic and social engagement and support needs"
+            ],
+            "follow_up_plan": [
+                "Refer James to career counseling for advice on career pathways in his major and beyond",
+                "Offer to connect James with alumni in public sector or nonprofit roles for networking opportunities",
+                "Encourage James to write a personal statement or resume update based on his academic and first-year experiences"
+            ]
+        },
+        "timestamp": "2025-04-17T11:34:34"
+    },
+    {
+        "id": "ec7a3a15-1efe-4afd-b4bf-e51550e9f707",
+        "request_id": "3aaafa6e-ccf3-4cfb-9722-46b82e31856e",
+        "student_id": "ro222",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Robert is struggling to balance his academic performance in history with the pressure of majoring in history and the demands of his academic and extracurricular activities.",
+            "key_concerns": [
+                "Low GPA in history courses last semester",
+                "Falling behind in history coursework this semester",
+                "Feeling overwhelmed by the load of majoring and club involvement",
+                "Uncertainty about ability to maintain strong academic performance",
+                "Need for support in improving skills in history"
+            ],
+            "action_plan": [
+                "Schedule a meeting to review Robert\u2019s academic progress and discuss how to better balance course load and extracurricular activities",
+                "Recommend that Robert enroll in a lower-level history class to ease into more advanced topics",
+                "Connect Robert with academic mentors in the department to get feedback on study habits and skills",
+                "Encourage Robert to join a new academic club and work with a mentor to develop a more diverse set of interests"
+            ],
+            "follow_up_plan": [
+                "Check on Robert's progress after the midterm grades are out in history and history major",
+                "Encourage Robert to attend a workshop on academic writing or time management for students with high academic goals",
+                "Refer Robert to the academic counseling center if he needs help with long-term planning"
+            ]
+        },
+        "timestamp": "2025-04-17T14:38:56"
+    },
+    {
+        "id": "6ab4aa8a-ef3b-4b44-b115-6221267e48c2",
+        "request_id": "88133cca-af9c-4ea0-838d-1739b0c4c546",
+        "student_id": "nb320",
+        "counselor_id": "lnguyen",
+        "meeting_report": {
+            "summary": "Nancy is experiencing academic stress due to a heavy course load in the education major, but she is unaware of the support available to improve her grades.",
+            "key_concerns": [
+                "Losing grades in multiple education-related courses",
+                "Feeling unprepared and overwhelmed by the content",
+                "Frustration with the severity and complexity of the material",
+                "Uncertainty about whether she can keep up in her major"
+            ],
+            "action_plan": [
+                "Recommend scheduling adjustment to reduce load and focus on graded assignments",
+                "Encourage confidentiality request for academic coaching services",
+                "Suggest attending advising sessions to identify weaknesses and strategies",
+                "Encourage sharing personal goals and how the major affects her life outside of school"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in meeting in 2 weeks to review grades and progress",
+                "Request a referral to academic support services if grades drop further",
+                "Encourage continued communication about the value of the education major and how to succeed academically"
+            ]
+        },
+        "timestamp": "2025-04-18T14:28:16"
+    },
+    {
+        "id": "bf8d22b7-25b1-40f4-922b-d5efc4d28b3b",
+        "request_id": "1232edbb-265b-4f88-8198-b13441c02e16",
+        "student_id": "mc821",
+        "counselor_id": "schen",
+        "meeting_report": {
+            "summary": "Michelle is experiencing academic stress and questioning her fit in her environmental studies major despite academic achievement.",
+            "key_concerns": [
+                "Stress from major-specific course load and general environmental studies courses",
+                "Burnout and uncertainty about the major's value",
+                "Inadequate academic performance despite major interest",
+                "Feeling like she's not measuring up to the program or field"
+            ],
+            "action_plan": [
+                "Help Michelle identify how much she\u2019s been exposed to environmental studies content and how to integrate with other majors, such as biology or environmental policy",
+                "Recommend meeting with academic advisor to review course selection and future coursework",
+                "Encourage journaling and reflection as a way to track progress and identify strengths",
+                "Offer support through academic peer mentoring and career center for students with first-year majoring in environmental studies"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in later this semester to monitor academic burnout and identify new interests",
+                "Refer Michelle to student success center for academic coaching and major reconsideration options",
+                "Encourage application to a new environmental studies major or minor if she's still considering the major"
+            ]
+        },
+        "timestamp": "2025-04-18T15:46:54"
+    },
+    {
+        "id": "ba25edb6-91cd-4fb9-861c-2e3aa685c166",
+        "request_id": "5a7d2dce-94d5-4f9e-aae1-643783ee7af6",
+        "student_id": "kp316",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Kim is struggling with her history major and is uncertain about her academic path, but wants to explore alternative majors before making a major decision.",
+            "key_concerns": [
+                "Low academic performance in history course",
+                "Uncertainty about staying in history major",
+                "Interest in non-majors, but lack of understanding of what to major in",
+                "Feeling disconnected from the department and history community"
+            ],
+            "action_plan": [
+                "Recommend scheduling a meeting to review academic progress in history course, including upcoming exam",
+                "Suggest exploring engineering or social science majors that don't require writing history or knowledge of Europe",
+                "Discuss how history is a core discipline and can be applied across disciplines",
+                "Encourage Kim to join a history or history-focused student organization or workshop to build connections and academic skills"
+            ],
+            "follow_up_plan": [
+                "Check progress in academic performance after meeting",
+                "Encourage Kim to participate in a tutoring session or workshop for history majors",
+                "Propose a semester-long project or course that combines her history and interest",
+                "Help Kim explore other majors, such as anthropology or political science"
+            ]
+        },
+        "timestamp": "2025-04-21T13:01:42"
+    },
+    {
+        "id": "b3de9191-0226-447f-b935-7667c76bc9eb",
+        "request_id": "5b2ba835-b599-4d12-80a8-b1073da451f9",
+        "student_id": "db646",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Dennis is struggling with his performance in music-related courses, fearing failure and discouragement.",
+            "key_concerns": [
+                "Higher than expected grades in music theory courses",
+                "Worried about falling behind in harder electives",
+                "Feeling discouraged and uncertain about ability to keep up",
+                "Need for support in improving performance and understanding"
+            ],
+            "action_plan": [
+                "Recommend scheduling review with professor for music theory and improvisation courses",
+                "Suggest attending peer tutoring for music majors or seeking out music writing or performance workshops",
+                "Encourage reflective practice through journaling and discussion with a tutor",
+                "Encourage exploration of non-academic ways to engage with music, such as music writing or performance-based activities"
+            ]
+        },
+        "timestamp": "2025-04-21T13:19:56"
+    },
+    {
+        "id": "26241ade-2112-47fc-867a-297c13a8f350",
+        "request_id": "28cfcb2d-8220-4458-99a5-fa98e43dd25a",
+        "student_id": "mp904",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Matthew is experiencing first-year anxiety and is struggling with his major and first-year classes.",
+            "key_concerns": [
+                "First-year anxiety and academic stress",
+                "Worries about measuring up to major and failing",
+                "Feeling overwhelmed by two difficult classes",
+                "Lack of support for first-year pressure and academic challenges"
+            ],
+            "action_plan": [
+                "Help Matthews understand the complexity and importance of his English major",
+                "Recommend scheduling adjustments for both classes to ease load",
+                "Encourage self-reflection and emotional regulation through journaling and therapy",
+                "Introduce first-year academic support services and peer mentoring groups"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in next week to review academic progress and emotional state",
+                "Offer a reflection exercise on first-year writing and identity",
+                "Encourage attendance at first-year seminar series and peer-to-peer community",
+                "Recommend mindfulness and self-compassion exercises for academic stress management"
+            ]
+        },
+        "timestamp": "2025-04-21T14:02:01"
+    },
+    {
+        "id": "b0d60ca3-34a8-4785-a155-562ac7673747",
+        "request_id": "9261f984-c03f-4792-b85b-54af3faef735",
+        "student_id": "bp949",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Brian is experiencing first-year anxiety and uncertainty about his academic path due to a mix of academic pressure, early coursework, and personal concerns.",
+            "key_concerns": [
+                "Feeling overwhelmed by philosophy course material and uncertain about whether he\u2019ll be able to pass the course",
+                "Worries about dropping the major and feeling like he\u2019s not doing enough academically",
+                "First-time college student anxiety and stress",
+                "Uncertainty about whether he\u2019s ready for a serious academic major yet"
+            ],
+            "action_plan": [
+                "Help Brian identify strategies to manage his workload effectively, such as time management exercises or grading strategies",
+                "Encourage Brian to seek out academic support through the first-year center or through tutoring services",
+                "Recommend that Brian not major in philosophy at this time and consider other first-year coursework or interdisciplinary majors",
+                "Help Brian develop a long-term academic plan that balances academic rigor with personal growth and career aspirations"
+            ],
+            "follow_up_plan": [
+                "Check in after first semester ends to check if Brian is still feeling overwhelmed or considering other options",
+                "Refer Brian to a first-year seminar evaluation session to evaluate whether the major is still appropriate for him",
+                "Encourage Brian to reach out for additional academic counseling if he\u2019s still struggling later in his degree"
+            ]
+        },
+        "timestamp": "2025-04-21T15:47:54"
+    },
+    {
+        "id": "5aa165d2-9c8e-4582-85fd-1b4043414c8b",
+        "request_id": "03f626f5-cc90-4789-9e30-c9a2b9aa555c",
+        "student_id": "st513",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Selena is experiencing academic and social adjustment concerns despite taking a diverse mix of humanities and social science courses.",
+            "key_concerns": [
+                "Uncertainty about major and fit with other students",
+                "Difficulty integrating social issues into Sociology coursework",
+                "Feeling disconnected from major and uncertainty about major outcome",
+                "Lack of confidence in academic performance in Sociology"
+            ],
+            "action_plan": [
+                "Recommend that Selena meet with a Sociology faculty member to discuss how to integrate social issues into her coursework",
+                "Provide advice on writing and presentation skills for Sociology courses",
+                "Introduce first-year seminar series on interdisciplinary studies and provide guidance on how to connect with other students",
+                "Encourage self-reflection and exploration of career options within Sociology or social justice fields"
+            ],
+            "follow_up_plan": [
+                "Schedule follow-up meeting to review academic progress and career goals",
+                "Evaluate progress by mid-year and provide feedback on which major or career path interests Selena",
+                "Recommend participation in student organizations focused on social justice and social change",
+                "Offer support for essay writing and resume revision"
+            ]
+        },
+        "timestamp": "2025-04-21T16:20:10"
+    },
+    {
+        "id": "5e46cb12-9349-4506-b205-c2a86f070b93",
+        "request_id": "2f23a948-b859-4297-9124-80aaa3feaef2",
+        "student_id": "aw850",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Antonio is struggling with adjusting to a mathematics major and feeling overwhelmed by coursework and academic expectations.",
+            "key_concerns": [
+                "Higher than expected GPA in mathematics major despite heavy course load",
+                "Low-level writing and critical thinking assignments in mathematics major",
+                "Feeling like he\u2019s not living up to the expectations of the major he chose",
+                "Uncertainty about academic performance and future prospects in his major"
+            ],
+            "action_plan": [
+                "Help with understanding math concepts more easily",
+                "Recommendation to reduce course load in math until skills are better understood",
+                "Introduce writing and critical thinking concepts in non-math courses",
+                "Consider major switch to a more liberal arts-oriented major if academic pressure is becoming a concern"
+            ],
+            "follow_up_plan": [
+                "Check progress after first semester adjustment period",
+                "Suggest attendance at writing workshops or seminar series in the next meeting",
+                "Discuss potential career paths in non-math fields that are compatible with his major"
+            ]
+        },
+        "timestamp": "2025-04-22T15:32:00"
+    },
+    {
+        "id": "3dc59a3a-08d4-4adc-aa76-bbba20ffe63a",
+        "request_id": "6ed2e4ae-e392-4dc5-880a-b1994304ef77",
+        "student_id": "cs805",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Corey is experiencing academic stress due to heavy coursework in history and the expected major, leading to concerns about GPA and career path.",
+            "key_concerns": [
+                "Finding difficulty in historical concepts and applying them in real contexts",
+                "Strong interest in history but overwhelmed by coursework load",
+                "Worry about adhering to major requirements and academic performance",
+                "Uncertainty about GPA and career path in history and related fields"
+            ],
+            "action_plan": [
+                "Help Corey understand the content and style of history courses, including how to analyze historical events and concepts",
+                "Introduce strategies for note-taking and retention in historical contexts",
+                "Discuss the expected major requirements and how to balance coursework and research in history or related fields",
+                "Refer Corey to tutoring and study skills classes to build confidence and GPA"
+            ],
+            "follow_up_plan": [
+                "Check in before finals period to check on academic progress and confidence",
+                "Offer after-school tutoring for history and writing classes",
+                "Recommend attendance at history seminars or research groups to build connections and ask questions",
+                "Encourage Corey to join a student organization or academic interest group to connect with peers and professionals"
+            ]
+        },
+        "timestamp": "2025-04-23T11:05:18"
+    },
+    {
+        "id": "0a41bf53-0e6f-4e71-9fc9-ab7c55964c66",
+        "request_id": "6719f359-d8d4-4336-99ed-380345badc7e",
+        "student_id": "sn191",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Sabrina is struggling to keep up with her chemistry coursework, feeling overwhelmed by the content and uncertainty about her abilities. She is currently enrolled in a seminar, bioinformatics, and is also taking a large chemistry course.",
+            "key_concerns": [
+                "Falling behind in chemistry coursework",
+                "Uncertainty about abilities and performance",
+                "Frustration and uncertainty about whether major can be successfully completed",
+                "Worries about falling behind and falling into a hole",
+                "Need for academic support, including academic planning and study strategies"
+            ],
+            "action_plan": [
+                "Refer Sabrina to academic coaching for course selection and content understanding",
+                "Suggest meeting with a writing or study skills coach who specializes in chemistry courses",
+                "Discuss how to balance coursework with other academic activities, including research projects",
+                "Encourage exploration of other majors or career paths that align with chemistry interests and skills",
+                "Help set a schedule to catch up with coursework and improve understanding of material"
+            ]
+        },
+        "timestamp": "2025-04-23T14:32:05"
+    },
+    {
+        "id": "ec35e4b0-ef10-44aa-ad56-4fff5219527e",
+        "request_id": "d3fdb342-5de9-4d11-97d7-bffa90f06c93",
+        "student_id": "tj642",
+        "counselor_id": "acasados",
+        "meeting_report": {
+            "summary": "Thomas is experiencing academic stress due to a lack of art education and first-year integration issues in his art major.",
+            "key_concerns": [
+                "Uncertainty about the academic path forward in a first-year art program with a broad arts and humanities curriculum",
+                "Lack of artistic experience, which is hindering integration with the major",
+                "Difficulty finding a balanced academic and artistic identity",
+                "Feeling overwhelmed and uncertain about his artistic path"
+            ],
+            "action_plan": [
+                "Help Thomas understand the art and art history curriculum and the major requirements",
+                "Introduce a seminar or project that combines art and writing or film studies",
+                "Encourage Thomas to attend art history and writing classes with a focus on the arts",
+                "Schedule a meeting to discuss how to balance academic work with artistic exploration"
+            ],
+            "follow_up_plan": [
+                "Check in after first-year seminar to assess academic stress and artistic identity",
+                "Refer Thomas to art therapy or creative writing workshops if needed",
+                "Discuss potential minors or interdisciplinary majors that combine art and other fields in the future"
+            ]
+        },
+        "timestamp": "2025-04-24T10:21:21"
+    },
+    {
+        "id": "88697a0c-437b-4b2f-94f0-b0337a3944fd",
+        "request_id": "0b04c8ca-31dd-48f9-ac52-29912193786c",
+        "student_id": "cw598",
+        "counselor_id": "mgarcia",
+        "meeting_report": {
+            "summary": "Carrie is experiencing academic stress and is not performing well in Philosophy coursework. She is interested in career options but needs guidance on next steps.",
+            "key_concerns": [
+                "Low academic performance in Philosophy courses",
+                "Frustration with grades but not underlying skill level",
+                "Involvement in Philosophy-related clubs but not connecting fully",
+                "Uncertainty about career path after undergraduate study",
+                "Need for career and academic counseling"
+            ],
+            "action_plan": [
+                "Recommend scheduling review sessions with a Philosophy professor who specializes in academic writing",
+                "Connect Carrie with alumni in the Philosophy and Career Counseling departments",
+                "Suggest attending career fairs for graduate students in fields like public policy or nonprofit work",
+                "Recommend registering for a new Philosophy major or adding a career-focused track"
+            ]
+        },
+        "timestamp": "2025-04-24T11:43:38"
+    },
+    {
+        "id": "c7c18400-7cd7-47eb-9b32-1b0747d6364e",
+        "request_id": "c1617dd9-ff7a-4fc0-86af-ab582690d6f1",
+        "student_id": "cg705",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Christopher is experiencing a significant decline in interest in the political system and the broader societal issues he is trying to address.",
+            "key_concerns": [
+                "Loss of passion and disillusionment about the state of the political system and society",
+                "Decreasing academic engagement and interest in Political Science and activism",
+                "Worry about burnout from engaging with complex issues and lack of structured support",
+                "Uncertainty about whether to continue pursuing activism or academics"
+            ],
+            "action_plan": [
+                "Help Christopher identify how to reengage with the political system and society without losing his passion",
+                "Discuss the potential for activism and journalism as interdisciplinary fields to address complex issues",
+                "Recommend attending workshops on non-partisan advocacy and journalism for activists",
+                "Encourage Christopher to explore academic or policy-relevant roles outside of academia to stay engaged and make a difference"
+            ],
+            "follow_up_plan": [
+                "Check in after a semester break to check if Christopher is back on the political path",
+                "Refer to mental health professional for refocusing or trauma recovery",
+                "Revisit academic and policy opportunities in the future"
+            ]
+        },
+        "timestamp": "2025-04-24T12:17:08"
+    },
+    {
+        "id": "bbbe1835-d9ac-4918-b9c2-25aad2e82366",
+        "request_id": "fabb563b-f7b2-4e17-b6f4-f246e4e17c5a",
+        "student_id": "pm896",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Phillip is uncertain about his career path and potential transfer options after a strong academic performance in Romance Languages. He is not sure what his passion lies and is not sure if graduate school is the right fit.",
+            "key_concerns": [
+                "Uncertainty about career path after undergraduate major switch",
+                "Difficulty considering nonprofit or industry work as a possible career path",
+                "Lack of clarity about what his passion is and whether graduate school is right for him",
+                "Uncertainty about appropriate academic path after undergraduate major switch"
+            ],
+            "action_plan": [
+                "Help Phillip explore potential career paths in nonprofit, industry, or academic settings",
+                "Refer Phillip to career counseling services and job fairs",
+                "Discuss the benefits and drawbacks of undergraduate majors in Romance Languages and other fields",
+                "Encourage Phillip to consider attending graduate school if he is passionate about a specific topic or field"
+            ],
+            "follow_up_plan": [
+                "Schedule a follow-up meeting to review career options and potential paths in June",
+                "Refer Phillip to a job search coaching session",
+                "Help Phillip brainstorm potential internships or entry-level positions in his current major or new interest"
+            ]
+        },
+        "timestamp": "2025-04-24T14:17:03"
+    },
+    {
+        "id": "8e20d4cc-a83c-4c2d-a83f-bec592a0725c",
+        "request_id": "281f6057-05c9-4a70-8878-c9cbe7248eb6",
+        "student_id": "jm600",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Joseph is experiencing first-year anxiety and uncertainty about his academic performance in his Philosophy course.",
+            "key_concerns": [
+                "Complex and complex philosophical concepts",
+                "Anxiety and uncertainty about understanding the material",
+                "Feeling like a first-year student, not sure if he fits into a major",
+                "Low academic performance (if already in college)",
+                " possibility of failing the Philosophy course"
+            ],
+            "action_plan": [
+                "Help Joseph understand the complexities of the philosophical concepts being covered in class",
+                "Recommend mindfulness and self-regulation exercises to manage anxiety",
+                "Encourage Joseph to seek out a tutor or academic peer support group for Philosophy students",
+                "Encourage journaling and critical thinking exercises to help understand the material",
+                "Schedule a review of Joseph\u2019s major and whether Philosophy is a good fit for his interests"
+            ],
+            "follow_up_plan": [
+                "Check on academic progress in mid-semester",
+                "Recommend a final exam or essay-style assignment for the Philosophy course",
+                "Encourage Joseph to reach out for academic support after a midterm grade",
+                "Discuss long-term career goals and how Philosophy may fit into those options"
+            ]
+        },
+        "timestamp": "2025-04-24T14:45:27"
+    },
+    {
+        "id": "86936716-d434-41f9-9d77-f3e99be8e406",
+        "request_id": "39af8b4c-db7e-4a08-9b65-4ffd677f4a1c",
+        "student_id": "as376",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "April is experiencing significant academic stress due to a challenging honors course load, which is affecting her grades.",
+            "key_concerns": [
+                "Struggling to understand complex ideas in the English honors seminar",
+                "Feeling overwhelmed by course load overall, including required writing courses",
+                "Low grades in other courses, particularly those with higher stakes",
+                "Difficulty managing pressure to stay on track in the honors seminar"
+            ],
+            "action_plan": [
+                "Help April identify strategies to better understand complex ideas in the course, such as breaking down text into components and using tools like mind maps",
+                "Ensure that April is taking writing courses for credit, which can be challenging even in the honors context",
+                "Recommend gradual adjustment to the academic pressure of the honors seminar and the overall course load",
+                "Regular check-ins to monitor progress and provide support when needed"
+            ],
+            "outcome_goal": "April's academic performance will improve, and the stress-management strategies will be integrated into a more balanced academic regimen."
+        },
+        "timestamp": "2025-04-24T14:59:32"
+    },
+    {
+        "id": "88375cbf-45bd-4e19-a821-d8e53d6a1a7a",
+        "request_id": "35356eab-b97a-4dce-98d4-72c26f386deb",
+        "student_id": "cd118",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Chelsea is experiencing first-year anxiety and academic stress, which is affecting her academic performance and overall well-being.",
+            "key_concerns": [
+                "First-year student struggling with a diverse load of history courses, including European and American history, World War II, early modern Europe",
+                "Cumulative GPA in the low range due to heavy load and inconsistent grading",
+                "Worries about fit and future direction in history major without major coursework or career guidance",
+                "Feeling overwhelmed by academic pressure and uncertainty about graduation timeline"
+            ],
+            "action_plan": [
+                "Help Chelsea review course titles and focuses to reduce load and focus on core areas",
+                "Recommend grading policies be adjusted to allow for more time and flexibility",
+                "Connect Chelsea with academic advising and career center for career guidance and major options",
+                "Encourage regular progress reports and emotional support through the academic process"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in later this semester to assess academic progress and emotional well-being",
+                "Refer Chelsea to student success events for personal and academic support",
+                "Recommend attendance at a career workshop or major exploration seminar"
+            ]
+        },
+        "timestamp": "2025-04-25T10:48:48"
+    },
+    {
+        "id": "70fc0749-55d9-4f00-b994-93da3797e294",
+        "request_id": "f20fcd62-d953-43fe-b825-d6fa36921a4f",
+        "student_id": "tw751",
+        "counselor_id": "rsharma",
+        "meeting_report": {
+            "summary": "Timothy is experiencing academic stress and feeling disconnected from his biology coursework due to a mix of academic expectations and grading pressure.",
+            "key_concerns": [
+                "Low GPA in biology-related courses despite academic success",
+                "Pressure to perform well in finals and disconnecting from the content",
+                "Feeling lost and uncertain about the relevance of biology for future goals"
+            ],
+            "action_plan": [
+                "Help Timothy with reviewing course content and strategies for biology and non-biology applications",
+                "Introduce strategies for critical thinking and application in biology and non-biology contexts",
+                "Schedule review sessions for biology courses to help with grading",
+                "Encourage self-care practices like breaking down coursework into smaller chunks and seeking out support"
+            ],
+            "follow_up_plan": [
+                "Check in before finals to check progress and provide accountability tools",
+                "Offer support for writing retreats or peer review groups",
+                "Recommend attendance at a biology conference or workshop for further support"
+            ]
+        },
+        "timestamp": "2025-04-25T11:11:32"
+    },
+    {
+        "id": "ebb70b42-4b2c-4c23-a444-be79f25ea023",
+        "request_id": "d6ec27c4-dccc-43bb-b727-2ccc521b5b41",
+        "student_id": "lb725",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Lori is struggling with her chemistry coursework and is experiencing significant academic stress. She is interested in seeking guidance to improve her understanding and is reaching out for a meeting to discuss re-strategizing her approach.",
+            "key_concerns": [
+                "Low grade in CHM 301 due to errors in lab",
+                "Stress from last semester\u2019s negative grades",
+                "Feeling lost in CHM and uncertainty about next steps",
+                "Wanting support to re-strategize in a more effective way"
+            ],
+            "action_plan": [
+                "Schedule a one-on-one meeting to review last semester\u2019s work in CHM and discuss re-strategizing in chemistry",
+                "Recommend reading groups or tutoring to help identify weaknesses",
+                "Encourage self-regulation and goal-setting for next semester",
+                "Offer support on writing assignments and test-taking strategies"
+            ],
+            "follow_up_plan": [
+                "After meeting, check on Lori\u2019s progress on re-strategizing in chemistry, and provide feedback on academic performance in other courses",
+                "Encourage continued self-reflection and seek feedback from peers or tutors",
+                "Revisit with professor if Lori is still struggling in chemistry",
+                "Help set up a plan for academic support next semester"
+            ]
+        },
+        "timestamp": "2025-04-25T13:57:27"
+    },
+    {
+        "id": "8e5f372d-e44e-4dbd-b39c-a5b2de577dad",
+        "request_id": "6336d125-9605-4b0e-bacb-8ffeb1af7368",
+        "student_id": "rb330",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Robin is experiencing academic stress and uncertainly about her music performance career path during her music major.",
+            "key_concerns": [
+                "Investing in music courses and feeling invested in improving performance",
+                "Pressure to show progress in advanced music courses and fear of falling behind",
+                "Worries about staying in music or music education program post-graduation",
+                "Uncertainty about graduation strategy, including course load and major selection"
+            ],
+            "action_plan": [
+                "Help Robin understand the academic demands of music-related courses and the skills needed for performance",
+                "Recommend grading policies and course structure for music majors to manage stress",
+                "Discuss potential music education or performance career paths and how to show progress without sacrificing quality",
+                "Encourage Robin to consider graduation plans and how to apply strategically after graduation"
+            ],
+            "follow_up_plan": [
+                "Schedule a follow-up meeting to review graduation plans and career goals",
+                "Offer referral to career services for music industry or music education post-graduation options",
+                "Encourage Robin to attend a career workshop or internship fair in the next meeting"
+            ]
+        },
+        "timestamp": "2025-04-25T14:06:14"
+    },
+    {
+        "id": "bb564ffc-75bd-44b7-82e0-de7e13b7dc54",
+        "request_id": "489bab08-c49f-4182-bc84-10c995e191b5",
+        "student_id": "jr393",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Javier is uncertain about his graduate school or industry career path after a strong academic experience in East Asian studies.",
+            "key_concerns": [
+                "Desire to pursue graduate studies in East Asian languages or linguistics",
+                "Interest in industry work (e.g. Translation, tech, cultural outreach)",
+                "Lack of clarity about academic major switch or thesis direction"
+            ],
+            "action_plan": [
+                "Recommend attending graduate school for East Asian languages or linguistics if Javier decides to pursue graduate studies",
+                "Discuss potential career paths in cultural translation, cultural policy, or language education",
+                "Encourage Javier to explore academic major switch options in the future if academic passion wanes",
+                "Review thesis proposal and provide guidance on presentation and potential audience"
+            ],
+            "follow_up_plan": [
+                "Schedule a follow-up meeting in 2 weeks to check on career decision and thesis progress",
+                "Offer to keep in touch on career path and academic advice if Javier stays at UC Berkeley",
+                "Encourage Javier to reach out for referrals to career services or academic support teams"
+            ]
+        },
+        "timestamp": "2025-04-25T16:27:18"
+    },
+    {
+        "id": "258b3325-8c1f-4fa8-b551-befca62d1f61",
+        "request_id": "9d4f2605-e943-4dcf-a67d-215a1fd6eb11",
+        "student_id": "kw796",
+        "counselor_id": "lnguyen",
+        "meeting_report": {
+            "summary": "Kevin is uncertain about his career path and is considering graduate school or a different career path based on his academic major.",
+            "key_concerns": [
+                "Uncertainty about which academic path will lead to a meaningful career",
+                "Difficulty identifying interests and potential career paths in the Asian studies track",
+                "Worry about transferability of academic major",
+                "Experience with academic adjustment and potential for burnout"
+            ],
+            "action_plan": [
+                "Help Kevin identify career paths within the East Asian field, such as language teaching, international relations, or education policy",
+                "Discuss the potential transferability of his academic major and the benefits and drawbacks of different career paths in the Asian studies field",
+                "Recommend meeting with admissions officers at universities in the international relations or education fields",
+                "Encourage exploration of non-academic career paths, such as volunteer work or community organizing"
+            ],
+            "follow_up_plan": [
+                "Schedule a follow-up meeting in 2 weeks to check if Kevin has made a decision or is still considering options",
+                "Offer support for finding internships or volunteer opportunities in his interests",
+                "Recommend attending a career fair or connecting with alumni in the Asian studies or international affairs field"
+            ]
+        },
+        "timestamp": "2025-04-28T16:30:32"
+    },
+    {
+        "id": "90a999ef-65b7-42aa-a8e2-09c0a1e09833",
+        "request_id": "8bc9b826-1302-404e-9707-ab77aadf6ffe",
+        "student_id": "rc478",
+        "counselor_id": "acasados",
+        "meeting_report": {
+            "summary": "Richard is struggling with academic performance in the arts major and is seeking guidance on his artistic and academic path forward.",
+            "key_concerns": [
+                "Unable to maintain a consistent academic grade despite taking art-related courses",
+                "Feeling disconnected from the art history or writing components of his arts major",
+                "Interest in combining writing and performance, but not sure how to do so in a way that aligns with his academic path",
+                "Need for clarity on academic pathways in the arts"
+            ],
+            "action_plan": [
+                "Encourage Richard to meet with an adviser in the arts department to discuss his academic performance and potential coursework adjustments",
+                "Discuss writing and performance as potential majors with Richard's adviser",
+                "Recommend exploring a double major in creative writing and history to expose him to multiple academic fields",
+                "Encourage application to a creative writing or arts-focused graduate program for future study"
+            ],
+            "follow_up_plan": [
+                "Schedule a follow-up meeting in 2 weeks to check on academic progress and adjustment plan",
+                "Refer Richard to the writing center for academic coaching if needed",
+                "Encourage Richard to apply for a creative writing or arts-focused graduate program as a way to explore multiple academic paths"
+            ]
+        },
+        "timestamp": "2025-04-29T11:05:10"
+    },
+    {
+        "id": "a7d5862e-9bf5-4db9-87c8-22533c0287ef",
+        "request_id": "2e9d95ca-c7ae-4c67-983b-3b86eab6c3ad",
+        "student_id": "rr143",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Richard is experiencing academic delinquency and academic burnout in his first-year physics course, and is unsure of his academic fit or future options.",
+            "key_concerns": [
+                "Lacking understanding of complex scientific concepts in first semester",
+                "Feeling burned out and uncertain if he can keep up",
+                "Academic delinquency and uncertainty about fit for physics major",
+                "Uncertainty about whether to continue in the physics course or switch"
+            ],
+            "action_plan": [
+                "Help Richard understand the complexities of physics and the importance of engagement and critical thinking",
+                "Recommend taking a lower-level physics course or a different major if academically fit",
+                "Encourage journaling or tutoring to manage the emotional load of the course",
+                "Consider a different first-year course or advising session if academic fit is unclear"
+            ],
+            "follow_up_plan": [
+                "Check in later this semester after deeper understanding of the material",
+                "Offer support for academic peer mentorship or tutoring after first-year experience",
+                "Refer Richard to first-year success programs or career counseling if academically interested"
+            ]
+        },
+        "timestamp": "2025-04-29T12:01:39"
+    },
+    {
+        "id": "705978d6-5c1a-4a30-a319-451ac64f4f2e",
+        "request_id": "5ddfd666-bcc7-4705-b623-3bf842d8e7ee",
+        "student_id": "bb225",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Bryce is struggling with the academic demands of his political science major, which is affecting his academic performance and self-confidence.",
+            "key_concerns": [
+                "Finding it hard to keep up with political science and international relations courses",
+                "Experiencing feelings of fatigue and frustration",
+                "Lack of engagement in course content even though major focuses on policy-related topics",
+                "Worry about academic standing and whether to continue in the major"
+            ],
+            "action_plan": [
+                "Help Bryce identify which political science and international relations courses are most challenging and how to approach the material more slowly",
+                "Suggest meeting with a writing or study skills tutor for the College of Arts and Humanities",
+                "Discuss how to engage with the major without overwhelming himself, using personalized academic support strategies",
+                "Encourage Bryce to join a academic honor society to build his reputation and academic integrity"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in later this semester to monitor academic progress and emotional well-being",
+                "Offer to keep in touch after finals to review progress in the major and counseling services",
+                "Encourage Bryce to apply what he\u2019s learned to real-world issues or explore a different major if academic performance is still an issue"
+            ]
+        },
+        "timestamp": "2025-04-29T13:48:27"
+    },
+    {
+        "id": "e6c321db-fa66-4788-90a2-2b9a19f22f27",
+        "request_id": "8d116156-35c4-4243-a66c-bdac93851d91",
+        "student_id": "em135",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Eric is experiencing academic stress due to heavy course load in his major, lack of planning in his academic path, and lack of support system.",
+            "key_concerns": [
+                "Struggling with academic performance in physics and astronomy courses",
+                "Worried about falling behind in his major, even though he\u2019s in the process of majoring",
+                "Involvement in multiple academic and extracurricular activities, but not well-planned coursework",
+                "Lack of support system due to remote learning and increased load"
+            ],
+            "action_plan": [
+                "Recommend scheduling review sessions with a tutor or academic advisor to address course load and academic goals",
+                "Encourage exploration of alternative majors or interdisciplinary options if academic stress becomes overwhelming",
+                "Introduce students to peer mentoring or academic coaching programs for upperclassmen",
+                "Refer to campus resources for emotional support and stress management tools"
+            ],
+            "follow_up_plan": [
+                "Check in before finals period to check academic progress and seek reflections on strategies used",
+                "Offer after-school tutoring for physics and astronomy students in February",
+                "Offer a mentorship for students interested in interdisciplinary studies or alternative majors in spring"
+            ]
+        },
+        "timestamp": "2025-04-29T14:30:03"
+    },
+    {
+        "id": "584ab6ea-918a-44ef-bd3d-656775d25aed",
+        "request_id": "ba09a168-680e-418a-baa5-6e95bb1b464e",
+        "student_id": "kp516",
+        "counselor_id": "schen",
+        "meeting_report": {
+            "summary": "Keith is struggling to adjust to college life and feel connected to the Asian American studies major, even though he enjoys some coursework. He is concerned about isolation and wants guidance on how to engage more meaningfully."
+        },
+        "timestamp": "2025-04-29T15:53:18"
+    },
+    {
+        "id": "1f85d857-0ed0-4708-8736-61c7ebae6d7d",
+        "request_id": "1f0d2e64-3a4b-4f0c-b392-9bb4cf04c9cf",
+        "student_id": "nj175",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Nicholas is experiencing first-year anxiety and uncertainty about his academic performance due to a mix of first-year English and history major courses, lack of familiarity with college culture, and uncertainties about his major.",
+            "key_concerns": [
+                "Enormous academic load",
+                "Nervousness about performance",
+                "First-year culture anxiety",
+                "Uncertainty about major and identity",
+                "Lack of familiarity with college culture, including academics"
+            ],
+            "action_plan": [
+                "Help Nicholas identify which first-year courses are most challenging (e.g. Writing seminars, literary nonfiction)",
+                "Recommend that Nicholas work with a first-year seminar coach to manage his load more effectively",
+                "Encourage Nicholas to explore a non-major option (e.g. English + another academic or social-science major)",
+                "Connect Nicholas with campus resources for mental health support, academic advising, and first-year integration"
+            ],
+            "follow_up_plan": [
+                "Check in later this semester after major adjustment period has ended",
+                "Offer follow-up session to review academic progress and adjustment plan",
+                "Encourage Nicholas to attend a first-year seminar reunion and connect with other first-years in his major or interest"
+            ]
+        },
+        "timestamp": "2025-04-29T16:23:52"
+    },
+    {
+        "id": "3fb5439c-4b6b-432d-b942-5a1a6530495c",
+        "request_id": "fb935a61-7ebc-47c1-a3a9-d9e7e8a375e4",
+        "student_id": "rm702",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Randall is struggling with a mix of technical and non-technical coursework, and is experiencing academic anxiety.",
+            "key_concerns": [
+                "Unable to fully grasp course material due to difficulty in conceptualization",
+                "Low grades despite intense effort (over-grading on coursework)",
+                "Feeling overwhelmed by coursework load and uncertain about academic performance",
+                "Academic anxiety as part of a larger identity crisis in a technical major"
+            ],
+            "action_plan": [
+                "Help with strategies for understanding technical concepts, both theoretically and in practice",
+                "Introduce academic recovery groups for computer science students",
+                "Provide grading and course review support, with a focus on non-technical concepts",
+                "Encourage self-reflection and personal growth through coursework",
+                "Consider major switch or minor adjustment to a more balanced academic path"
+            ],
+            "follow_up_plan": [
+                "Check progress after midterms and after grading period end",
+                "Refer Randall to academic retention counseling if academic pressure becomes overwhelming",
+                "Offer support for a major transfer or minor adjustment if recommended",
+                "Help Randall develop a long-term academic plan based on personal growth and technical skills"
+            ]
+        },
+        "timestamp": "2025-04-30T13:15:17"
+    },
+    {
+        "id": "d25fbe4f-e9bc-4228-8312-f1c6b34748ef",
+        "request_id": "f5130924-abcd-4a34-b16e-447d407fb644",
+        "student_id": "fm233",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Francisco is experiencing difficulty in his writing course and is worried about falling behind in his major. He is interested in academic support and wants to discuss strategies to improve writing skills.",
+            "key_concerns": [
+                "Lately, struggling with writing assignments in English major",
+                "Feeling overwhelmed by course load and not connecting with text material",
+                "Worrying about falling behind in his major",
+                "Interest in improving writing skills through academic talk"
+            ],
+            "action_plan": [
+                "Help Francisco identify writing strategies, such as outlining techniques and literary analysis",
+                "Suggest attending writing workshops in the library or with a tutor",
+                "Provide guidance on the English major and how to balance academic work with creative writing",
+                "Encourage Francisco to set achievable writing goals for the semester"
+            ],
+            "follow_up_plan": [
+                "Check in later this semester after writing improvement assessments",
+                "Refer Francisco to writing center assessment toolkit if needed",
+                "Discuss mid-semester review with academic advisor if necessary"
+            ]
+        },
+        "timestamp": "2025-04-30T15:13:02"
+    },
+    {
+        "id": "eb615e46-77ef-4be1-aaa0-ef7a29c8b646",
+        "request_id": "e7b93593-7dea-4908-8c16-b6e4ede6b12e",
+        "student_id": "st451",
+        "counselor_id": "jpatel",
+        "meeting_report": {
+            "summary": "Sheryl is uncertain about the best path forward after graduation, particularly in terms of policy or academia after majoring in Earth & Environmental Geosciences.",
+            "key_concerns": [
+                "Uncertainty about career prospects in environmental sciences and policy after graduation",
+                "Difficulty deciding between graduate school and a more traditional academic or nonprofit career",
+                "Lack of understanding of the major's specific skills and opportunities for different types of work"
+            ],
+            "action_plan": [
+                "Help Sheryl brainstorm potential career paths after graduation, including environmental policy, academia, or nonprofit work",
+                "Refer Sheryl to a career fair focused on environmental sciences and policy jobs",
+                "Discuss the unique skills of the earth and environmental major, including data analysis, environmental analysis, and stakeholder engagement",
+                "Encourage Sheryl to apply for internships or fellowships in environmental policy or academia"
+            ],
+            "follow_up_plan": [
+                "Schedule a follow-up meeting to review job listings for environmental policy or academia in the Bay Area",
+                "Offer to connect Sheryl with alumni in the field or current students in the major for networking and advice",
+                "Encourage Sheryl to start saving early for graduate school if she decides to pursue it"
+            ]
+        },
+        "timestamp": "2025-04-30T16:03:52"
+    },
+    {
+        "id": "162fc696-3df2-47e9-86ec-412bfaa882c6",
+        "request_id": "2386b469-9d71-420e-9732-34bebc28b4fc",
+        "student_id": "dm156",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Denise is struggling with writing performance, seeking advice on career pathways in writing and academic disciplines.",
+            "key_concerns": [
+                "Low academic writing performance in major coursework",
+                "Stability in writing-heavy major, but uncertainty about career options",
+                "Search for a career in writing or academic writing, but lacking clear paths",
+                "Need for professional development and writing coaching"
+            ],
+            "action_plan": [
+                "Ensure Denise is reviewing writing assignments and evaluating progress in a more holistic way",
+                "Introduce potential career paths in writing, publishing, education, and nonprofit management",
+                "Provide writing coaching on academic and professional writing styles, and offer job listings in her major",
+                "Help Denise identify internship or fellowship opportunities in her writing field"
+            ],
+            "follow_up_plan": [
+                "Schedule a follow-up meeting in a month to check on writing improvement and career exploration progress",
+                "Offer a career assessment workshop at the end of the semester to finalize career plans",
+                "Recommend internships or writing fellowships in Denise\u2019s major or related fields"
+            ]
+        },
+        "timestamp": "2025-05-01T10:51:19"
+    },
+    {
+        "id": "1dc4f18a-a2f4-4569-9dc6-48d638be6fc2",
+        "request_id": "88e93c32-3ffa-41b3-85e1-e4f6c2fd1a41",
+        "student_id": "cg778",
+        "counselor_id": "acasados",
+        "meeting_report": {
+            "summary": "Carlos is struggling with emotional distress after a poor academic performance in a major course, and is worried about the impact of his academic failure on his mental health.",
+            "key_concerns": [
+                "Dealing with emotional distress after a poor academic performance in a major course",
+                "Academic stress and anxiety, but also fear of failure and feelings of failure",
+                "Worries about academic integrity and potential dropout",
+                "Uncertainty about whether to continue in the course"
+            ],
+            "action_plan": [
+                "Help Carlos identify the emotional impact of his academic failure on his mental health, including anxiety, depression, and low self-esteem",
+                "Encourage Carlos to seek counseling for emotional distress and academic anxiety",
+                "Recommend that Carlos discuss the academic integrity of the course with the professor or academic advisor",
+                "Encourage Carlos to continue in the course with support from the academic advisor and peers"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in session in a few weeks to monitor emotional well-being and whether Carlos wants to continue in the course",
+                "Refer Carlos to mindfulness and emotional regulation workshops if distress worsens",
+                "Help Carlos develop coping strategies for academic stress and negative self-talk"
+            ]
+        },
+        "timestamp": "2025-05-01T13:11:05"
+    },
+    {
+        "id": "872a17f7-00d2-4e72-9d25-7ce7a33914cd",
+        "request_id": "ce11307d-ec9e-41b4-b39f-6233c7ea0a11",
+        "student_id": "jb885",
+        "counselor_id": "rsharma",
+        "meeting_report": {
+            "summary": "Jessica is struggling with academic performance, emotional distress, and a lack of strategies for math-heavy coursework in her major.",
+            "key_concerns": [
+                "Falling behind in most of her math courses last semester",
+                "Cramming in electives to stay in the major",
+                "Frustration with math concepts and academic anxiety",
+                "Emotional distress from personal issues and academic stress"
+            ],
+            "action_plan": [
+                "Help Jessica review course outlines and identify weaknesses in her current course load",
+                "Suggest strategies for math concepts (e.g., breaking down problems, re-teaching concepts)",
+                "Encourage journaling as a way to process emotions and improve understanding",
+                "Work with Jessica's academic advisor to develop a plan for grading standards and re-enrollment options"
+            ],
+            "follow_up_plan": [
+                "Check in after a midterm and evaluate progress towards academic goals",
+                "Offer a check-in session after a math seminar or writing seminar",
+                "Recommend attendance at a peer tutoring center if Jessica is interested in academic support"
+            ]
+        },
+        "timestamp": "2025-05-01T16:22:21"
+    },
+    {
+        "id": "f69fe559-b75d-4e66-a831-37d775604e1b",
+        "request_id": "ed7756a8-c4be-460d-852f-44d7d84b9cb2",
+        "student_id": "ma979",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Melanie is experiencing first-year anxiety and uncertainty about her college major and academic path forward.",
+            "key_concerns": [
+                "Enjoyment of Philosophy coursework, including challenging assignments",
+                "Stress from academic workload, including first-year writing assignments",
+                "Worry about fit between major and intended career path",
+                "Uncertainty about college major and future goals"
+            ],
+            "action_plan": [
+                "Encourage Melanie to review her academic performance and identify areas for improvement in both writing and thinking",
+                "Introduce first-year seminar leaders and peer mentors who can provide support and reflection on academic challenges",
+                "Schedule regular check-ins to monitor stress and academic stress management",
+                "Refer Melanie to career services for guidance on career pathways in STEM and non-STEM fields"
+            ],
+            "follow_up_plan": [
+                "Check in before finals week to monitor stress level and academic progress",
+                "Offer extended academic support through finals period through a peer tutoring program",
+                "Refer Melanie to a career counseling session if she is considering a major change or additional academic support needs after graduation"
+            ]
+        },
+        "timestamp": "2025-05-01T16:24:23"
+    },
+    {
+        "id": "54a58467-c5e2-4a9d-a88c-2e35096357b2",
+        "request_id": "29ae31ef-61c6-4c6d-a657-97c8c805b021",
+        "student_id": "ar983",
+        "counselor_id": "rsharma",
+        "meeting_report": {
+            "summary": "Ashley is experiencing academic stress and fear of academic failure, which is affecting her overall wellbeing and motivation.",
+            "key_concerns": [
+                "Last semester\u2019s sociology and anthropology courses were particularly difficult",
+                "Ashley is currently mixing anthropology and history courses, which is adding to her confusion",
+                "Feeling disheartened and uncertain about her major\u2014will she fail the major if she doesn\u2019t perform well",
+                "Ashley is worried about falling behind and losing interest in her major",
+                "Fear of academic failure is affecting her overall wellbeing and affecting her ability to engage with the coursework"
+            ],
+            "key_interactions": [
+                "Help identify strategies to manage academic stress, such as taking breaks between courses",
+                "Review current major and identify potential areas for growth with a focus on interdisciplinary approaches",
+                "Encourage exploration of alternative majors or interdisciplinary options if the major becomes too difficult",
+                "Help set a realistic academic goal and celebrate progress instead of fearing failure"
+            ],
+            "action_plan": [
+                "Schedule a meeting to discuss how the recent stress and confusion impacted Ashley's academic performance, and how the semester was different from previous ones",
+                "Recommend reviewing the major and identifying areas for improvement, including interdisciplinary coursework",
+                "Encourage exploring a different major (e.g., Peace Studies or Environmental Studies) if the anthropology and sociology track becomes too difficult",
+                "Encourage setting a realistic academic goal (e.g., pass with a lower than usual grade) and celebrating progress instead of fearing failure"
+            ]
+        },
+        "timestamp": "2025-05-01T16:57:48"
+    },
+    {
+        "id": "554095e7-2247-4fa7-9184-c85316dd90fc",
+        "request_id": "1af31152-7569-452b-83e3-9589de54f325",
+        "student_id": "ej609",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Erin is experiencing academic stress and doubts about her theater performance coursework's effectiveness in her major.",
+            "key_concerns": [
+                "Struggling with academic performance in the theater major",
+                "Losing confidence in ability to keep up in the theater coursework and seminars",
+                "Uncertainty about the theater major's academic rigor and effectiveness",
+                "Feeling discouraged and at risk of falling behind"
+            ],
+            "action_plan": [
+                "Recommend scheduling a tutoring session to review course readings and assignments",
+                "Suggest that Erin should focus on reviewing course content and engaging with the theater faculty and peers",
+                "Encourage exploration of alternative theater coursework or major options (e.g., performance studies, film and media studies)",
+                "Remind that theater is a rigorous major with high expectations"
+            ],
+            "follow_up_plan": [
+                "Check in after tutoring session if academic stress is still present",
+                "Recommend continued support after tutoring ends to address broader concerns",
+                "Encourage continued engagement with the theater community and academic advisors"
+            ]
+        },
+        "timestamp": "2025-05-02T13:43:17"
+    },
+    {
+        "id": "f17b3b3a-2b61-4aee-b58b-290c2209d477",
+        "request_id": "9f1704d9-7bf3-4d00-a103-4f1340592279",
+        "student_id": "mb704",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Student experiencing first-year anxiety and academic stress due to large major, diverse course load, and personal challenges.",
+            "key_concerns": [
+                "Pressure to perform well in first-year English classes",
+                "Pressure to succeed in major-specific courses",
+                "Anxiety and stress due to large load and unfamiliar material",
+                "Isolation and uncertainty about identity and academic ability",
+                "Uncertainty about personal integration and self-worth"
+            ],
+            "action_plan": [
+                "Recommend scheduling adjustment to reduce pressure and focus on smaller, more accessible first-year classes",
+                "Recommend meeting with academic advising to explore major options and strategies",
+                "Encourage personal support group for first-year students with diverse academic backgrounds",
+                "Encourage journaling and reflection exercises to manage anxiety and identify strengths",
+                "Encourage sharing personal experiences and identities to build connection"
+            ],
+            "follow_up_plan": [
+                "Check in mid-semester after major-specific courses end to assess emotional wellness",
+                "Refer to mental health peer support group for follow-up evaluation",
+                "Encourage application reflections and career goals in future semesters",
+                "Recommend attendance at first-year orientation and student-led support groups"
+            ]
+        },
+        "timestamp": "2025-05-02T14:32:08"
+    },
+    {
+        "id": "f378fc29-844f-4173-a7d5-9a25284f7824",
+        "request_id": "c29dc9ac-9ba4-492f-a3c4-c3a7685715b7",
+        "student_id": "mc170",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Monica is struggling with the demands of a math major and the academic pressure it is exerting on her, leading to feelings of frustration and uncertainty.",
+            "key_concerns": [
+                "Enjoyment of math courses but struggling to apply concepts effectively",
+                "High grades but still feeling like she\u2019s falling behind",
+                "Major in math but not sure if it\u2019s the right fit for her interests",
+                "Involvement in math-focused clubs but struggling with math concepts in general"
+            ],
+            "action_plan": [
+                "Help Monica identify which aspects of her math-heavy major are most challenging (e.g. Calculus, statistics, probability)",
+                "Connect Monica with tutoring services for math courses if needed",
+                "Refer Monica to club-related assignments that may be more challenging than others",
+                "Consider whether Monica should switch to a more liberal arts-focused major or consider a different path forward"
+            ],
+            "follow_up_plan": [
+                "Check on Monica's progress after tutoring and assess whether academic pressure is still weighing on her",
+                "Offer to keep in touch about career options that don't rely heavily on math skills",
+                "Encourage Monica to join a new club focused on non-math-related topics"
+            ]
+        },
+        "timestamp": "2025-05-02T14:34:56"
+    },
+    {
+        "id": "47762a35-5971-4fff-be29-a9298593e8ab",
+        "request_id": "3ff8d04a-9bf7-4711-bce5-37169b9edd32",
+        "student_id": "cc143",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Calvin is struggling with understanding economics course content and is experiencing anxiety about graduation requirements.",
+            "key_concerns": [
+                "Falling behind in introductory economics courses",
+                "Confusion and frustration with economics major content",
+                "Difficulty taking multiple economics courses simultaneously",
+                "Anxiety about graduation requirements and potential failure",
+                "Uncertainty about fit and potential career options in economics"
+            ],
+            "action_plan": [
+                "Explain the academic structure of the economics major and the types of courses required",
+                "Recommend meeting with an economics professor or academic advisor to understand course content",
+                "Provide guidance on which economics courses are most relevant based on student interests and abilities",
+                "Discuss how to manage a heavy course load without falling behind without losing grades",
+                "Encourage exploration of non-business economics options (e.g., finance, macroeconomics, public policy)"
+            ],
+            "lead_edge_fix": [
+                "Learn how to read economics textbooks like a story, not a math equation",
+                "Borrow from economics faculty or take economics electives with non-business majors",
+                "Learn about macroeconomic concepts without microeconomic details",
+                "Explore career paths in fields like finance, policy, or data analysis"
+            ]
+        },
+        "timestamp": "2025-05-02T15:40:36"
+    },
+    {
+        "id": "fb3faead-6dd8-40e7-af12-f3529ef8b8b4",
+        "request_id": "93f821be-b8af-4644-8582-6ad685028326",
+        "student_id": "jw745",
+        "counselor_id": "lnguyen",
+        "meeting_report": {
+            "summary": "Joshua is experiencing academic stress and questioning his major choice during his first semester.",
+            "key_concerns": [
+                "First-year overload, feeling burnt out from academic demands",
+                "Challenging environmental and geoscience content, anxiety about understanding everything",
+                "Uncertainty about major and future direction, worrying about majoring",
+                "First-year anxiety and possible academic burnout, uncertain if he can handle it all"
+            ],
+            "action_plan": [
+                "Help Joshua identify which first-year courses are most challenging and how to manage effectively",
+                "Recommend meeting with academic advisors to review course selection and schedule",
+                "Encourage exploration of non-major options (e.g., Environmental Studies, Earth Systems, Ecology)",
+                "Refer Joshua to student success center for academic support and time management strategies"
+            ],
+            "follow_up_plan": [
+                "Check in mid-semester after majoring decision is made",
+                "Offer academic counseling follow-up after major decision is made",
+                "Schedule follow-up meeting after exploring non-major options and academic stress",
+                "Encourage Joshua to stay in Environmental Studies if it\u2019s a good fit, or help him explore other options if he\u2019s still struggling"
+            ]
+        },
+        "timestamp": "2025-05-02T16:04:12"
+    },
+    {
+        "id": "e861de14-0673-4aba-a042-b227517ea257",
+        "request_id": "5eba45af-1abb-4d29-91d5-6106f73449e0",
+        "student_id": "ga873",
+        "counselor_id": "schen",
+        "meeting_report": {
+            "summary": "Gary is struggling with the demanding nature of advanced Romance Languages and Literature courses in the fall, and is worried about falling behind again.",
+            "key_concerns": [
+                "Regularly falling behind in advanced Romance Languages courses",
+                "Stress from taking multiple courses with high stakes",
+                "Worries about ability to work at a high level in these fields",
+                "Feeling overwhelmed by the material",
+                "Uncertainty about whether he can keep up"
+            ],
+            "action_plan": [
+                "Offer to review Gary's academic history and explain the rigor of Romance Languages and Literature courses in the fall",
+                "Recommend scheduling a semester-long seminar with a faculty mentor who specializes in Romance Languages",
+                "Encourage Gary to set achievable goals for his performance (e.g., not falling further behind, but working harder on specific concepts or exercises)",
+                "Help Gary develop a study plan that includes reading lists, notes, and exercises"
+            ]
+        },
+        "timestamp": "2025-05-05T11:16:51"
+    },
+    {
+        "id": "2e5ad063-25a7-4d69-94b2-cf038de3f6a3",
+        "request_id": "5a98260d-f52c-4361-b48c-0c707b03a916",
+        "student_id": "cl971",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Christopher is dealing with depression and anxiety during the pandemic and post-graduation adjustment concerns.",
+            "key_concerns": [
+                "Depression and low mood during the religious major transition",
+                "Post-graduation stress and uncertainty about career and identity",
+                "Lack of support from faculty and peers",
+                "Experiencing anxiety and feeling alone in emotional distress"
+            ],
+            "action_plan": [
+                "Recommend counseling for depression and anxiety disorders",
+                "Connect Christopher with campus mental health resources",
+                "Encourage exploration of non-academic career options (e.g., social work, community organizing)",
+                "Help Christopher identify peers who may be experiencing similar challenges"
+            ],
+            "follow_up_plan": [
+                "Check in after depression symptoms reappear",
+                "Refer Christopher to annual check-ins with academic and mental health support teams",
+                "Encourage continued conversation about post-graduation adjustment and how to thrive after graduation"
+            ]
+        },
+        "timestamp": "2025-05-05T16:03:34"
+    },
+    {
+        "id": "15da172e-8163-46e7-b69b-a45d097b3eb3",
+        "request_id": "d219ee46-dae1-4322-b479-ba9abfdd5b47",
+        "student_id": "mg707",
+        "counselor_id": "schen",
+        "meeting_report": {
+            "summary": "Mark is experiencing academic stress and questioning his academic fit in first-year courses despite high grades.",
+            "key_concerns": [
+                "Enjoying but overwhelmed by mix of Romance Languages and Literature courses",
+                "Catching up with peers but not measuring up academically",
+                "Burnout and uncertainty about major",
+                "Lack of academic support and uncertainty about fit in first-year coursework"
+            ],
+            "action_plan": [
+                "Help Mark understand the range of academic expectations for Romance Languages majors",
+                "Recommend meeting with first-year writing center for academic adjustment",
+                "Encourage active learning in multiple Romance Languages courses, not just reading",
+                "Discuss possible first-year major options (French, Italian, others)",
+                "Introduce peer support and accountability through first-year academic club"
+            ],
+            "follow_up_plan": [
+                "Check in mid-semester after major decision or first-year adjustment period",
+                "Refer to academic wellness check-in service if stress levels rise",
+                "Encourage reflective journaling and networking with other first-year students"
+            ]
+        },
+        "timestamp": "2025-05-05T16:47:15"
+    },
+    {
+        "id": "1c52b428-6e23-4fe2-b3dd-e9baf4e5871f",
+        "request_id": "5a88cb27-47bb-4eb0-8dfe-9c2035a2fa6f",
+        "student_id": "mb283",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Margaret is experiencing first-year anxiety and feeling isolated in her chemistry coursework and academic peers.",
+            "key_concerns": [
+                "Worrisome academic performance",
+                "Feeling like a failure",
+                "Anxiety and depression",
+                "Lack of community and support",
+                "Intention to succeed in chemistry but not yet connected"
+            ],
+            "action_plan": [
+                "Ensure academic readiness through review sessions",
+                "provide tutoring support for chemistry coursework",
+                "connect Margaret with first-year peer mentors",
+                "discuss how to express emotions without stigmatizing academic struggles",
+                "invite Margaret to attend a first-year seminar on social science and humanities"
+            ],
+            "follow_up_plan": [
+                "Check in mid-semester on academic performance",
+                "introduce first-year classmates as potential friends",
+                "offer to attend a first-year orientation event",
+                "discuss how to integrate into a new major more effectively"
+            ]
+        },
+        "timestamp": "2025-05-06T11:38:47"
+    },
+    {
+        "id": "caf57102-a8af-4644-84e6-a461de14b989",
+        "request_id": "5e10e94c-24c9-4d2e-92f5-681607a53918",
+        "student_id": "jo372",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Jason is uncertain about his graduate school or career path, and is exploring multiple options including graduate school, working in the Middle East, and non-academic career paths.",
+            "key_concerns": [
+                "Academic success in Middle East Languages and Literature",
+                "Uncertainty about graduate school or career path",
+                "Difficulty determining career fit in academia or Middle East",
+                "Lack of understanding of non-academic career opportunities in the Middle East"
+            ],
+            "action_plan": [
+                "Schedule a graduate school counseling session to help Jason evaluate potential programs and outcomes",
+                "Discuss potential career paths in the Middle East (e.g., diplomacy, development, media, etc.)",
+                "Recommend attending career fairs or networking events focused on the Middle East or international affairs",
+                "Provide information on non-academic career opportunities in fields such as development, human rights, or international relations"
+            ],
+            "follow_up_plan": [
+                "Offer follow-up career counseling sessions after graduate school decisions",
+                "Connect Jason with alumni in the Middle East and non-academic fields",
+                "Encourage networking with other Middle East students or alumni in the city"
+            ]
+        },
+        "timestamp": "2025-05-06T12:13:42"
+    },
+    {
+        "id": "4b85715c-5113-4803-9bc9-f8193a6fe04c",
+        "request_id": "81a016c8-dbc5-4d90-8087-08c70b5dad8f",
+        "student_id": "sr276",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Sharon is a first-year student with first-generation college experience, high academic performance, and a strong interest in history and academia. However, she is still struggling with academic anxiety and uncertainty about her fit in the academic culture.",
+            "key_concerns": [
+                "First-year anxiety and academic stress",
+                "Difficulty fitting into a history major and connecting what she\u2019s learning to something meaningful",
+                "Worry about belonging in a highly academic environment",
+                "Uncertainty about fit in the academic culture"
+            ],
+            "action_plan": [
+                "Help Sharon understand the academic expectations for history majors and the range of topics students can take, especially those with a history of success",
+                "Introduce Sharon to writing and research communities that may be less structured than history classes, including social sciences and humanities",
+                "Connect Sharon with academic advising to explore how to integrate her history and other interests without overwhelming herself",
+                "Encourage Sharon to attend events and meetings with other first-year students and upperclassmen to build connections and ask questions"
+            ]
+        },
+        "timestamp": "2025-05-06T14:28:33"
+    },
+    {
+        "id": "160ea9d3-3b68-43df-9c52-f60520c02786",
+        "request_id": "dab80b75-9619-41da-8791-36b1897260ad",
+        "student_id": "lj688",
+        "counselor_id": "rwilson",
+        "meeting_report": {
+            "summary": "Lisa is uncertain about her career path and is struggling to determine if graduate school or community organizing is the right fit right now.",
+            "key_concerns": [
+                "Interest in social justice and related academic courses",
+                "Engagement in social justice class last semester",
+                "Interest in community organizing or social justice work",
+                "Uncertainty about career path in middle of major",
+                "Uncertainty about fit between academic and non-academic paths"
+            ],
+            "action_plan": [
+                "Recommend grad school counseling session to explore career options in social work, social policy, or nonprofit management",
+                "Suggest attending a community organizing or social justice event to see if it's a good fit for a grad student",
+                "Discuss potential internships or fellowships in social justice or community organizing with grad school admission counseling",
+                "Encourage journalism or research-oriented coursework as a way to explore both academic and social impact pathways simultaneously"
+            ],
+            "follow_up_plan": [
+                "Schedule follow-up meeting after grad school counseling session to review career options and potential paths",
+                "Recommend writing or research-oriented internships as a way to test out different paths simultaneously",
+                "Discuss how to transition from a social justice major to a more traditional graduate student body in the future"
+            ]
+        },
+        "timestamp": "2025-05-06T14:47:39"
+    },
+    {
+        "id": "4da672d2-f028-4724-a67f-5aa6606c6052",
+        "request_id": "d30430c6-daea-44a3-8d9a-3326e7ccc788",
+        "student_id": "mm682",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Melissa is experiencing first-year anxiety and is struggling with her major and academic challenges in her first semester.",
+            "key_concerns": [
+                "Worrisome feeling that she will fail her majors and not cut out for college",
+                "Anxiety and depression-like symptoms",
+                "Struggling academically in first semester",
+                "Inability to articulate how to manage academically"
+            ],
+            "action_plan": [
+                "Reassure that Melissa\u2019s majors are difficult and that academic pressure is real",
+                "Help Melissa identify strategies for academic success (time management, reading effectively, breaking tasks down)",
+                "Encourage self-care practices (meditation, journaling, exercise)",
+                "Connect Melissa to academic support services and tutoring"
+            ],
+            "follow_up_plan": [
+                "Check in mid-semester after major adjustment period is over",
+                "Offer check-in sessions after major adjustment period ends",
+                "Encourage Melissa to apply for academic accommodations if needed"
+            ]
+        },
+        "timestamp": "2025-05-06T15:18:25"
+    },
+    {
+        "id": "baf3134e-2df6-4d9a-953e-5f43fcac68b5",
+        "request_id": "2a5121f7-9e2c-4999-a175-ea79595630f1",
+        "student_id": "cr872",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Christina is struggling with academic pressure, self-doubt, and the pressure to perform in her major in psychology despite feeling unengaged and losing interest.",
+            "key_concerns": [
+                "Low academic performance in various psychology courses",
+                "Strong emotional attachment to psychology major, leading to uncertainty about career path",
+                "Loss of focus and feeling like she\u2019s not doing well enough",
+                "Feeling devastated by potential graduation delay and potential academic failure"
+            ],
+            "action_plan": [
+                "Reassure Christina that academic pressure is common in psychology, especially for first-year students",
+                "Discuss the diverse content in her major and how to engage with multiple topics",
+                "Encourage self-care strategies like mindfulness and journaling to manage stress and focus",
+                "Help Christina explore alternative majors or career paths that align with her interests and skills"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in later this semester to monitor academic performance and emotional well-being",
+                "Refer Christina to mental health resources for stress management and career counseling",
+                "Encourage continued engagement with the psychology major and supportive faculty in the department"
+            ]
+        },
+        "timestamp": "2025-05-06T16:52:10"
+    },
+    {
+        "id": "83e1f9b4-67db-49b3-bae9-09f64d208379",
+        "request_id": "8bbb5450-a8cc-4985-baab-8833270397b0",
+        "student_id": "vc902",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Veronica is experiencing first-year anxiety and feeling disconnected from her academic community due to a difficult first semester.",
+            "key_concerns": [
+                "Uncertainty about major and intended use of degree coursework",
+                "Academic stress and low GPA, leading to anxiety",
+                "Feeling isolated in a highly academic community",
+                "Uncertainty about social integration and mental health support in a large campus"
+            ],
+            "action_plan": [
+                "Recommend scheduling adjustment to reduce stress and focus on specific courses",
+                "Encourage peer tutoring or academic advising for first-years",
+                "Connect Veronica with first-year mental health resources and community events",
+                "Refer to academic wellness workshop or mental health peer group"
+            ],
+            "follow_up_plan": [
+                "Check-in during first-year seminar meetings",
+                "Offer follow-up tutoring session to address specific course choices",
+                "Offer support for first-year peer mentorship and workshops on mental health and academia",
+                "Encourage Veronica to attend more community events and connect with alumni in her major"
+            ]
+        },
+        "timestamp": "2025-05-06T16:52:30"
+    },
+    {
+        "id": "93aab85c-763a-4d93-975e-d66133fb254f",
+        "request_id": "43ac8ed1-5cea-4ccf-8c4e-7c1bcaab6731",
+        "student_id": "ks942",
+        "counselor_id": "rsharma",
+        "meeting_report": {
+            "summary": "Karen is struggling with academic adjustment and is currently experiencing significant stress due to failing courses and academic probation.",
+            "key_concerns": [
+                "Low academic performance (probably in Economics) leading to feelings of inadequacy and fear of failure",
+                "Attempts to retake courses without academic support have failed, leading to academic probation",
+                "Uncertainty about major coursework fit and graduation requirements",
+                "Need for academic coaching, course selection support, and academic reassurance"
+            ],
+            "action_plan": [
+                "Schedule a meeting to review Karen's current coursework and academic goals",
+                "Connect Karen with academic advising and graduation counseling services",
+                "Recommend course re-taking or re-enrolling without probation if feasible",
+                "Help Karen identify graduation-relevant course topics and strategies for improvement"
+            ],
+            "follow_up_plan": [
+                "Check in after finals week to check on academic progress and reassurance",
+                "Offer weekly check-ins to review progress and coaching goals",
+                "Encourage holistic graduation planning and provide referral to career center if needed",
+                "Offer mentorship to explore new majors or career paths after successful academics"
+            ]
+        },
+        "timestamp": "2025-05-07T13:47:47"
+    },
+    {
+        "id": "2358320a-da11-4987-9eb6-d481f67fb3c9",
+        "request_id": "95c5f82c-a0d2-47ee-9cff-6d0aad323c7c",
+        "student_id": "af792",
+        "counselor_id": "schen",
+        "meeting_report": {
+            "summary": "Academic stress and anxiety from a challenging second-year Middle East Languages and Literature course.",
+            "key_concerns": [
+                "Low academic performance, especially in immersion-style courses",
+                "Pressure from other academic classes and anxiety from other courses",
+                "Feeling lost and overwhelmed",
+                "Feeling trapped in a difficult and intense course"
+            ],
+            "action_plan": [
+                "Recommend scheduling a tutor if necessary to manage academic pressure",
+                "Encourage self-regulation through mindfulness and journaling exercises",
+                "Provide support for immersion reading and comprehension through peer tutoring",
+                "Encourage grading strategies and reviewing deadlines to avoid panic"
+            ],
+            "follow_up_plan": [
+                "After class, ask for a counseling referral if needed",
+                "Request a meeting with a first-year academic skills or counseling center representative",
+                "Offer to take a midterm and final exam early to ease stress",
+                "Encourage writing a graduation plan and how to balance academic success with personal well-being"
+            ]
+        },
+        "timestamp": "2025-05-07T14:43:42"
+    },
+    {
+        "id": "d9478fa2-9eb6-493c-9fa3-5948a12bbeeb",
+        "request_id": "df875c72-f047-4bff-a40f-ce5393b4e016",
+        "student_id": "bf960",
+        "counselor_id": "rsharma",
+        "meeting_report": {
+            "summary": "Bridget is experiencing first-year anxiety and academic stress due to heavy academic load, poor fit in biology majors, and lack of academic support.",
+            "key_concerns": [
+                "First-year anxiety and academic overload",
+                "Uncertainty about fit and ability in biology major",
+                "Stress and depression from heavy academic load",
+                "Lack of academic advising and support for first-year students in biology and humanities fields"
+            ],
+            "action_plan": [
+                "Schedule a meeting to discuss academic fit and stress management in biology and humanities programs",
+                "Recommend academic coaching for first-year students in biology and humanities",
+                "Provide information and resources on biology and humanities majors, including advising services",
+                "Encourage Bridget to join a student organization or academic peer group for support and accountability"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in after finals week to assess academic stress and emotional wellness",
+                "Offer support through a study group or mentorship program",
+                "Encourage Bridget to apply for academic accommodations or peer support services through campus services",
+                "Refer Bridget to a mental health professional if academic stress becomes severe"
+            ]
+        },
+        "timestamp": "2025-05-08T12:06:34"
+    },
+    {
+        "id": "3d7bdbca-0d4b-4599-b2cb-4b49351b7ba6",
+        "request_id": "cb7b6a2a-71b3-4836-9fd4-7162649b8cdd",
+        "student_id": "jf954",
+        "counselor_id": "awashington",
+        "meeting_report": {
+            "summary": "Jonathan is struggling with the demands of music-related courses and the emotional toll of academic stress, lacking clarity about career options and fear of failure.",
+            "key_concerns": [
+                "Struggling with performance in advanced music courses and anxiety and depression",
+                "Not eligible for many music-related internships or job applications",
+                "Feeling unprepared for grad school or business-related roles",
+                "Lack of clarity about career path after graduation (music, arts, music business, etc.)"
+            ],
+            "action_plan": [
+                "Help Jonathan identify potential internship opportunities in non-music industries (e.g., tech, finance, event planning, etc.),",
+                "Connect Jonathan with student-led arts and music career centers,",
+                "Refer him to graduate school advising for non-music-related internships,",
+                "Consider applying for music-specific graduate programs or internships for music industry professionals"
+            ],
+            "follow_up_plan": [
+                "Schedule a follow-up meeting to review internship options and career pathways after graduation",
+                "Offer support for a resume review or cover letter workshop",
+                "Encourage Jonathan to join a music-focused student organization or network for career advice and networking"
+            ]
+        },
+        "timestamp": "2025-05-08T12:25:14"
+    },
+    {
+        "id": "74d412d3-ba45-4d74-bbcb-7c1796bc56ef",
+        "request_id": "461229fb-3ae8-4413-8781-24e8b13cd30f",
+        "student_id": "ns555",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Nancy is experiencing academic stress and academic burnout due to a rigorous first-year geography course, which is not yet relevant to her academic trajectory.",
+            "key_concerns": [
+                "Extensive course load in first-year geography course",
+                "Difficulty understanding complex concepts even partially",
+                "Feeling overwhelmed and at risk of academic burnout",
+                "Worries about falling behind and feeling bad"
+            ],
+            "action_plan": [
+                "Help Nancy adjust her study schedule to accommodate her busy schedule",
+                "Recommend mindfulness and time-management strategies for first-year students",
+                "Encourage academic accountability through peer support or academic advising",
+                "Encourage taking breaks from heavy coursework and focusing on other interests"
+            ],
+            "follow_up_plan": [
+                "Schedule a check-in later this semester to assess academic engagement and stress level",
+                "Encourage reflection on academic goals and how to rebalance priorities",
+                "Discuss possible internship or research opportunities that don't require heavy coursework",
+                "Offer support to transition out of first-year academic stress and into a more balanced academic trajectory"
+            ]
+        },
+        "timestamp": "2025-05-08T14:16:01"
+    },
+    {
+        "id": "0d0f7eea-0c80-407b-a593-172730112fdc",
+        "request_id": "a26e4d3e-0a5c-457c-84ad-57f2c4a96217",
+        "student_id": "ar110",
+        "counselor_id": "mrodriguez",
+        "meeting_report": {
+            "summary": "Angela is experiencing first-year anxiety and academic stress, which is exacerbated by the complexity of her history course material and the perceived pressure to perform in a first-year major.",
+            "key_concerns": [
+                "Feeling overwhelmed by history course content and uncertain about ability to succeed",
+                "Achieving a high grade in the first semester but also feeling like a out of place in the class",
+                "Feeling pressure to fit in with the history major and feeling anxious about identity and major choice",
+                "Experiencing anxiety and stress related to academic performance, which is making her anxious"
+            ],
+            "action_plan": [
+                "Help Angela identify which parts of the history course are the most challenging (e.g. Historical events, historical concepts)",
+                "Recommend that Angela attend a first-year seminar or tutoring session to manage her workload more effectively",
+                "Encourage Angela to join a history club or academic support group to connect with peers and reduce anxiety",
+                "Help Angela reframe her first-year experience as a time of exploration and uncertainty, rather than a crisis"
+            ]
+        },
+        "timestamp": "2025-05-08T16:59:45"
+    }
+]
