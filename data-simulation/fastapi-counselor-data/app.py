@@ -42,20 +42,20 @@ def get_meeting_requests_after(encoded_timestamp: str):
     requests_data = list(requests.find({'request_timestamp': { "$gt" : decoded_timestamp }},  {"_id": 0}))
     return requests_data
 
-@app.get("/meeting_reports")
-def get_meeting_reports():
-    reports_data = list(reports.find({}, {"_id": 0}))
-    return reports_data
+# @app.get("/meeting_reports")
+# def get_meeting_reports():
+#     reports_data = list(reports.find({}, {"_id": 0}))
+#     return reports_data
 
-@app.get("/meeting_reports/{encoded_timestamp}")
-def get_meeting_reportss_after(encoded_timestamp: str):
-    decoded_timestamp = ''
-    try:
-        decoded_timestamp = str(urllib.parse.unquote(encoded_timestamp))
-    except ValueError:
-        raise HTTPException(status_code=400, detail="Invalid timestamp format")
-    reports_data = list(requests.find({'meeting_date': { "$gt" : decoded_timestamp }},  {"_id": 0}))
-    return reports_data
+# @app.get("/meeting_reports/{encoded_timestamp}")
+# def get_meeting_reportss_after(encoded_timestamp: str):
+#     decoded_timestamp = ''
+#     try:
+#         decoded_timestamp = str(urllib.parse.unquote(encoded_timestamp))
+#     except ValueError:
+#         raise HTTPException(status_code=400, detail="Invalid timestamp format")
+#     reports_data = list(requests.find({'meeting_date': { "$gt" : decoded_timestamp }},  {"_id": 0}))
+#     return reports_data
 
 @app.post("/insert_meeting_request")
 async def insert_meeting_request(request: Request):
@@ -74,18 +74,18 @@ async def insert_meeting_request(request: Request):
         raise HTTPException(status_code=500, detail=str(e))
     
 
-@app.post("/insert_meeting_report")
-async def insert_meeting_report(request: Request):
-    try:
-        data = await request.json()
-        print(f'Received report with data: {data}')
-        print('Inserting now')
-        try:
-            result = reports.insert_one(data)
-            print(f'Inserted with ID: {str(result.inserted_id)}')
-            return {"inserted_id": str(result.inserted_id)}
-        except Exception as e:
-            print(f'Cannot insert: {e}')
-            return {"message": f"Cannot insert: {e}"}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+# @app.post("/insert_meeting_report")
+# async def insert_meeting_report(request: Request):
+#     try:
+#         data = await request.json()
+#         print(f'Received report with data: {data}')
+#         print('Inserting now')
+#         try:
+#             result = reports.insert_one(data)
+#             print(f'Inserted with ID: {str(result.inserted_id)}')
+#             return {"inserted_id": str(result.inserted_id)}
+#         except Exception as e:
+#             print(f'Cannot insert: {e}')
+#             return {"message": f"Cannot insert: {e}"}
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=str(e))

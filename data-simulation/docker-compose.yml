@@ -71,6 +71,16 @@ services:
     volumes:
       - ./data/finance:/data/finance
 
+  counseling-reports:
+    build: ./counseling-reports
+    container_name: counseling-reports
+    ports:
+      - "8004:8000"
+    networks:
+      - data-processing-network
+    volumes:
+      - ./data/counseling_reports:/data/counseling_reports
+
   mongodb:
     image: mongo:6
     container_name: mongo_counselors
