@@ -61,7 +61,8 @@ def ingest_meeting_reports(api_url):
         .format("delta") \
         .mode("overwrite") \
         .save(landing_path)
-    print(f'Successfully ingested data to {landing_path}')
+    print(f'[INGESTION TASK] Successfully ingested data to {landing_path}')
+    print(f'[INGESTION TASK] Number of records ingested: {df.count()}')
 
     record_count = df.count()
     metadata = {
@@ -88,4 +89,4 @@ def ingest_meeting_reports(api_url):
 if __name__ == '__main__':
     API_URL = 'http://counseling-reports:8000/'
     metadata = ingest_meeting_reports(API_URL)
-    print(f'Ingestion completed with batch ID: {metadata["batch_id"]}')
+    print(f'[INGESTION TASK] Ingestion completed with batch ID: {metadata["batch_id"]}')

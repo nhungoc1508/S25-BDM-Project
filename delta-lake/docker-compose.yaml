@@ -44,7 +44,8 @@ x-airflow-common:
 
 services:
   spark-master:
-    image: docker.io/bitnami/spark:latest
+    # image: docker.io/bitnami/spark:latest
+    image: custom-image:latest
     platform: linux/arm64
     container_name: spark-master
     hostname: spark-master
@@ -73,7 +74,8 @@ services:
       - data-processing-network
 
   spark-worker-1:
-    image: docker.io/bitnami/spark:latest
+    # image: docker.io/bitnami/spark:latest
+    image: custom-image:latest
     platform: linux/arm64
     container_name: spark-worker-1
     environment:
@@ -100,7 +102,8 @@ services:
       - data-processing-network
 
   spark-worker-2:
-    image: docker.io/bitnami/spark:latest
+    # image: docker.io/bitnami/spark:latest
+    image: custom-image:latest
     platform: linux/arm64
     container_name: spark-worker-2
     environment:
@@ -442,7 +445,7 @@ services:
     image: mongo:6
     container_name: counseling-db
     ports:
-      - "27018:27018"
+      - "27018:27017"
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: root

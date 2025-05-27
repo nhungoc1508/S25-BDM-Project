@@ -17,3 +17,6 @@ apache-airflow-providers-sqlite
 backoff
 # pyspark
 requests
+duckdb
+pypdf
+pymongo
