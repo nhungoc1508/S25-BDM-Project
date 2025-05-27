@@ -44,7 +44,6 @@ with DAG(dag_id="meeting_reports_processing",
     process_task = SparkSubmitOperator(
         task_id="submit_meeting_reports_process_job",
         application="/opt/airflow/spark/trusted/counseling/process_reports.py",
-        # py_files="/opt/airflow/spark/trusted/counseling/preprocess/preprocess_reports.py",
         conn_id="spark-default",
         application_args=[],
         conf=spark_configs

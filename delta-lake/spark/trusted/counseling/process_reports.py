@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 import uuid
 import glob
-from pymongo import MongoClient
+from pymongo import MongoClient, UpdateOne
 from pypdf import PdfReader
 
 # from preprocess_reports import preprocessing_pipeline
@@ -185,7 +185,7 @@ def process_data(df):
     print(f'[PROCESSING TASK] Preprocessing completed')
 
     operations = [
-        pymongo.UpdateOne(
+        UpdateOne(
             {'id': record['id']},
             {'$set': record},
             upsert=True

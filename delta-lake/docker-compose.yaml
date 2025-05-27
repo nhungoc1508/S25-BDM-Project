@@ -6,7 +6,8 @@ x-airflow-common:
   # Comment the image line, place your Dockerfile in the directory where you placed the docker-compose.yaml
   # and uncomment the "build" line below, Then run `docker-compose build` to build the images.
   # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.2.4}
-  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:3.0.0}
+  # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:3.0.0}
+  image: custom-airflow:latest
   build: .
   environment:
     &airflow-common-env
@@ -45,7 +46,7 @@ x-airflow-common:
 services:
   spark-master:
     # image: docker.io/bitnami/spark:latest
-    image: custom-image:latest
+    image: custom-spark:latest
     platform: linux/arm64
     container_name: spark-master
     hostname: spark-master
@@ -75,7 +76,7 @@ services:
 
   spark-worker-1:
     # image: docker.io/bitnami/spark:latest
-    image: custom-image:latest
+    image: custom-spark:latest
     platform: linux/arm64
     container_name: spark-worker-1
     environment:
@@ -103,7 +104,7 @@ services:
 
   spark-worker-2:
     # image: docker.io/bitnami/spark:latest
-    image: custom-image:latest
+    image: custom-spark:latest
     platform: linux/arm64
     container_name: spark-worker-2
     environment:

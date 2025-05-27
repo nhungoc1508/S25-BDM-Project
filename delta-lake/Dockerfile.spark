@@ -1,0 +1,15 @@
+# Use the Bitnami Spark base image
+FROM bitnami/spark:latest
+
+# Install Python and pip dependencies
+USER root
+
+# Install pip (if not already included) and Python packages
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip && \
+    pip3 install --upgrade pip && \
+    pip3 install pypdf pymongo && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+USER 1001
