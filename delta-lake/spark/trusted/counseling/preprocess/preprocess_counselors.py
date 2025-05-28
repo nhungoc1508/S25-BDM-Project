@@ -547,7 +547,7 @@ def replace_majors(df):
                     transform(
                         performance_metrics.student_demographics.by_major_count,
                         x -> struct(
-                            regexp_replace(x.major_code, '_', ' ') as metric_name,
+                            regexp_replace(x.major_code, '_', ' ') as major_code,
                             x.count as count
                         )
                     )

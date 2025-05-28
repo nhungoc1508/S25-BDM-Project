@@ -136,24 +136,17 @@ def process_row(row):
     return request_obj
 
 def preprocessing_pipeline(df):
-    print('[PROCESSING TASK] preprocessing_pipeline starts')
     rdd = df.select("path", "content", "_source_name", "_batch_id", "_ingestion_timestamp", "_ingestion_date").rdd
-    print('[PROCESSING TASK] 0')
     tmp = rdd.map(extract_text)
-    print('[PROCESSING TASK] 1')
     _ = tmp.collect()
-    print('[PROCESSING TASK] 2')
     pdf_data_rdd = rdd.map(process_row)
-    print('[PROCESSING TASK] 3')
     pdf_records = pdf_data_rdd.collect()
-    print('[PROCESSING TASK] 4')
 
     tmp_files = os.listdir(TMP_PATH)
     for tmp_file in tmp_files:
         tmp_filepath = os.path.join(TMP_PATH, tmp_file)
         if os.path.isfile(tmp_filepath):
             os.remove(tmp_filepath)
-    print('[PROCESSING TASK] preprocessing_pipeline starts')
     return pdf_records
 
 def init_spark():

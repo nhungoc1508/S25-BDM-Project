@@ -49,17 +49,17 @@ services:
   #   networks:
   #     - data-processing-network
 
-  meeting-request-generator:
-    build: ./meeting-request-generator
-    container_name: meeting-request-generator
-    depends_on:
-      - postgres_sis
-      - mongodb
-    environment:
-      - KAFKA_BOOTSTRAP_SERVERS=kafka:29092
-      - KAFKA_SERVER=kafka:9092
-    networks:
-      - data-processing-network
+  # meeting-request-generator:
+  #   build: ./meeting-request-generator
+  #   container_name: meeting-request-generator
+  #   depends_on:
+  #     - postgres_sis
+  #     - mongodb
+  #   environment:
+  #     - KAFKA_BOOTSTRAP_SERVERS=kafka:29092
+  #     - KAFKA_SERVER=kafka:9092
+  #   networks:
+  #     - data-processing-network
 
   financial-data:
     build: ./financial-data

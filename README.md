@@ -11,7 +11,7 @@ git clone https://github.com/nhungoc1508/S25-BDM-Project.git
 cd S25-BDM-Project
 cd data-simulation
 docker network create data-processing-network
-docker compose up postgres_sis mongodb fastapi_counselor_data financial-data -d
+docker compose up -d
 ```
 
 Check that the PostgreSQL server is running and data has been loaded:
@@ -25,11 +25,6 @@ Check that the MongoDB server is running and data has been loaded:
 docker logs mongo_counselors | grep "Mock data"
 ```
 Should see `Mock data inserted successfully!`
-
-Now, you can safely run the meeting request/report generator (which depends on the PostgreSQL server and the MongoDB collections):
-```bash
-docker compose up meeting-request-generator -d
-```
 
 ## Setting up Delta Lake and the ingestion pipeline
 
@@ -45,6 +40,10 @@ Initial build:
 cd ../delta-lake
 chmod -R a+rw ./data
 docker compose build --no-cache
+```
+Start MongoDB:
+```bash
+docker compose up counseling-db -d
 ```
 Start master:
 ```bash

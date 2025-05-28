@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 import uuid
 import glob
-from pymongo import MongoClient
+from pymongo import MongoClient, UpdateOne
 
 from preprocess.preprocess_requests import preprocessing_pipeline
 
@@ -52,8 +52,19 @@ def process_data(df):
            .withColumn("_process_date", lit(process_date))
 
     clean_requests = [json.loads(row) for row in df.toJSON().collect()]
-    requests_collection.insert_many(clean_requests)
-    print(f'[PROCESSING TASK] Successfully inserted {df.count()} documents of {source_name}')
+    # requests_collection.insert_many(clean_requests)
+
+    operations = [
+        UpdateOne(
+            {'id': record['id']},
+            {'$set': record},
+            upsert=True
+        )
+        for record in clean_requests
+    ]
+
+    result = requests_collection.bulk_write(operations)
+    print(f"[PROCESSING TASK] Matched: {result.matched_count}, modified: {result.modified_count}, upserted: {result.upserted_count}")
 
 if __name__ == '__main__':
     spark = init_spark()
