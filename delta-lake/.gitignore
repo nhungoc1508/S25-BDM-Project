@@ -12,6 +12,7 @@ data/tmp/counseling_reports/*
 data/tmp/financial_pdfs/*
 data/tmp/*.json
 logs/*
+spark/trusted/databases/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
