@@ -490,6 +490,26 @@ services:
     restart: always
     networks:
       - data-processing-network
+    
+  api-sis:
+    build: ./api-sis
+    container_name: api-sis
+    ports:
+      - "3002:3002"
+    volumes:
+      - ./data:/data
+    networks:
+      - data-processing-network
+
+  api-counseling:
+    build: ./api-counseling
+    container_name: api-counseling
+    ports:
+      - "3003:3003"
+    volumes:
+      - ./data:/data
+    networks:
+      - data-processing-network
 
 volumes:
   myvol:

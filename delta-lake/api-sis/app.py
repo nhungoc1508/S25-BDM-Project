@@ -1,55 +1,65 @@
-from flask import Flask, jsonify
-from flask_cors import CORS
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 import duckdb
 import os
 
-app = Flask(__name__)
-CORS(app)
+app = FastAPI()
 
-DB_PATH = "/home/ubuntu/BDM/S25-BDM-Project/delta-lake/data/exploitation/databases/exploitation.db"  # Update as needed
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173"
+]
 
-@app.route('/favicon.ico')
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+DB_PATH = "/data/exploitation/databases/exploitation.db"
+
+@app.get('/favicon.ico')
 def favicon():
-    return '', 204  # Avoid 404 errors when browser looks for a favicon
+    return '', 204
 
 
-@app.route('/api/gpa_per_dept', methods=['GET'])
+@app.get('/api/gpa_per_dept')
 def get_gpa_per_dept():
     try:
         with duckdb.connect(DB_PATH) as con:
             df = con.execute('''
                 SELECT major, department, rate FROM dept_gpa
             ''').df()
-        return jsonify(df.to_dict(orient="records"))
+        return df.to_dict(orient="records")
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        raise HTTPException(status_code=500, detail=e)
 
-@app.route('/api/average_gpa', methods=['GET'])
+@app.get('/api/average_gpa')
 def average_gpa():
     try:
         with duckdb.connect(DB_PATH) as con:
             df = con.execute('''
                 SELECT major, department, rate FROM dept_gpa
             ''').df()
-        return jsonify(df.to_dict(orient="records"))
+        return df.to_dict(orient="records")
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
-    
+        return HTTPException(status_code=500, detail=e)
 
-
-@app.route('/api/total_student', methods=['GET'])
+@app.get('/api/total_student')
 def get_total_student():
     try:
         with duckdb.connect(DB_PATH) as con:
             df = con.execute('''
-                SELECT current_count as total, state, percent FROM total_students_all_years WHERE YEAR=2024
+                SELECT count AS total, state, percent_change AS percent FROM total_student_enroll WHERE YEAR=2024
             ''').df()
-        return jsonify(df.to_dict(orient="records"))
+        return df.to_dict(orient="records")
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return HTTPException(status_code=500, detail=e)
 
 
-@app.route('/api/current_graduation_rate', methods=['GET'])
+@app.get('/api/current_graduation_rate')
 def current_graduation_rate():
     try:
         with duckdb.connect(DB_PATH) as con:
@@ -68,11 +78,11 @@ def current_graduation_rate():
 	    retention_hist_all_year prev ON curr.year = EXTRACT(YEAR FROM CURRENT_DATE) - 1 AND prev.year = EXTRACT(YEAR FROM CURRENT_DATE) - 2;
 
             ''').df()
-        return jsonify(df.to_dict(orient="records"))
+        return df.to_dict(orient="records")
     except Exception as e:
-        return jsonify({"error": str(e)}), 500  
+        return HTTPException(status_code=500, detail=e)
         
-@app.route('/api/meeting_requests_semester', methods=['GET'])
+@app.get('/api/meeting_requests_semester')
 def meeting_requests_semester():
     try:
         with duckdb.connect(DB_PATH) as con:
@@ -87,12 +97,12 @@ def meeting_requests_semester():
 	    END;
 
             ''').df()
-        return jsonify(df.to_dict(orient="records"))
+        return df.to_dict(orient="records")
     except Exception as e:
-        return jsonify({"error": str(e)}), 500  
+        return HTTPException(status_code=500, detail=e)
         
 
-@app.route('/api/meeting_reports_semester', methods=['GET'])
+@app.get('/api/meeting_reports_semester')
 def meeting_reports_semester():
     try:
         with duckdb.connect(DB_PATH) as con:
@@ -107,12 +117,12 @@ def meeting_reports_semester():
 	    END;
 
             ''').df()
-        return jsonify(df.to_dict(orient="records"))
+        return df.to_dict(orient="records")
     except Exception as e:
-        return jsonify({"error": str(e)}), 500         
+        return HTTPException(status_code=500, detail=e)
 
         
-@app.route('/api/retention_rate_past_7', methods=['GET'])
+@app.get('/api/retention_rate_past_7')
 def retention_rate_past():
     try:
         with duckdb.connect(DB_PATH) as con:
@@ -120,12 +130,12 @@ def retention_rate_past():
                 SELECT cohort_year, dropout_year, retention_percent
 FROM retention_rates
             ''').df()
-        return jsonify(df.to_dict(orient="records"))
+        return df.to_dict(orient="records")
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return HTTPException(status_code=500, detail=e)
         
 
-@app.route('/api/graduation_rate_past_7', methods=['GET'])
+@app.get('/api/graduation_rate_past_7')
 def graduation_rate_past():
     try:
         with duckdb.connect(DB_PATH) as con:
@@ -134,50 +144,43 @@ def graduation_rate_past():
 ROUND(grad_6yr_rate,2) AS graduate_after_6_year
 FROM graduation_rates WHERE cohort_year < EXTRACT(YEAR FROM CURRENT_DATE) - 4
             ''').df()
-        return jsonify(df.to_dict(orient="records"))
+        return df.to_dict(orient="records")
     except Exception as e:
-        return jsonify({"error": str(e)}), 500  
+        return HTTPException(status_code=500, detail=e)
        
 
-@app.route('/api/retention_hist', methods=['GET'])
+@app.get('/api/retention_hist')
 def get_retention():
     try:
         with duckdb.connect(DB_PATH) as con:
             df = con.execute('''
-                SELECT YEAR, rate FROM retention_hist_all_year WHERE year BETWEEN 2020 			AND 2024
+                SELECT YEAR, rate FROM retention_hist_all_year WHERE year BETWEEN 2020 	AND 2024
             ''').df()
-        return jsonify(df.to_dict(orient="records"))
+        return df.to_dict(orient="records")
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return HTTPException(status_code=500, detail=e)
 
-@app.route('/api/graduation_hist', methods=['GET'])
+@app.get('/api/graduation_hist')
 def get_graduation_hist():
     try:
         with duckdb.connect(DB_PATH) as con:
             df = con.execute('''
                SELECT YEAR,rate FROM graduation_hist_all_year WHERE YEAR BETWEEN 2020 AND 2024
             ''').df()
-        return jsonify(df.to_dict(orient="records"))
+        return df.to_dict(orient="records")
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return HTTPException(status_code=500, detail=e)
         
         
-@app.route('/api/nearest_meeting_reports', methods=['GET'])
+@app.get('/api/nearest_meeting_reports')
 def nearest_meeting_reports():
     try:
         with duckdb.connect(DB_PATH) as con:
             df = con.execute('''
-               SELECT 
-		    "month", COUNT(*) AS meeting_count
-		FROM expl_meeting_reports
-		GROUP BY "year", "month"
-		ORDER BY "year" DESC, "month" DESC
-		LIMIT 6;
+               SELECT * FROM monthly_meeting_reports
+        ORDER BY "year" DESC, "month" DESC
+        LIMIT 6
             ''').df()
-        return jsonify(df.to_dict(orient="records"))
+        return df.to_dict(orient="records")
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=3001)
-
+        return HTTPException(status_code=500, detail=e)
