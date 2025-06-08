@@ -3,7 +3,14 @@ notebooks/.ivy2
 notebooks/.jupyter
 notebooks/.local
 notebooks/.npm
-data/*
+data/landing/*
+data/trusted/*
+data/exploitation/*
+data/metadata/*
+data/tmp/checkpoints/*
+data/tmp/counseling_reports/*
+data/tmp/financial_pdfs/*
+data/tmp/*.json
 logs/*
 
 # Byte-compiled / optimized / DLL files
