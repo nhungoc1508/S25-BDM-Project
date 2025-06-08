@@ -1,4 +1,4 @@
-# Project part 1 - Landing Zone
+# ElevatEd - Student Success Monitoring Platform
 
 ## Cloning the repository
 
@@ -38,8 +38,8 @@ Should see `Mock data inserted successfully!`
 Build custom images for Spark and Airflow:
 ```bash
 cd ../delta-lake
-sudo docker build -t custom-airflow -f Dockerfile.airflow .
-sudo docker build -t custom-spark -f Dockerfile.spark .
+docker build -t custom-airflow -f Dockerfile.airflow .
+docker build -t custom-spark -f Dockerfile.spark .
 ```
 Start MongoDB and Neo4J:
 ```bash
