@@ -21,56 +21,6 @@ services:
     networks:
       - data-processing-network
 
-  # zookeeper:
-  #   image: confluentinc/cp-zookeeper:7.4.4
-  #   container_name: zookeeper
-  #   ports:
-  #     - "22181:2181"
-  #   environment:
-  #     - ALLOW_ANONYMOUS_LOGIN=yes
-  #     - ZOOKEEPER_CLIENT_PORT=2181
-  #   networks:
-  #     - data-processing-network
-  
-  # kafka:
-  #   image: confluentinc/cp-kafka:7.4.4
-  #   container_name: kafka_server
-  #   environment:
-  #     KAFKA_BROKER_ID: 1
-  #     KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-  #     KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:29092
-  #     KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
-  #     KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
-  #     KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
-  #   ports:
-  #     - "29092:29092"
-  #   depends_on:
-  #     - zookeeper
-  #   networks:
-  #     - data-processing-network
-
-  # meeting-request-generator:
-  #   build: ./meeting-request-generator
-  #   container_name: meeting-request-generator
-  #   depends_on:
-  #     - postgres_sis
-  #     - mongodb
-  #   environment:
-  #     - KAFKA_BOOTSTRAP_SERVERS=kafka:29092
-  #     - KAFKA_SERVER=kafka:9092
-  #   networks:
-  #     - data-processing-network
-
-  financial-data:
-    build: ./financial-data
-    container_name: financial-data
-    ports:
-      - "8003:8000"
-    networks:
-      - data-processing-network
-    volumes:
-      - ./data/finance:/data/finance
-
   counseling-reports:
     build: ./counseling-reports
     container_name: counseling-reports

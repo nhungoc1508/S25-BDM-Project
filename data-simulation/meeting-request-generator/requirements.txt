@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-faker
-kafka-python
-apscheduler
-psycopg2-binary
-requests
