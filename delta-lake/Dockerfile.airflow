@@ -28,7 +28,20 @@ ARG NB_GID=100
 USER airflow
 RUN pip install --upgrade pip
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
+
+USER root
+
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip && \
+    pip3 install --upgrade pip && \
+    pip3 install numpy==1.26.4 && \
+    pip3 install neo4j && \
+    pip3 install keybert && \
+    pip3 install sentence_transformers && \
+    pip3 install pinecone && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 # RUN /opt/bitnami/spark/venv/bin/pip install --upgrade pip
 # COPY requirements.txt .

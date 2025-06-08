@@ -9,6 +9,7 @@ from datetime import datetime
 
 # Spark Session
 spark = SparkSession.builder.appName("DepartmentsProcessing").getOrCreate()
+print("[DEBUG] 1")
 
 # Path config
 landing_path = '/data/landing/sis_departments/'
@@ -20,17 +21,19 @@ latest_batch_path = max(all_batches, key=os.path.getmtime)
 # Read the data
 abs_path = os.path.abspath(latest_batch_path)
 df = spark.read.format("parquet").load(f'file://{abs_path}')
+print("[DEBUG] 2")
 
 # Convert to Pandas and clean
 pdf = df.toPandas()
 pdf = preprocessing_pipeline(pdf)
+print("[DEBUG] 3")
 
 print(len(pdf))
 print(pdf.head())
 # pdf.to_csv('file:///data/trusted/departments.csv', index=False)
 
 # Save to DuckDB
-duckdb_path = 'spark/trusted/databases/trusted_data.db'
+duckdb_path = '/data/trusted/databases/trusted_data.db'
 conn = duckdb.connect(duckdb_path)
 
 try:

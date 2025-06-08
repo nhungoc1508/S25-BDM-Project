@@ -25,8 +25,8 @@ df = spark.read.format("parquet").load(f'file://{abs_path}')
 pdf = df.toPandas()
 pdf = preprocessing_pipeline(pdf)
 
-print(len(pdf))
-print(pdf.head())
+#print(len(pdf))
+#print(pdf.head())
 pdf.to_csv('student_enrollment.csv', index=False)
 
 duckdb_path = '/data/trusted/databases/trusted_data.db'

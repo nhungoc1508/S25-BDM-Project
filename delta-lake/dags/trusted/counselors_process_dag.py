@@ -35,7 +35,7 @@ spark_configs = {
 }
 
 with DAG(dag_id="counselors_processing",
-         tags=["processing", "counseling"],
+         tags=["processing", "trusted", "counseling"],
          default_args=default_args,
         #  schedule="@weekly",
          schedule=None,

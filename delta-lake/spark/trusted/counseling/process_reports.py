@@ -9,6 +9,10 @@ import glob
 from pymongo import MongoClient, UpdateOne
 from pypdf import PdfReader
 
+import ftfy
+import unicodedata
+import re
+
 # from preprocess_reports import preprocessing_pipeline
 
 MONGO_URI = 'mongodb://root:root@counseling-db:27017/counseling?authSource=admin'
@@ -43,6 +47,16 @@ def parse_pdf(row):
     for page in reader.pages:
         text += page.extract_text() + "\n"
     
+    return text
+
+def normalize_text(text):
+    if not isinstance(text, str):
+        return text
+    # Fix mojibake, HTML entities, and broken unicode
+    text = ftfy.fix_text(text)
+    text = unicodedata.normalize('NFKC', text)
+    # Remove control/invisible characters
+    text = re.sub(r'[\u0000-\u001F\u200b-\u200f\u202a-\u202e\u2060-\u206f]', '', text)
     return text
 
 def process_text(text):
@@ -114,6 +128,12 @@ def process_text(text):
         if section != 'GENERAL INFORMATION':
             section_title = '_'.join(section.lower().split(' '))
             request_obj['meeting_report'][section_title] = content
+    
+    all_texts = []
+    for section, content in request_obj['meeting_report'].items():
+        for line in content:
+            all_texts.append(line)
+    request_obj['full_text'] = normalize_text(' '.join(all_texts)).lower()
     
     return request_obj
 

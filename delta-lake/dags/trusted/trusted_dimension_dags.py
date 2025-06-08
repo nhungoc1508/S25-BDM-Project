@@ -30,15 +30,16 @@ spark_configs = {
     "spark.executor.memoryOverhead": "512m",
 
     "spark.speculation": "true",
-    "spark.sql.shuffle.partitions": "2",
-    "spark.default.parallelism": "2",
+    "spark.sql.shuffle.partitions": "1",
+    "spark.default.parallelism": "1",
+    "spark.cores.max": "1",
 
     "spark.driver.memory": "512m",
 }
 
 
 with DAG(dag_id="trusted_dimension_sis",
-         tags=["dimension", "student information system"],
+         tags=["processing", "trusted", "student information system"],
          default_args=default_args,
         #  schedule="@monthly",
          schedule=None,

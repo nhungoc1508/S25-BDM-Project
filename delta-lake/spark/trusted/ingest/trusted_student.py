@@ -30,7 +30,7 @@ print(pdf.head())
 # pdf.to_csv('students.csv', index=False)
 
 # Save to DuckDB
-duckdb_path = 'spark/trusted/databases/trusted_data.db'
+duckdb_path = '/data/trusted/databases/trusted_data.db'
 conn = duckdb.connect(duckdb_path)
 
 

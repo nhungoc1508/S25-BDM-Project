@@ -30,7 +30,7 @@ print(pdf.head())
 # pdf.to_csv('students.csv', index=False)
 
 # Save to DuckDB
-duckdb_path = 'spark/trusted/databases/trusted_data.db'
+duckdb_path = '/data/trusted/databases/trusted_data.db'
 conn = duckdb.connect(duckdb_path)
 
 try:
@@ -60,7 +60,7 @@ conn.execute("DELETE FROM trusted_faculty")
 conn.execute("INSERT INTO trusted_faculty SELECT * FROM pdf")
 
 re=conn.execute("SELECT * FROM trusted_faculty")
-print(re.fetchall())
+# print(re.fetchall())
 conn.close()
 
 # Save metadata

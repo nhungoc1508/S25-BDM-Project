@@ -2,7 +2,7 @@ import duckdb
 from datetime import datetime
 import pandas as pd
 
-BASE_PATH = '/opt/airflow/spark/trusted/databases'
+BASE_PATH = '/data/trusted/databases'
 DUCKDB_PATH = f'{BASE_PATH}/trusted_data.db'
 
 # Ensure DB and connection

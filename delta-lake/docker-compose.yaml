@@ -8,7 +8,7 @@ x-airflow-common:
   # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.2.4}
   # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:3.0.0}
   image: custom-airflow:latest
-  build: .
+  # build: .
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
@@ -70,6 +70,10 @@ services:
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
       - ./spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar
       - ./spark/jars/delta-storage-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar
+      - ./spark/jars/mongo-spark-connector_2.12-10.5.0.jar:/opt/bitnami/spark/jars/mongo-spark-connector_2.12-10.5.0.jar
+      - ./spark/jars/mongodb-driver-core-5.4.0.jar:/opt/bitnami/spark/jars/mongodb-driver-core-5.4.0.jar
+      - ./spark/jars/mongodb-driver-sync-5.4.0.jar:/opt/bitnami/spark/jars/mongodb-driver-sync-5.4.0.jar
+      - ./spark/jars/bson-5.4.0.jar:/opt/bitnami/spark/jars/bson-5.4.0.jar
     networks:
       - spark-network
       - data-processing-network
@@ -98,6 +102,10 @@ services:
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
       - ./spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar
       - ./spark/jars/delta-storage-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar
+      - ./spark/jars/mongo-spark-connector_2.12-10.5.0.jar:/opt/bitnami/spark/jars/mongo-spark-connector_2.12-10.5.0.jar
+      - ./spark/jars/mongodb-driver-core-5.4.0.jar:/opt/bitnami/spark/jars/mongodb-driver-core-5.4.0.jar
+      - ./spark/jars/mongodb-driver-sync-5.4.0.jar:/opt/bitnami/spark/jars/mongodb-driver-sync-5.4.0.jar
+      - ./spark/jars/bson-5.4.0.jar:/opt/bitnami/spark/jars/bson-5.4.0.jar
     networks:
       - spark-network
       - data-processing-network
@@ -126,6 +134,10 @@ services:
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
       - ./spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar
       - ./spark/jars/delta-storage-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar
+      - ./spark/jars/mongo-spark-connector_2.12-10.5.0.jar:/opt/bitnami/spark/jars/mongo-spark-connector_2.12-10.5.0.jar
+      - ./spark/jars/mongodb-driver-core-5.4.0.jar:/opt/bitnami/spark/jars/mongodb-driver-core-5.4.0.jar
+      - ./spark/jars/mongodb-driver-sync-5.4.0.jar:/opt/bitnami/spark/jars/mongodb-driver-sync-5.4.0.jar
+      - ./spark/jars/bson-5.4.0.jar:/opt/bitnami/spark/jars/bson-5.4.0.jar
     networks:
       - spark-network
       - data-processing-network
@@ -287,6 +299,10 @@ services:
       - ./spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar:/opt/bitnami/spark/jars/spark-token-provider-kafka-0-10_2.12-3.3.0.jar
       - ./spark/jars/delta-spark_2.12-3.0.0.jar:/opt/bitnami/spark/jars/delta-spark_2.12-3.0.0.jar
       - ./spark/jars/delta-storage-3.0.0.jar:/opt/bitnami/spark/jars/delta-storage-3.0.0.jar
+      - ./spark/jars/mongo-spark-connector_2.12-10.5.0.jar:/opt/bitnami/spark/jars/mongo-spark-connector_2.12-10.5.0.jar
+      - ./spark/jars/mongodb-driver-core-5.4.0.jar:/opt/bitnami/spark/jars/mongodb-driver-core-5.4.0.jar
+      - ./spark/jars/mongodb-driver-sync-5.4.0.jar:/opt/bitnami/spark/jars/mongodb-driver-sync-5.4.0.jar
+      - ./spark/jars/bson-5.4.0.jar:/opt/bitnami/spark/jars/bson-5.4.0.jar
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
@@ -453,6 +469,24 @@ services:
       MONGO_INITDB_DATABASE: counseling
     volumes:
       - ./counseling-db/init.js:/docker-entrypoint-initdb.d/init.js
+    restart: always
+    networks:
+      - data-processing-network
+
+  graph-db:
+    image: neo4j:latest
+    container_name: graph-db
+    volumes:
+        - /$HOME/neo4j/logs:/logs
+        - /$HOME/neo4j/config:/config
+        - /$HOME/neo4j/data:/data
+        - /$HOME/neo4j/plugins:/plugins
+    environment:
+        - NEO4J_AUTH=neo4j/password
+        - NEO4JLABS_PLUGINS=["apoc", "graph-data-science"]
+    ports:
+      - "7474:7474"
+      - "7687:7687"
     restart: always
     networks:
       - data-processing-network

@@ -33,7 +33,7 @@ log.info(f"Length of pdf_eval: {len(pdf_eval)}")
 print(len(pdf_eval))
 
 # Save to DuckDB
-duckdb_path = 'spark/trusted/databases/trusted_data.db'
+duckdb_path = '/data/trusted/databases/trusted_data.db'
 conn = duckdb.connect(duckdb_path)
 
 try:

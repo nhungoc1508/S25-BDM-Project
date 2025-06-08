@@ -18,11 +18,4 @@ backoff
 # pyspark
 requests
 duckdb
-pypdf
-pymongo
 ftfy
-# numpy==1.26.4
-# neo4j
-# keybert
-# sentence_transformers
-# spacy

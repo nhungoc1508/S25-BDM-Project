@@ -23,13 +23,13 @@ latest_batch_path = max(all_batches, key=os.path.getmtime)
 # Read the data
 abs_path = os.path.abspath(latest_batch_path)
 df = spark.read.format("parquet").load(f'file://{abs_path}')
-df.printSchema() 
+#df.printSchema() 
 # Convert to Pandas and clean
 pdf = df.toPandas()
 pdf = preprocessing_pipeline(pdf)
 
-print(len(pdf))
-print(pdf.head())
+#print(len(pdf))
+#print(pdf.head())
 #pdf.to_csv('dropouts.csv', index=False)
 
 

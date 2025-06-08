@@ -22,14 +22,14 @@ abs_path = os.path.abspath(latest_batch_path)
 df = spark.read.format("parquet").load(f'file://{abs_path}')
 
 #Convert to Pandas and clean
-df = df.withColumn("is_taking", df["is_taking"].cast("string"))
+# df = df.withColumn("is_taking", df["is_taking"].cast("string"))
 pdf = df.toPandas()
 pdf = preprocessing_pipeline(pdf)
 
 # pdf.to_csv('students.csv', index=False)
 
 # Save to DuckDB
-duckdb_path = 'spark/trusted/databases/trusted_data.db'
+duckdb_path = '/data/trusted/databases/trusted_data.db'
 conn = duckdb.connect(duckdb_path)
 
 
@@ -56,8 +56,7 @@ conn.execute("DELETE FROM trusted_enrollment")
 # conn.execute("DELETE FROM metadata_catalog WHERE source_name = 'trusted_faculties'")
 conn.execute("INSERT INTO trusted_enrollment SELECT * FROM pdf")
 
-re=conn.execute("SELECT * FROM trusted_enrollment")
-print(re.fetchall())
+# re=conn.execute("SELECT * FROM trusted_enrollment")
 conn.close()
 
 # Save metadata
@@ -75,6 +74,9 @@ metadata = {
     "promotion_timestamp": None,
     "error_timestamp": None
 }
-add_metadata_entry(metadata)
+try:
+    add_metadata_entry(metadata)
+except:
+    print('Enrollment ingested')
 
 spark.stop()

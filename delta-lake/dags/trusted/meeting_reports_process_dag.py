@@ -28,8 +28,9 @@ spark_configs = {
     "spark.executor.memoryOverhead": "512m",
 
     "spark.speculation": "true",
-    "spark.sql.shuffle.partitions": "2",
-    "spark.default.parallelism": "2",
+    "spark.sql.shuffle.partitions": "1",
+    "spark.default.parallelism": "1",
+    "spark.cores.max": "1",
 
     "spark.driver.memory": "512m",
 }

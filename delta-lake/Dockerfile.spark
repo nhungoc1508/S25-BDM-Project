@@ -1,19 +1,38 @@
 # Use the Bitnami Spark base image
-FROM bitnami/spark:latest
+FROM bitnami/spark:3.5.5
 
 # Install Python and pip dependencies
 USER root
+
+RUN pip install --upgrade pip
+# COPY requirements.txt .
+# RUN pip install -r requirements.txt
 
 # Install pip (if not already included) and Python packages
 RUN apt-get update && \
     apt-get install -y python3 python3-pip && \
     pip3 install --upgrade pip && \
     pip3 install pypdf pymongo && \
+    pip3 install numpy==1.26.4 && \
+    pip3 install neo4j && \
+    pip3 install keybert && \
+    pip3 install sentence_transformers && \
+    pip3 install pypdf pymongo && \
+    pip3 install delta-spark==3.0.0 deltalake jupyterlab pandas && \
+    pip3 install pyspark==3.5.5 && \
+    pip3 install requests duckdb backoff ftfy && \
+    pip3 install apache-airflow && \
+    pip3 install pinecone && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-RUN pip install --upgrade pip
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Install Airflow + all providers using official constraints
+ENV AIRFLOW_VERSION=2.9.1
+ENV PYTHON_VERSION=3.9
+ENV CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
+
+RUN pip install --upgrade pip && \
+pip install "apache-airflow[amazon,apache.spark,ftp,http,imap,sqlite]==${AIRFLOW_VERSION}" \
+--constraint "${CONSTRAINT_URL}"
 
 USER 1001
