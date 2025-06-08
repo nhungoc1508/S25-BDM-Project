@@ -35,15 +35,15 @@ Should see `Mock data inserted successfully!`
 > ```
 
 ### Setting up Spark master and workers
-Initial build:
+Build custom images for Spark and Airflow:
 ```bash
 cd ../delta-lake
-chmod -R a+rw ./data
-docker compose build --no-cache
+sudo docker build -t custom-airflow -f Dockerfile.airflow .
+sudo docker build -t custom-spark -f Dockerfile.spark .
 ```
-Start MongoDB:
+Start MongoDB and Neo4J:
 ```bash
-docker compose up counseling-db -d
+docker compose up counseling-db graph-db -d
 ```
 Start master:
 ```bash
@@ -95,40 +95,6 @@ The Airflow webserver is available at `localhost:8080/`:
 Log in with username `airflow` and password `airflow`. After logging in, click on the **Dags** tab on the left menu bar, the webserver UI will list all available DAGs:
 
 <center><img src="imgs/airflow-ui-main-2.png" width=800/></center>
-
-<!-- ```bash
-data/landing/temporal
-├── counselor_api
-│   ├── date=2025-04-04
-│   └── date=2025-04-05
-├── meeting_reports
-│   └── date=2025-04-05
-├── meeting_requests
-│   ├── _delta_log
-│   ├── date=2025-04-05
-│   └── date=2025-04-04
-├── sis_students
-│   └── date=2025-04-04
-...
-```
-
-```bash
-data/landing/temporal/counselor_api
-├── date=2025-04-04
-│   └── batch=0a7e50a0-61d7-4a93-89c8-c3a16a96007a
-│       ├── _delta_log
-│       │   └── 00000000000000000000.json
-│       └── part-00000-b9d81c11-652c-48b7-9a94-95a92aa7acda-c000.snappy.parquet
-└── date=2025-04-05
-    ├── batch=2b1f8e56-8a84-47d0-b3c5-3345a9493787
-    │   ├── _delta_log
-    │   │   └── 00000000000000000000.json
-    │   └── part-00000-e6e35d1b-fb24-42c8-a34c-d2de416a9534-c000.snappy.parquet
-    └── batch=520cb403-cdd4-4705-b7c6-fbf9416bd8a2
-        ├── _delta_log
-        │   └── 00000000000000000000.json
-        └── part-00000-af81db70-e3dc-4e7f-9784-e3094f827cd4-c000.snappy.parquet
-``` -->
 
 ## Running DAGs to submit Spark ingestion jobs
 
