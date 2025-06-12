@@ -1,5 +1,8 @@
 # ElevatEd - Student Success Monitoring Platform
 
+## Overall architecture
+<center><img src="imgs/architecture.png" width=700/><center>
+
 ## Cloning the repository
 
 ```bash
